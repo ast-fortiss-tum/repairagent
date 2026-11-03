@@ -1,0 +1,4 @@
+# Needed by analysis/figures.py only. analysis/tables.py and analysis/derive_behaviour.py
+# use the standard library. Versions are the ones the figures were produced with.
+matplotlib==3.10.3
+numpy==2.2.6
