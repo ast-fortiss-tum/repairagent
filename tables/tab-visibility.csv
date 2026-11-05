@@ -1,5 +1,0 @@
-Metric,Public (n = 134) (%),Private (n = 41) (%),p
-Successful repair,60.4,70.7,0.27
-Test-preserving repair,45.5,63.4,0.051
-Perfect match,7.5,12.2,0.35
-Assertion match,18.7,31.7,0.086

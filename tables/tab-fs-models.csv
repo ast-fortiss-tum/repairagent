@@ -1,4 +1,0 @@
-Model,Successful repair (%),"Perfect match, of all (%)","Perfect match, of repaired (%)","Assertion match, of all (%)","Assertion match, of repaired (%)",CodeBLEU,Cost per attempt (USD)
-GPT-4o,98.2,69.1,70.4,88.4,89.9,0.938,0.044
-Gemini Flash-2.5,96.2,71.4,74.2,87.1,90.5,0.949,0.017
-Claude Sonnet-4,68.1,52.7,77.3,63.3,92.9,0.915,0.106

@@ -1,8 +1,0 @@
-## Commit-scoped repair rate for two splits by the number of test methods to repair
-
-| Test methods to repair | Cases | Successful repair, best of five (%) | p (successful repair) | Test-preserving repair, best of five (%) | p (test-preserving repair) |
-| --- | --- | --- | --- | --- | --- |
-| 1 | 65 | 75.4 | — | 64.6 | — |
-| 6 or more | 45 | 40.0 | <0.001 | 31.1 | <0.001 |
-| 1 or 2 | 95 | 75.8 | — | 58.9 | — |
-| 3 or more | 80 | 47.5 | <0.001 | 38.8 | 0.010 |

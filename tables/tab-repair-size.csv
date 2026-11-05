@@ -1,5 +1,0 @@
-Field,What it counts,Median,Maximum,Total
-repair_test_methods,distinct test methods the reference patch modified in the target test files,2,41,839
-repair_test_files,test files of the repair targets that the reference patch edited,1,28,392
-repair_edit_sites,diff hunks in those files,4,63,1213
-repair_test_lines,lines added and removed in those files,24,766,9804

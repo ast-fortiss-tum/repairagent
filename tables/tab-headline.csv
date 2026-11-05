@@ -1,9 +1,0 @@
-Metric,Rate (%) or value,Count,Of,Unit
-"Successful repair, best of five attempts",62.9,110,175,cases
-"Successful repair, per attempt",43.9,384,875,attempts
-"Test-preserving repair, best of five attempts",49.7,87,175,cases
-"Test-preserving repair, per attempt",33.1,290,875,attempts
-Assertion match,21.7,38,175,cases
-Perfect match,8.6,15,175,cases
-"Best CodeBLEU, mean of per-case maximum",0.685,,,
-Total model spend,289.60,,,USD
