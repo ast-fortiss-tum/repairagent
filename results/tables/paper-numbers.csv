@@ -1,0 +1,61 @@
+section,quantity,value,definition
+RQ1,GPT-4o: scenarios repaired,388 of 395,File-scoped scenarios with a successful attempt among five
+RQ1,Gemini Flash-2.5: scenarios repaired,380 of 395,File-scoped scenarios with a successful attempt among five
+RQ1,Claude Sonnet-4: scenarios repaired,269 of 395,File-scoped scenarios with a successful attempt among five
+RQ1,scenarios repaired only by GPT-4o / only by Gemini,15 / 7,"File-scoped scenarios, best of five, paired by scenario"
+RQ1,"exact McNemar test, GPT-4o against Gemini",p = 0.134,Two-sided exact test on the discordant scenarios
+RQ1,GPT-4o: lowest successful repair of a subject,93.2% (alluxio),"File-scoped, best of five, per subject"
+RQ1,Gemini Flash-2.5: lowest successful repair of a subject,91.2% (gson),"File-scoped, best of five, per subject"
+RQ1,GPT-4o: assertion match / perfect match,349 / 273,"File-scoped scenarios, best of five"
+RQ1,Gemini Flash-2.5: assertion match / perfect match,344 / 282,"File-scoped scenarios, best of five"
+RQ1,Claude Sonnet-4: alluxio scenarios repaired,21 of 88,"File-scoped, best of five"
+RQ1,GPT-4o: repaired scenarios without a perfect-match attempt,115 of 388,File-scoped
+RQ1,"scenario-model pairs with zero recorded spend, and of those with a success","31 of 1185, 16",File-scoped
+RQ2,repaired cases without a test-preserving attempt,23 (20.9% of 110),Commit-scoped cases with a successful attempt but none that keeps the test methods
+RQ2,successful attempts that fail the test-preserving check,94 of 384 (24.5%),Commit-scoped attempts
+RQ2,drop from successful to test-preserving repair,13.1 percentage points,"Commit-scoped, best of five"
+RQ2,gson: successful / test-preserving repair,25 / 18 of 31,Commit-scoped cases
+RQ2,neo4j-java-driver: successful / test-preserving repair,18 / 17 of 27,Commit-scoped cases
+RQ2,"mean cost per attempt, file-scoped GPT-4o / commit-scoped",$0.044 / $0.331,Recorded model spend
+RQ2,"one modified test file and one modified method, all","57 cases, 47 repaired (82.5%), 41 test-preserving (71.9%)",Commit-scoped cases whose developer repair changes one test method in one test file
+RQ2,"one modified test file and one modified method, public","39 cases, 30 repaired (76.9%), 25 test-preserving (64.1%)",Commit-scoped cases whose developer repair changes one test method in one test file
+RQ2,"one modified test file and one modified method, private","18 cases, 17 repaired (94.4%), 16 test-preserving (88.9%)",Commit-scoped cases whose developer repair changes one test method in one test file
+RQ2,shared changes and their file-scoped scenarios,"11 changes, 32 scenarios, 32 with the same parent",Public commits that define a commit-scoped case and file-scoped scenarios (matched by commit hash)
+RQ2,shared changes by subject,"gson 7 (22), neo4j-java-driver 3 (9), alluxio 1 (1)",Changes (scenarios)
+RQ2,shared changes: file-scoped repaired / commit-scoped repaired / test-preserving,32 of 32 / 6 of 11 / 5 of 11,"GPT-4o, best of five"
+RQ2,cases needing six or more test methods: successful / test-preserving,"45 cases, 40.0% / 31.1%","Commit-scoped, best of five"
+RQ2,"first 1 attempts: successful / test-preserving, spend, spend per test-preserving case","44.0% / 34.9%, $61.86, $1.01",Every case charged for its first k recorded attempts
+RQ2,"first 3 attempts: successful / test-preserving, spend, spend per test-preserving case","59.4% / 48.6%, $180.83, $2.13",Every case charged for its first k recorded attempts
+RQ2,"first 5 attempts: successful / test-preserving, spend, spend per test-preserving case","62.9% / 49.7%, $289.60, $3.33",Every case charged for its first k recorded attempts
+RQ2,cost of attempts four and five,$108.76,"Commit-scoped, all cases"
+RQ2,successful attempts: mean / median cost,$0.170 / $0.099,Commit-scoped attempts
+RQ2,failed attempts: mean / median cost,$0.457 / $0.323,Commit-scoped attempts
+RQ2,GPT-4o: scenarios repaired on all five / no / some attempts,282 / 7 / 106,File-scoped
+RQ2,Gemini Flash-2.5: scenarios repaired on all five / no / some attempts,222 / 15 / 158,File-scoped
+RQ2,Claude Sonnet-4: scenarios repaired on all five / no / some attempts,235 / 126 / 34,File-scoped
+RQ2,commit-scoped cases successful on all five / some / no attempts,44 (25.1%) / 66 (37.7%) / 65 (37.1%),Commit-scoped cases
+RQ2,commit-scoped cases test-preserving on all five / some / no attempts,29 (16.6%) / 58 (33.1%) / 88 (50.3%),Commit-scoped cases
+RQ2,"attempts with assertion match and test-preserving repair, and perfect matches among them","137 of 875, 55 perfect of 55",Commit-scoped attempts
+RQ2,attempts with assertion match but no test-preserving repair,0,Commit-scoped attempts
+RQ2,test-preserving attempts without assertion match,153,Commit-scoped attempts
+RQ2,assertion-matching cases outside the test-preserving cases / test-preserving cases without assertion match,0 / 49,"Commit-scoped cases, best of five"
+RQ3,P1: cases repaired,6 of 13,"Commit-scoped, best of five"
+RQ3,P2: cases repaired,13 of 14,"Commit-scoped, best of five"
+RQ3,P3: cases repaired,1 of 1,"Commit-scoped, best of five"
+RQ3,public: repaired cases without a test-preserving attempt,20,Commit-scoped
+RQ3,public: successful repair with every subject weighted equally,58.4%,"Mean of the subjects' rates, best of five"
+RQ3,public: test-preserving repair with every subject weighted equally,43.3%,"Mean of the subjects' rates, best of five"
+RQ3,private: repaired cases without a test-preserving attempt,3,Commit-scoped
+RQ3,private: successful repair with every subject weighted equally,75.4%,"Mean of the subjects' rates, best of five"
+RQ3,private: test-preserving repair with every subject weighted equally,69.1%,"Mean of the subjects' rates, best of five"
+RQ4,failed attempts whose final state reached no assertion,260 of 491 (53.0%),Commit-scoped failed attempts
+RQ4,compilation-related final states by detail,"test_compile_error 237, werror_lint 1",Commit-scoped failed attempts
+RQ4,"attempts ending after an untested edit, and of those successful","32 of 875, 0",Commit-scoped attempts
+RQ4,attempts that never ran a test,9,Commit-scoped attempts
+RQ4,"attempts stopped by the context limit, and of those on druid","11, 10",Commit-scoped attempts
+RQ4,"successful attempts with traceable test runs, and of those with a failing run after an edit","383 of 384, 132 (34.5%)",Commit-scoped successful attempts
+RQ4,druid-03: CodeBLEU of five attempts that all stop at the context limit untested,0.996 to 0.996,Commit-scoped case
+RQ4,public attempts whose last recorded test run fails although an earlier one passed,alluxio-15 attempt 2,Public commit-scoped raw records
+RQ4,"public successful attempts, saved target/reference file pairs, JUnit 3 pairs","274, 483, 44",JUnit 3 pairs: the reference class extends TestCase directly and has no @Test line
+RQ4,test-preserving attempts that lose JUnit 3 test methods,"gson-01 attempt 1, gson-01 attempt 2, gson-01 attempt 3, gson-01 attempt 5",No-argument public void test* methods below both the broken and the developer's count
+Overall,attempts in both settings,6800,File-scoped and commit-scoped attempts

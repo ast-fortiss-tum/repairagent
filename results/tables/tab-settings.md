@@ -1,0 +1,14 @@
+## GPT-4o: file-scoped scenarios against commit-scoped cases, by repair size
+
+| Metric | File-scoped, all scenarios | Commit-scoped, one file and one method, public | Commit-scoped, one file and one method, private | Commit-scoped, one file and one method, all | Commit-scoped, all cases |
+| --- | --- | --- | --- | --- | --- |
+| Scenarios or cases | 395 | 39 | 18 | 57 | 175 |
+| Successful repair, best of five | 98.2 | 76.9 | 94.4 | 82.5 | 62.9 |
+| Successful repair, per attempt | 86.8 | 53.3 | 71.1 | 58.9 | 43.9 |
+| Test-preserving repair, best of five | — | 64.1 | 88.9 | 71.9 | 49.7 |
+| Assertion match | 88.4 | 30.8 | 61.1 | 40.4 | 21.7 |
+| Perfect match | 69.1 | 15.4 | 22.2 | 17.5 | 8.6 |
+| Assertion match, of repaired | 89.9 | 40.0 | 64.7 | 48.9 | 34.5 |
+| Perfect match, of repaired | 70.4 | 20.0 | 23.5 | 21.3 | 13.6 |
+| Best CodeBLEU, mean over cases | 0.938 | 0.715 | 0.861 | 0.761 | 0.685 |
+| Mean cost per attempt (USD) | 0.044 | 0.205 | 0.126 | 0.180 | 0.331 |

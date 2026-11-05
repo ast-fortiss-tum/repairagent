@@ -1,0 +1,9 @@
+## Commit-scoped repair rate by the number of test methods to repair
+
+| Test methods to repair | Cases | Successful repair, best of five (%) | Successful repair, per attempt (%) | Test-preserving repair, best of five (%) | Test-preserving repair, per attempt (%) |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 65 | 75.4 | 54.2 | 64.6 | 44.3 |
+| 2 | 30 | 76.7 | 48.7 | 46.7 | 33.3 |
+| 3–5 | 35 | 57.1 | 41.7 | 48.6 | 31.4 |
+| 6–10 | 24 | 50.0 | 34.2 | 33.3 | 16.7 |
+| 11 or more | 21 | 28.6 | 20.0 | 28.6 | 20.0 |
