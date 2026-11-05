@@ -1,0 +1,1186 @@
+subject,scenario,scenario_name,model,success,perfect_match,assertion_match,best_codebleu,attempts_succeeded,cost_per_attempt_usd
+alluxio,0,AbstractFileSystemTest#createWithoutOverwrite,Claude Sonnet-4,False,False,False,0.892537,0,0.000000
+alluxio,0,AbstractFileSystemTest#createWithoutOverwrite,GPT-4o,True,False,True,0.790794,3,0.093971
+alluxio,0,AbstractFileSystemTest#createWithoutOverwrite,Gemini Flash-2.5,True,False,True,0.892537,3,0.016578
+alluxio,1,MetricTest#testFullNameParsing,Claude Sonnet-4,True,False,True,0.908354,5,0.112526
+alluxio,1,MetricTest#testFullNameParsing,GPT-4o,True,False,True,0.908354,5,0.027542
+alluxio,1,MetricTest#testFullNameParsing,Gemini Flash-2.5,True,False,True,0.908354,5,0.004299
+alluxio,2,CustomAuthenticationProviderImplTest#classNotProviderInterfaceTest,Claude Sonnet-4,True,True,True,1.000000,5,0.037864
+alluxio,2,CustomAuthenticationProviderImplTest#classNotProviderInterfaceTest,GPT-4o,True,True,True,1.000000,5,0.011162
+alluxio,2,CustomAuthenticationProviderImplTest#classNotProviderInterfaceTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.001778
+alluxio,3,StorageDirTest#addBlockMetaExistingTest,Claude Sonnet-4,False,False,False,0.817998,0,0.072233
+alluxio,3,StorageDirTest#addBlockMetaExistingTest,GPT-4o,True,True,True,1.000000,5,0.037826
+alluxio,3,StorageDirTest#addBlockMetaExistingTest,Gemini Flash-2.5,True,False,True,0.846866,2,0.025375
+alluxio,4,StorageDirTest#addTempBlockMetaExistingTest,Claude Sonnet-4,False,False,False,0.824473,0,0.085046
+alluxio,4,StorageDirTest#addTempBlockMetaExistingTest,GPT-4o,True,True,True,0.914229,5,0.071698
+alluxio,4,StorageDirTest#addTempBlockMetaExistingTest,Gemini Flash-2.5,True,False,True,0.851675,5,0.005959
+alluxio,5,TFsShellTest#copyFromLocalWildcardHierTest,Claude Sonnet-4,False,False,False,1.000000,0,0.206208
+alluxio,5,TFsShellTest#copyFromLocalWildcardHierTest,GPT-4o,True,False,False,0.617700,4,0.070284
+alluxio,5,TFsShellTest#copyFromLocalWildcardHierTest,Gemini Flash-2.5,True,True,True,1.000000,1,0.006511
+alluxio,6,TFsShellTest#fileinfoNotExistTest,Claude Sonnet-4,False,False,False,0.929997,0,0.041969
+alluxio,6,TFsShellTest#fileinfoNotExistTest,GPT-4o,True,True,True,1.000000,5,0.022677
+alluxio,6,TFsShellTest#fileinfoNotExistTest,Gemini Flash-2.5,False,False,False,0.929997,0,0.009519
+alluxio,7,TFsShellTest#rmNotExistingFileTest,Claude Sonnet-4,False,False,False,0.925485,0,0.041010
+alluxio,7,TFsShellTest#rmNotExistingFileTest,GPT-4o,True,True,True,1.000000,5,0.026586
+alluxio,7,TFsShellTest#rmNotExistingFileTest,Gemini Flash-2.5,True,True,True,1.000000,2,0.010356
+alluxio,8,TFsShellTest#locationNotExistTest,Claude Sonnet-4,False,False,False,0.929997,0,0.062647
+alluxio,8,TFsShellTest#locationNotExistTest,GPT-4o,True,True,True,1.000000,4,0.031929
+alluxio,8,TFsShellTest#locationNotExistTest,Gemini Flash-2.5,True,True,True,1.000000,1,0.009982
+alluxio,9,TFsShellTest#countNotExistTest,Claude Sonnet-4,False,False,False,0.929997,0,0.037493
+alluxio,9,TFsShellTest#countNotExistTest,GPT-4o,True,True,True,1.000000,5,0.044760
+alluxio,9,TFsShellTest#countNotExistTest,Gemini Flash-2.5,False,False,False,0.929997,0,0.009998
+alluxio,10,TFsShellTest#duTest,Claude Sonnet-4,False,False,False,0.976421,0,0.072534
+alluxio,10,TFsShellTest#duTest,GPT-4o,True,True,True,1.000000,5,0.036997
+alluxio,10,TFsShellTest#duTest,Gemini Flash-2.5,False,False,False,0.976421,0,0.009563
+alluxio,11,TieredBlockStoreTests#commitBlockNotOwnedByUserIdTest,Claude Sonnet-4,False,False,False,0.622790,0,0.030691
+alluxio,11,TieredBlockStoreTests#commitBlockNotOwnedByUserIdTest,GPT-4o,True,False,True,0.534246,5,0.044856
+alluxio,11,TieredBlockStoreTests#commitBlockNotOwnedByUserIdTest,Gemini Flash-2.5,True,True,True,0.884107,2,0.025982
+alluxio,12,TieredBlockStoreTests#freeSpaceWithBlockLockedTest,Claude Sonnet-4,False,False,False,0.856945,0,0.034310
+alluxio,12,TieredBlockStoreTests#freeSpaceWithBlockLockedTest,GPT-4o,True,False,True,0.862122,5,0.027013
+alluxio,12,TieredBlockStoreTests#freeSpaceWithBlockLockedTest,Gemini Flash-2.5,True,True,True,1.000000,4,0.007219
+alluxio,13,TieredBlockStoreTests#createBlockMetaWithBlockLockedTest,Claude Sonnet-4,False,False,False,0.861016,0,0.092088
+alluxio,13,TieredBlockStoreTests#createBlockMetaWithBlockLockedTest,GPT-4o,True,False,True,0.866021,5,0.023023
+alluxio,13,TieredBlockStoreTests#createBlockMetaWithBlockLockedTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.009384
+alluxio,14,TieredBlockStoreTests#commitBlockTwiceTest,Claude Sonnet-4,False,False,False,0.731617,0,0.029929
+alluxio,14,TieredBlockStoreTests#commitBlockTwiceTest,GPT-4o,True,False,True,0.722513,5,0.054072
+alluxio,14,TieredBlockStoreTests#commitBlockTwiceTest,Gemini Flash-2.5,True,False,True,0.711177,3,0.016677
+alluxio,15,TieredBlockStoreTests#moveBlockMetaWithBlockLockedTest,Claude Sonnet-4,False,False,False,0.887800,0,0.074378
+alluxio,15,TieredBlockStoreTests#moveBlockMetaWithBlockLockedTest,GPT-4o,True,False,True,0.892186,5,0.019597
+alluxio,15,TieredBlockStoreTests#moveBlockMetaWithBlockLockedTest,Gemini Flash-2.5,True,False,True,0.892186,5,0.026115
+alluxio,16,TieredBlockStoreTests#abortBlockNotOwnedByUserIdTest,Claude Sonnet-4,False,False,False,0.622790,0,0.023355
+alluxio,16,TieredBlockStoreTests#abortBlockNotOwnedByUserIdTest,GPT-4o,True,False,True,0.711015,4,0.048626
+alluxio,16,TieredBlockStoreTests#abortBlockNotOwnedByUserIdTest,Gemini Flash-2.5,True,True,True,0.883234,3,0.043552
+alluxio,17,TieredBlockStoreTests#lockNonExistingBlockTest,Claude Sonnet-4,False,False,False,0.517606,0,0.031899
+alluxio,17,TieredBlockStoreTests#lockNonExistingBlockTest,GPT-4o,True,False,True,0.513744,5,0.047202
+alluxio,17,TieredBlockStoreTests#lockNonExistingBlockTest,Gemini Flash-2.5,False,False,False,0.618096,0,0.154919
+alluxio,18,TieredBlockStoreTests#abortCommitedBlockTest,Claude Sonnet-4,False,False,False,0.731617,0,0.037777
+alluxio,18,TieredBlockStoreTests#abortCommitedBlockTest,GPT-4o,True,False,True,0.708890,5,0.055432
+alluxio,18,TieredBlockStoreTests#abortCommitedBlockTest,Gemini Flash-2.5,True,False,True,0.728875,2,0.035524
+alluxio,19,TieredBlockStoreTests#removeTempBlockTest,Claude Sonnet-4,False,False,False,0.693608,0,0.051616
+alluxio,19,TieredBlockStoreTests#removeTempBlockTest,GPT-4o,True,False,True,0.714956,4,0.053622
+alluxio,19,TieredBlockStoreTests#removeTempBlockTest,Gemini Flash-2.5,True,True,True,1.000000,4,0.018742
+alluxio,22,BlockLockManagerTest#unlockNonExistingLockTest,Claude Sonnet-4,True,True,True,1.000000,5,0.028990
+alluxio,22,BlockLockManagerTest#unlockNonExistingLockTest,GPT-4o,True,True,True,1.000000,5,0.009078
+alluxio,22,BlockLockManagerTest#unlockNonExistingLockTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.002335
+alluxio,23,BlockLockManagerTest#validateLockIdWithWrongBlockIdTest,Claude Sonnet-4,True,False,True,0.763633,4,0.029602
+alluxio,23,BlockLockManagerTest#validateLockIdWithWrongBlockIdTest,GPT-4o,True,False,True,0.763633,5,0.011359
+alluxio,23,BlockLockManagerTest#validateLockIdWithWrongBlockIdTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.001924
+alluxio,24,BlockLockManagerTest#cleanupUserTest,Claude Sonnet-4,True,False,True,0.876933,4,0.042175
+alluxio,24,BlockLockManagerTest#cleanupUserTest,GPT-4o,True,True,True,1.000000,5,0.011469
+alluxio,24,BlockLockManagerTest#cleanupUserTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.002166
+alluxio,25,BlockLockManagerTest#validateLockIdWithWrongUserIdTest,Claude Sonnet-4,True,False,True,0.752941,5,0.038190
+alluxio,25,BlockLockManagerTest#validateLockIdWithWrongUserIdTest,GPT-4o,True,False,True,0.752941,5,0.011618
+alluxio,25,BlockLockManagerTest#validateLockIdWithWrongUserIdTest,Gemini Flash-2.5,True,False,True,0.752941,5,0.002359
+alluxio,26,BlockLockManagerTest#validateLockIdWithNoRecordTest,Claude Sonnet-4,True,False,True,0.714289,5,0.036427
+alluxio,26,BlockLockManagerTest#validateLockIdWithNoRecordTest,GPT-4o,True,False,True,0.714289,5,0.011502
+alluxio,26,BlockLockManagerTest#validateLockIdWithNoRecordTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.002382
+alluxio,27,TachyonConfTest#testWorkerDefault,Claude Sonnet-4,True,True,True,1.000000,4,0.073701
+alluxio,27,TachyonConfTest#testWorkerDefault,GPT-4o,True,True,True,1.000000,5,0.019395
+alluxio,27,TachyonConfTest#testWorkerDefault,Gemini Flash-2.5,True,True,True,1.000000,5,0.003508
+alluxio,28,FsPermissionTest#umaskTest,Claude Sonnet-4,True,True,True,1.000000,5,0.028845
+alluxio,28,FsPermissionTest#umaskTest,GPT-4o,True,True,True,1.000000,5,0.006377
+alluxio,28,FsPermissionTest#umaskTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.001516
+alluxio,29,StorageDirTest#resizeTempBlockMetaNoAvailableBytesTest,Claude Sonnet-4,False,False,False,0.926772,0,0.026439
+alluxio,29,StorageDirTest#resizeTempBlockMetaNoAvailableBytesTest,GPT-4o,True,True,True,1.000000,5,0.015176
+alluxio,29,StorageDirTest#resizeTempBlockMetaNoAvailableBytesTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.005572
+alluxio,30,TachyonFSIntegrationTest#getTestAbnormal1,Claude Sonnet-4,False,False,False,0.751800,0,0.072269
+alluxio,30,TachyonFSIntegrationTest#getTestAbnormal1,GPT-4o,True,False,True,0.945322,5,0.017549
+alluxio,30,TachyonFSIntegrationTest#getTestAbnormal1,Gemini Flash-2.5,True,False,True,0.945322,4,0.018560
+alluxio,31,TachyonFSIntegrationTest#getTestAbnormal2,Claude Sonnet-4,False,False,False,0.740065,0,0.050741
+alluxio,31,TachyonFSIntegrationTest#getTestAbnormal2,GPT-4o,True,True,True,1.000000,5,0.019842
+alluxio,31,TachyonFSIntegrationTest#getTestAbnormal2,Gemini Flash-2.5,True,True,True,1.000000,2,0.014191
+alluxio,32,TachyonFSIntegrationTest#getTestAbnormal5,Claude Sonnet-4,False,False,False,0.633054,0,0.059804
+alluxio,32,TachyonFSIntegrationTest#getTestAbnormal5,GPT-4o,True,True,True,1.000000,5,0.019543
+alluxio,32,TachyonFSIntegrationTest#getTestAbnormal5,Gemini Flash-2.5,True,True,True,1.000000,4,0.050854
+alluxio,33,TachyonFSIntegrationTest#getTestAbnormal3,Claude Sonnet-4,False,False,False,0.751637,0,0.052628
+alluxio,33,TachyonFSIntegrationTest#getTestAbnormal3,GPT-4o,True,True,True,1.000000,5,0.016549
+alluxio,33,TachyonFSIntegrationTest#getTestAbnormal3,Gemini Flash-2.5,True,False,True,0.805455,3,0.040056
+alluxio,34,TachyonFSIntegrationTest#getTestAbnormal4,Claude Sonnet-4,False,False,False,0.761637,0,0.077658
+alluxio,34,TachyonFSIntegrationTest#getTestAbnormal4,GPT-4o,True,True,True,1.000000,5,0.015107
+alluxio,34,TachyonFSIntegrationTest#getTestAbnormal4,Gemini Flash-2.5,True,True,True,1.000000,2,0.025250
+alluxio,35,BlockHeartbeatReporterTest#generateReportMoveThenRemoveTest,Claude Sonnet-4,True,False,False,0.884328,4,0.033955
+alluxio,35,BlockHeartbeatReporterTest#generateReportMoveThenRemoveTest,GPT-4o,True,False,False,0.824805,5,0.005337
+alluxio,35,BlockHeartbeatReporterTest#generateReportMoveThenRemoveTest,Gemini Flash-2.5,True,False,False,0.824805,5,0.002466
+alluxio,36,EvictorFactoryTest#createGreedyEvictorTest,Claude Sonnet-4,True,False,True,0.582711,5,0.089866
+alluxio,36,EvictorFactoryTest#createGreedyEvictorTest,GPT-4o,True,False,True,0.662539,5,0.022646
+alluxio,36,EvictorFactoryTest#createGreedyEvictorTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.002444
+alluxio,37,EvictorFactoryTest#createLRUEvictorTest,Claude Sonnet-4,True,False,True,0.582711,5,0.081173
+alluxio,37,EvictorFactoryTest#createLRUEvictorTest,GPT-4o,True,False,True,0.582711,5,0.019987
+alluxio,37,EvictorFactoryTest#createLRUEvictorTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.003025
+alluxio,38,EvictorFactoryTest#createDefaultEvictorTest,Claude Sonnet-4,True,False,True,0.506079,5,0.068880
+alluxio,38,EvictorFactoryTest#createDefaultEvictorTest,GPT-4o,True,False,True,0.506079,5,0.019231
+alluxio,38,EvictorFactoryTest#createDefaultEvictorTest,Gemini Flash-2.5,True,False,True,0.506079,5,0.002914
+alluxio,45,UnderFileSystemTest#parseTest,Claude Sonnet-4,True,False,False,0.938517,5,0.047559
+alluxio,45,UnderFileSystemTest#parseTest,GPT-4o,True,False,False,0.938517,5,0.012971
+alluxio,45,UnderFileSystemTest#parseTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.001864
+alluxio,46,TachyonFSTest#createFileWithUfsFileTest,Claude Sonnet-4,False,False,False,0.902474,0,0.071966
+alluxio,46,TachyonFSTest#createFileWithUfsFileTest,GPT-4o,True,True,True,1.000000,5,0.052827
+alluxio,46,TachyonFSTest#createFileWithUfsFileTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.010312
+alluxio,47,RawTablesTest#writeImageTest,Claude Sonnet-4,True,False,True,0.805201,5,0.156595
+alluxio,47,RawTablesTest#writeImageTest,GPT-4o,True,False,True,0.805201,5,0.035118
+alluxio,47,RawTablesTest#writeImageTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.005048
+alluxio,48,MasterInfoTest#concurrentCreateJournalTest,Claude Sonnet-4,False,False,False,0.923549,0,0.065565
+alluxio,48,MasterInfoTest#concurrentCreateJournalTest,GPT-4o,True,True,True,1.000000,3,0.076474
+alluxio,48,MasterInfoTest#concurrentCreateJournalTest,Gemini Flash-2.5,True,True,True,1.000000,4,0.012263
+alluxio,49,MasterInfoTest#writeImageTest,Claude Sonnet-4,False,False,False,0.956463,0,0.050531
+alluxio,49,MasterInfoTest#writeImageTest,GPT-4o,True,True,True,1.000000,5,0.077188
+alluxio,49,MasterInfoTest#writeImageTest,Gemini Flash-2.5,True,True,True,1.000000,4,0.016055
+alluxio,50,BlockInfoTest#generateClientBlockInfoTest,Claude Sonnet-4,False,False,False,0.722117,0,0.000000
+alluxio,50,BlockInfoTest#generateClientBlockInfoTest,GPT-4o,False,False,False,0.722117,0,0.000000
+alluxio,50,BlockInfoTest#generateClientBlockInfoTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.037820
+alluxio,51,WorkerServiceHandlerTest#returnSpaceTest,Claude Sonnet-4,False,False,False,0.407345,0,0.000000
+alluxio,51,WorkerServiceHandlerTest#returnSpaceTest,GPT-4o,False,False,False,0.407345,0,0.000000
+alluxio,51,WorkerServiceHandlerTest#returnSpaceTest,Gemini Flash-2.5,True,False,False,0.576916,3,0.057177
+alluxio,52,WorkerServiceHandlerTest#overCapacityRequestSpaceTest,Claude Sonnet-4,False,False,False,0.354734,0,0.000000
+alluxio,52,WorkerServiceHandlerTest#overCapacityRequestSpaceTest,GPT-4o,False,False,False,0.354734,0,0.000000
+alluxio,52,WorkerServiceHandlerTest#overCapacityRequestSpaceTest,Gemini Flash-2.5,True,False,False,0.364111,3,0.056618
+alluxio,53,WorkerServiceHandlerTest#totalOverCapacityRequestSpaceTest,Claude Sonnet-4,False,False,False,0.362863,0,0.000000
+alluxio,53,WorkerServiceHandlerTest#totalOverCapacityRequestSpaceTest,GPT-4o,False,False,False,0.362863,0,0.000000
+alluxio,53,WorkerServiceHandlerTest#totalOverCapacityRequestSpaceTest,Gemini Flash-2.5,True,False,False,0.870719,5,0.055950
+alluxio,54,WorkerServiceHandlerTest#overReturnSpaceTest,Claude Sonnet-4,False,False,False,0.287823,0,0.000000
+alluxio,54,WorkerServiceHandlerTest#overReturnSpaceTest,GPT-4o,False,False,False,0.287823,0,0.000000
+alluxio,54,WorkerServiceHandlerTest#overReturnSpaceTest,Gemini Flash-2.5,True,False,False,0.296331,3,0.054595
+alluxio,55,InodeFileTest#inMemoryLocationsTestWithBlockInfoException,Claude Sonnet-4,False,False,False,0.781245,0,0.000000
+alluxio,55,InodeFileTest#inMemoryLocationsTestWithBlockInfoException,GPT-4o,False,False,False,0.781245,0,0.000000
+alluxio,55,InodeFileTest#inMemoryLocationsTestWithBlockInfoException,Gemini Flash-2.5,True,True,True,1.000000,5,0.050320
+alluxio,56,StorageDirTest#lockBlockTest,Claude Sonnet-4,True,True,True,1.000000,5,0.048967
+alluxio,56,StorageDirTest#lockBlockTest,GPT-4o,True,True,True,1.000000,5,0.013609
+alluxio,56,StorageDirTest#lockBlockTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.002541
+alluxio,61,TachyonFSTest#getTestAbnormal3,Claude Sonnet-4,False,False,False,0.885157,0,0.055757
+alluxio,61,TachyonFSTest#getTestAbnormal3,GPT-4o,True,True,True,1.000000,4,0.033243
+alluxio,61,TachyonFSTest#getTestAbnormal3,Gemini Flash-2.5,True,False,True,0.895869,3,0.007685
+alluxio,62,TachyonFSTest#getTestAbnormal2,Claude Sonnet-4,False,False,False,0.863000,0,0.056179
+alluxio,62,TachyonFSTest#getTestAbnormal2,GPT-4o,True,True,True,1.000000,5,0.020008
+alluxio,62,TachyonFSTest#getTestAbnormal2,Gemini Flash-2.5,True,False,True,0.876056,4,0.013566
+alluxio,63,TachyonFSTest#getTestAbnormal1,Claude Sonnet-4,False,False,False,0.875064,0,0.047983
+alluxio,63,TachyonFSTest#getTestAbnormal1,GPT-4o,True,False,True,0.886829,5,0.018056
+alluxio,63,TachyonFSTest#getTestAbnormal1,Gemini Flash-2.5,True,False,True,0.886829,4,0.009709
+alluxio,65,UtilsTest#getFilePathTest,Claude Sonnet-4,True,False,True,0.736466,5,0.830736
+alluxio,65,UtilsTest#getFilePathTest,GPT-4o,True,False,True,0.801683,5,0.042859
+alluxio,65,UtilsTest#getFilePathTest,Gemini Flash-2.5,True,False,True,0.801683,5,0.010445
+alluxio,66,SimpleTaskContextTest#writeLoadTest,Claude Sonnet-4,True,True,True,1.000000,5,0.051172
+alluxio,66,SimpleTaskContextTest#writeLoadTest,GPT-4o,True,True,True,1.000000,5,0.012013
+alluxio,66,SimpleTaskContextTest#writeLoadTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.001970
+alluxio,67,TachyonFileTest#readRemoteTest,Claude Sonnet-4,True,True,True,1.000000,5,0.179501
+alluxio,67,TachyonFileTest#readRemoteTest,GPT-4o,True,True,True,1.000000,5,0.051367
+alluxio,67,TachyonFileTest#readRemoteTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.010407
+alluxio,68,TachyonFSTest#getTestNormal2,Claude Sonnet-4,False,False,False,0.873981,0,0.017514
+alluxio,68,TachyonFSTest#getTestNormal2,GPT-4o,True,True,True,1.000000,5,0.015794
+alluxio,68,TachyonFSTest#getTestNormal2,Gemini Flash-2.5,True,True,True,1.000000,4,0.005997
+alluxio,69,TachyonFSTest#getTestNormal3,Claude Sonnet-4,False,False,False,0.873981,0,0.025105
+alluxio,69,TachyonFSTest#getTestNormal3,GPT-4o,True,True,True,1.000000,5,0.012804
+alluxio,69,TachyonFSTest#getTestNormal3,Gemini Flash-2.5,True,True,True,1.000000,5,0.005947
+alluxio,70,TachyonFSTest#getTestAbnormal4,Claude Sonnet-4,False,False,False,0.814853,0,0.024939
+alluxio,70,TachyonFSTest#getTestAbnormal4,GPT-4o,True,True,True,1.000000,5,0.014509
+alluxio,70,TachyonFSTest#getTestAbnormal4,Gemini Flash-2.5,True,True,True,1.000000,5,0.007180
+alluxio,71,TachyonFSTest#toStringTest,Claude Sonnet-4,False,False,False,0.615164,0,0.027543
+alluxio,71,TachyonFSTest#toStringTest,GPT-4o,True,False,True,0.653555,4,0.030376
+alluxio,71,TachyonFSTest#toStringTest,Gemini Flash-2.5,True,False,True,0.653555,2,0.066111
+alluxio,72,TachyonFSTest#getTestNormal1,Claude Sonnet-4,False,False,False,0.873981,0,0.024421
+alluxio,72,TachyonFSTest#getTestNormal1,GPT-4o,True,True,True,1.000000,5,0.014077
+alluxio,72,TachyonFSTest#getTestNormal1,Gemini Flash-2.5,True,True,True,1.000000,5,0.006533
+alluxio,73,TachyonFSTest#renameFileTest2,Claude Sonnet-4,False,False,False,0.654226,0,0.030274
+alluxio,73,TachyonFSTest#renameFileTest2,GPT-4o,True,True,True,0.882573,5,0.012065
+alluxio,73,TachyonFSTest#renameFileTest2,Gemini Flash-2.5,True,True,True,0.882573,5,0.005272
+alluxio,74,TachyonFSTest#mkdirTest,Claude Sonnet-4,False,False,False,0.677884,0,0.061520
+alluxio,74,TachyonFSTest#mkdirTest,GPT-4o,True,True,True,1.000000,5,0.011153
+alluxio,74,TachyonFSTest#mkdirTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.005859
+alluxio,75,JournalTest#FileFolderTest,Claude Sonnet-4,False,False,False,0.915000,0,0.019102
+alluxio,75,JournalTest#FileFolderTest,GPT-4o,True,True,True,1.000000,5,0.023631
+alluxio,75,JournalTest#FileFolderTest,Gemini Flash-2.5,True,True,True,1.000000,4,0.007301
+alluxio,76,JournalTest#PinTest,Claude Sonnet-4,False,False,False,0.953989,0,0.027200
+alluxio,76,JournalTest#PinTest,GPT-4o,True,True,True,1.000000,5,0.020495
+alluxio,76,JournalTest#PinTest,Gemini Flash-2.5,True,True,True,1.000000,3,0.005061
+alluxio,77,JournalTest#RenameTest,Claude Sonnet-4,False,False,False,0.937020,0,0.026791
+alluxio,77,JournalTest#RenameTest,GPT-4o,True,False,True,0.851352,4,0.049509
+alluxio,77,JournalTest#RenameTest,Gemini Flash-2.5,True,False,True,0.851352,4,0.005577
+alluxio,78,JournalTest#FolderTest,Claude Sonnet-4,False,False,False,0.860300,0,0.020069
+alluxio,78,JournalTest#FolderTest,GPT-4o,True,True,True,1.000000,5,0.013394
+alluxio,78,JournalTest#FolderTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.005114
+alluxio,79,JournalTest#DeleteTest,Claude Sonnet-4,False,False,False,0.944382,0,0.028581
+alluxio,79,JournalTest#DeleteTest,GPT-4o,True,True,True,1.000000,5,0.026074
+alluxio,79,JournalTest#DeleteTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.005726
+alluxio,80,PinTest#newFilesInheritPinness,Claude Sonnet-4,True,True,True,1.000000,5,0.032856
+alluxio,80,PinTest#newFilesInheritPinness,GPT-4o,True,True,True,1.000000,5,0.008236
+alluxio,80,PinTest#newFilesInheritPinness,Gemini Flash-2.5,True,True,True,1.000000,4,0.002150
+alluxio,81,RawColumnTest#basicTest,Claude Sonnet-4,True,True,True,1.000000,5,0.045954
+alluxio,81,RawColumnTest#basicTest,GPT-4o,True,True,True,1.000000,5,0.006376
+alluxio,81,RawColumnTest#basicTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.001492
+alluxio,82,TachyonFSTest#createRawTableWithInvalidPathExceptionTest1,Claude Sonnet-4,False,False,False,0.581814,0,0.026202
+alluxio,82,TachyonFSTest#createRawTableWithInvalidPathExceptionTest1,GPT-4o,True,True,True,1.000000,5,0.012552
+alluxio,82,TachyonFSTest#createRawTableWithInvalidPathExceptionTest1,Gemini Flash-2.5,True,True,True,1.000000,5,0.005628
+alluxio,83,TachyonFSTest#createRawTableWithInvalidPathExceptionTest2,Claude Sonnet-4,False,False,False,0.551005,0,0.030017
+alluxio,83,TachyonFSTest#createRawTableWithInvalidPathExceptionTest2,GPT-4o,True,True,True,1.000000,5,0.013062
+alluxio,83,TachyonFSTest#createRawTableWithInvalidPathExceptionTest2,Gemini Flash-2.5,True,True,True,1.000000,5,0.006105
+alluxio,84,TachyonFSTest#createRawTableWithTableColumnExceptionTest1,Claude Sonnet-4,False,False,False,0.813158,0,0.023583
+alluxio,84,TachyonFSTest#createRawTableWithTableColumnExceptionTest1,GPT-4o,True,True,True,1.000000,5,0.012993
+alluxio,84,TachyonFSTest#createRawTableWithTableColumnExceptionTest1,Gemini Flash-2.5,True,True,True,1.000000,5,0.005662
+alluxio,85,TachyonFSTest#createRawTableWithFileAlreadyExistExceptionTest,Claude Sonnet-4,False,False,False,0.248356,0,0.022832
+alluxio,85,TachyonFSTest#createRawTableWithFileAlreadyExistExceptionTest,GPT-4o,True,False,True,0.282176,5,0.012518
+alluxio,85,TachyonFSTest#createRawTableWithFileAlreadyExistExceptionTest,Gemini Flash-2.5,True,False,True,0.282176,5,0.005722
+alluxio,86,TachyonFSTest#createRawTableWithTableColumnExceptionTest2,Claude Sonnet-4,False,False,False,0.581814,0,0.020981
+alluxio,86,TachyonFSTest#createRawTableWithTableColumnExceptionTest2,GPT-4o,True,True,True,1.000000,5,0.012738
+alluxio,86,TachyonFSTest#createRawTableWithTableColumnExceptionTest2,Gemini Flash-2.5,True,True,True,1.000000,5,0.006315
+alluxio,87,TachyonFSTest#createRawTableWithTableColumnExceptionTest3,Claude Sonnet-4,False,False,False,0.596965,0,0.025513
+alluxio,87,TachyonFSTest#createRawTableWithTableColumnExceptionTest3,GPT-4o,True,True,True,1.000000,5,0.014533
+alluxio,87,TachyonFSTest#createRawTableWithTableColumnExceptionTest3,Gemini Flash-2.5,True,True,True,1.000000,5,0.006503
+alluxio,88,JournalTest#TableTest,Claude Sonnet-4,False,False,False,0.864897,0,0.025612
+alluxio,88,JournalTest#TableTest,GPT-4o,True,True,True,1.000000,5,0.012174
+alluxio,88,JournalTest#TableTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.005376
+alluxio,89,JournalTest#AddBlockTest,Claude Sonnet-4,False,False,False,0.692165,0,0.020202
+alluxio,89,JournalTest#AddBlockTest,GPT-4o,True,False,True,0.672084,5,0.022110
+alluxio,89,JournalTest#AddBlockTest,Gemini Flash-2.5,True,False,True,0.672084,5,0.005525
+alluxio,90,TFsShellTest#mkdirTest,Claude Sonnet-4,False,False,False,0.812408,0,0.073723
+alluxio,90,TFsShellTest#mkdirTest,GPT-4o,True,True,True,1.000000,5,0.021142
+alluxio,90,TFsShellTest#mkdirTest,Gemini Flash-2.5,True,True,True,1.000000,3,0.058207
+alluxio,91,TFsShellTest#lsrTest,Claude Sonnet-4,False,False,False,0.840602,0,0.071055
+alluxio,91,TFsShellTest#lsrTest,GPT-4o,True,True,True,1.000000,5,0.017367
+alluxio,91,TFsShellTest#lsrTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.052078
+alluxio,92,TFsShellTest#fileinfoTest,Claude Sonnet-4,False,False,False,0.807936,0,0.045248
+alluxio,92,TFsShellTest#fileinfoTest,GPT-4o,True,True,True,1.000000,5,0.024698
+alluxio,92,TFsShellTest#fileinfoTest,Gemini Flash-2.5,True,True,True,1.000000,4,0.057076
+alluxio,93,TFsShellTest#copyFromLocalTestWithFullURI,Claude Sonnet-4,False,False,False,0.888916,0,0.033169
+alluxio,93,TFsShellTest#copyFromLocalTestWithFullURI,GPT-4o,True,True,True,1.000000,5,0.070104
+alluxio,93,TFsShellTest#copyFromLocalTestWithFullURI,Gemini Flash-2.5,True,True,True,1.000000,4,0.071769
+alluxio,94,TFsShellTest#mkdirComplexPathTest,Claude Sonnet-4,False,False,False,0.738508,0,0.070227
+alluxio,94,TFsShellTest#mkdirComplexPathTest,GPT-4o,True,True,True,1.000000,5,0.020264
+alluxio,94,TFsShellTest#mkdirComplexPathTest,Gemini Flash-2.5,True,True,True,1.000000,4,0.038282
+alluxio,95,TFsShellTest#locationTest,Claude Sonnet-4,False,False,False,0.796353,0,0.055730
+alluxio,95,TFsShellTest#locationTest,GPT-4o,True,True,True,1.000000,5,0.022660
+alluxio,95,TFsShellTest#locationTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.045925
+alluxio,96,TFsShellTest#copyFromLocalLargeTest,Claude Sonnet-4,False,False,False,0.887848,0,0.041420
+alluxio,96,TFsShellTest#copyFromLocalLargeTest,GPT-4o,True,True,True,1.000000,5,0.028768
+alluxio,96,TFsShellTest#copyFromLocalLargeTest,Gemini Flash-2.5,True,True,True,1.000000,5,0.048928
+alluxio,97,TFsShellTest#touchTestWithFullURI,Claude Sonnet-4,False,False,False,0.844142,0,0.041505
+alluxio,97,TFsShellTest#touchTestWithFullURI,GPT-4o,True,True,True,1.000000,5,0.020355
+alluxio,97,TFsShellTest#touchTestWithFullURI,Gemini Flash-2.5,True,True,True,1.000000,3,0.037237
+alluxio,98,TFsShellTest#renameParentDirectoryTest,Claude Sonnet-4,False,False,False,0.828312,0,0.052867
+alluxio,98,TFsShellTest#renameParentDirectoryTest,GPT-4o,True,True,True,1.000000,5,0.028255
+alluxio,98,TFsShellTest#renameParentDirectoryTest,Gemini Flash-2.5,True,True,True,1.000000,4,0.017525
+alluxio,99,TFsShellTest#mkdirShortPathTest,Claude Sonnet-4,False,False,False,0.738508,0,0.049072
+alluxio,99,TFsShellTest#mkdirShortPathTest,GPT-4o,True,True,True,1.000000,5,0.022112
+alluxio,99,TFsShellTest#mkdirShortPathTest,Gemini Flash-2.5,True,True,True,1.000000,3,0.043812
+alluxio,100,TFsShellTest#copyFromLocalTest,Claude Sonnet-4,False,False,False,0.865114,0,0.000000
+alluxio,100,TFsShellTest#copyFromLocalTest,GPT-4o,True,True,True,1.000000,5,0.000000
+alluxio,100,TFsShellTest#copyFromLocalTest,Gemini Flash-2.5,True,True,True,1.000000,3,0.000000
+druid,0,KinesisIndexTaskSerdeTest#injectsProperAwsCredentialsConfig,Claude Sonnet-4,True,False,True,0.785099,4,0.000000
+druid,0,KinesisIndexTaskSerdeTest#injectsProperAwsCredentialsConfig,GPT-4o,True,False,True,0.798256,5,0.070679
+druid,0,KinesisIndexTaskSerdeTest#injectsProperAwsCredentialsConfig,Gemini Flash-2.5,True,True,True,1.000000,5,0.008470
+druid,1,LocalTaskActionClientTest#testGetActionType,Claude Sonnet-4,True,True,True,1.000000,5,0.161966
+druid,1,LocalTaskActionClientTest#testGetActionType,GPT-4o,True,True,True,0.804391,5,0.067834
+druid,1,LocalTaskActionClientTest#testGetActionType,Gemini Flash-2.5,True,True,True,1.000000,5,0.006986
+druid,2,ControllerImplTest#test_performSegmentPublish_publishLockPreemptedException,Claude Sonnet-4,True,True,True,1.000000,5,0.157243
+druid,2,ControllerImplTest#test_performSegmentPublish_publishLockPreemptedException,GPT-4o,True,True,True,1.000000,5,0.065019
+druid,2,ControllerImplTest#test_performSegmentPublish_publishLockPreemptedException,Gemini Flash-2.5,True,True,True,1.000000,5,0.009860
+druid,3,ControllerImplTest#test_performSegmentPublish_publishException,Claude Sonnet-4,True,True,True,1.000000,4,0.186353
+druid,3,ControllerImplTest#test_performSegmentPublish_publishException,GPT-4o,True,True,True,1.000000,4,0.051935
+druid,3,ControllerImplTest#test_performSegmentPublish_publishException,Gemini Flash-2.5,True,True,True,1.000000,5,0.009342
+druid,4,ControllerImplTest#test_performSegmentPublish_publishFail,Claude Sonnet-4,True,True,True,1.000000,4,0.219522
+druid,4,ControllerImplTest#test_performSegmentPublish_publishFail,GPT-4o,True,True,True,1.000000,5,0.058605
+druid,4,ControllerImplTest#test_performSegmentPublish_publishFail,Gemini Flash-2.5,True,True,True,1.000000,4,0.009576
+druid,5,ControllerImplTest#test_performSegmentPublish_ok,Claude Sonnet-4,True,True,True,1.000000,5,0.200990
+druid,5,ControllerImplTest#test_performSegmentPublish_ok,GPT-4o,True,True,True,1.000000,5,0.056743
+druid,5,ControllerImplTest#test_performSegmentPublish_ok,Gemini Flash-2.5,True,True,True,1.000000,5,0.023701
+druid,6,KinesisSamplerSpecTest#testSample,Claude Sonnet-4,True,False,True,0.929107,1,0.133464
+druid,6,KinesisSamplerSpecTest#testSample,GPT-4o,True,False,True,0.900816,3,0.139795
+druid,6,KinesisSamplerSpecTest#testSample,Gemini Flash-2.5,True,False,True,0.896186,5,0.027577
+druid,7,KinesisSamplerSpecTest#testSampleWithInputRowParser,Claude Sonnet-4,True,False,True,0.972944,2,0.169203
+druid,7,KinesisSamplerSpecTest#testSampleWithInputRowParser,GPT-4o,True,False,True,0.971125,3,0.100818
+druid,7,KinesisSamplerSpecTest#testSampleWithInputRowParser,Gemini Flash-2.5,True,False,True,0.972944,4,0.032446
+druid,8,KinesisSamplerSpecTest#testGetInputSourceResources,Claude Sonnet-4,True,False,True,0.915097,4,0.157156
+druid,8,KinesisSamplerSpecTest#testGetInputSourceResources,GPT-4o,True,False,True,0.910645,2,0.178886
+druid,8,KinesisSamplerSpecTest#testGetInputSourceResources,Gemini Flash-2.5,True,False,True,0.910645,3,0.029282
+druid,9,UnusedSegmentsKillerTest#test_run_skipsLockedIntervals,Claude Sonnet-4,False,False,False,0.980423,0,0.057271
+druid,9,UnusedSegmentsKillerTest#test_run_skipsLockedIntervals,GPT-4o,True,True,True,1.000000,5,0.036594
+druid,9,UnusedSegmentsKillerTest#test_run_skipsLockedIntervals,Gemini Flash-2.5,True,True,True,1.000000,5,0.007509
+druid,10,ClusterTestingModuleTest#test_overlordService_hasFaultyStorageCoordinator_ifTestingIsEnabled,Claude Sonnet-4,True,True,True,1.000000,5,0.141106
+druid,10,ClusterTestingModuleTest#test_overlordService_hasFaultyStorageCoordinator_ifTestingIsEnabled,GPT-4o,True,True,True,1.000000,5,0.081003
+druid,10,ClusterTestingModuleTest#test_overlordService_hasFaultyStorageCoordinator_ifTestingIsEnabled,Gemini Flash-2.5,True,True,True,1.000000,5,0.005712
+druid,12,DartControllerContextTest#test_queryKernelConfig,Claude Sonnet-4,True,False,True,0.849719,5,0.091373
+druid,12,DartControllerContextTest#test_queryKernelConfig,GPT-4o,True,False,True,0.849719,5,0.027202
+druid,12,DartControllerContextTest#test_queryKernelConfig,Gemini Flash-2.5,True,False,True,0.849719,5,0.004701
+druid,13,DataSourceTest#testWithPolicies_onRestrictedDataSource_alwaysThrows,Claude Sonnet-4,False,False,False,0.959349,0,0.084200
+druid,13,DataSourceTest#testWithPolicies_onRestrictedDataSource_alwaysThrows,GPT-4o,True,False,False,0.959349,3,0.053098
+druid,13,DataSourceTest#testWithPolicies_onRestrictedDataSource_alwaysThrows,Gemini Flash-2.5,False,False,False,0.973747,0,0.129930
+druid,15,SqlSegmentsMetadataManagerSchemaPollTest#testPollSegmentAndSchema,Claude Sonnet-4,True,True,True,1.000000,5,0.140604
+druid,15,SqlSegmentsMetadataManagerSchemaPollTest#testPollSegmentAndSchema,GPT-4o,True,True,True,1.000000,5,0.050269
+druid,15,SqlSegmentsMetadataManagerSchemaPollTest#testPollSegmentAndSchema,Gemini Flash-2.5,True,True,True,1.000000,5,0.007260
+druid,16,SqlSegmentsMetadataManagerSchemaPollTest#testPollOnlyNewSchemaVersion,Claude Sonnet-4,True,True,True,1.000000,5,0.131347
+druid,16,SqlSegmentsMetadataManagerSchemaPollTest#testPollOnlyNewSchemaVersion,GPT-4o,True,True,True,1.000000,5,0.047172
+druid,16,SqlSegmentsMetadataManagerSchemaPollTest#testPollOnlyNewSchemaVersion,Gemini Flash-2.5,True,True,True,1.000000,5,0.015499
+druid,17,SqlSegmentsMetadataManagerTest#testIterateAllUsedNonOvershadowedSegmentsForDatasourceInterval,Claude Sonnet-4,False,False,False,0.957253,0,0.068557
+druid,17,SqlSegmentsMetadataManagerTest#testIterateAllUsedNonOvershadowedSegmentsForDatasourceInterval,GPT-4o,True,True,True,1.000000,4,0.048372
+druid,17,SqlSegmentsMetadataManagerTest#testIterateAllUsedNonOvershadowedSegmentsForDatasourceInterval,Gemini Flash-2.5,True,True,True,1.000000,3,0.007806
+druid,18,NoopPolicyEnforcerTest#test_validate,Claude Sonnet-4,True,False,True,0.894546,5,0.246953
+druid,18,NoopPolicyEnforcerTest#test_validate,GPT-4o,True,False,True,0.910700,5,0.083078
+druid,18,NoopPolicyEnforcerTest#test_validate,Gemini Flash-2.5,True,False,True,0.927453,5,0.034090
+druid,19,SinkTest#testAcquireSegmentReferences_two,Claude Sonnet-4,True,True,True,1.000000,5,0.312549
+druid,19,SinkTest#testAcquireSegmentReferences_two,GPT-4o,True,True,True,1.000000,5,0.130443
+druid,19,SinkTest#testAcquireSegmentReferences_two,Gemini Flash-2.5,True,True,True,1.000000,4,0.032012
+druid,20,SinkTest#testAcquireSegmentReferences_two_skipIncremental,Claude Sonnet-4,True,True,True,1.000000,5,0.254158
+druid,20,SinkTest#testAcquireSegmentReferences_two_skipIncremental,GPT-4o,True,True,True,1.000000,3,0.180672
+druid,20,SinkTest#testAcquireSegmentReferences_two_skipIncremental,Gemini Flash-2.5,True,True,True,1.000000,4,0.012038
+druid,21,SinkTest#testAcquireSegmentReferences_twoWithOneSwappedToNull,Claude Sonnet-4,True,True,True,1.000000,5,0.274659
+druid,21,SinkTest#testAcquireSegmentReferences_twoWithOneSwappedToNull,GPT-4o,True,True,True,1.000000,5,0.109920
+druid,21,SinkTest#testAcquireSegmentReferences_twoWithOneSwappedToNull,Gemini Flash-2.5,True,True,True,1.000000,5,0.022616
+druid,22,SinkTest#testAcquireSegmentReferences_empty,Claude Sonnet-4,True,True,True,1.000000,5,0.293578
+druid,22,SinkTest#testAcquireSegmentReferences_empty,GPT-4o,True,True,True,1.000000,3,0.156189
+druid,22,SinkTest#testAcquireSegmentReferences_empty,Gemini Flash-2.5,True,True,True,1.000000,5,0.014038
+druid,24,KillUnreferencedSegmentSchemaTest#testKillUnreferencedSchema_repair,Claude Sonnet-4,True,True,True,1.000000,5,0.223221
+druid,24,KillUnreferencedSegmentSchemaTest#testKillUnreferencedSchema_repair,GPT-4o,True,True,True,1.000000,5,0.050423
+druid,24,KillUnreferencedSegmentSchemaTest#testKillUnreferencedSchema_repair,Gemini Flash-2.5,True,True,True,1.000000,4,0.009341
+druid,25,MSQFaultSerdeTest#testFaultSerde,Claude Sonnet-4,True,False,True,0.989647,5,0.126232
+druid,25,MSQFaultSerdeTest#testFaultSerde,GPT-4o,True,False,True,0.986601,5,0.033252
+druid,25,MSQFaultSerdeTest#testFaultSerde,Gemini Flash-2.5,True,False,True,0.957475,5,0.005935
+druid,26,DataSourceTest#testUnionDataSource,Claude Sonnet-4,True,False,False,0.919297,5,0.072262
+druid,26,DataSourceTest#testUnionDataSource,GPT-4o,True,False,False,0.919297,5,0.026515
+druid,26,DataSourceTest#testUnionDataSource,Gemini Flash-2.5,True,False,False,0.919297,2,0.174923
+druid,27,SqlSegmentsMetadataManagerProviderTest#testLifecycleStartCreatesSegmentTables,Claude Sonnet-4,True,True,True,1.000000,5,0.186355
+druid,27,SqlSegmentsMetadataManagerProviderTest#testLifecycleStartCreatesSegmentTables,GPT-4o,True,True,True,1.000000,5,0.054302
+druid,27,SqlSegmentsMetadataManagerProviderTest#testLifecycleStartCreatesSegmentTables,Gemini Flash-2.5,True,True,True,1.000000,5,0.007573
+druid,28,CuratorDruidNodeAnnouncerAndDiscoveryTest#testAnnouncementAndDiscovery,Claude Sonnet-4,True,False,True,0.985375,5,0.122459
+druid,28,CuratorDruidNodeAnnouncerAndDiscoveryTest#testAnnouncementAndDiscovery,GPT-4o,True,False,True,0.985375,5,0.024398
+druid,28,CuratorDruidNodeAnnouncerAndDiscoveryTest#testAnnouncementAndDiscovery,Gemini Flash-2.5,True,False,True,0.985375,5,0.004758
+druid,29,SegmentLocalCacheManagerTest#testGetTombstoneSegment,Claude Sonnet-4,False,False,False,0.960083,0,0.103883
+druid,29,SegmentLocalCacheManagerTest#testGetTombstoneSegment,GPT-4o,True,True,True,1.000000,5,0.058438
+druid,29,SegmentLocalCacheManagerTest#testGetTombstoneSegment,Gemini Flash-2.5,False,False,False,0.960083,0,0.001367
+druid,30,MSQDataSketchesTest#testHavingOnDsHll,Claude Sonnet-4,True,True,True,1.000000,5,0.210733
+druid,30,MSQDataSketchesTest#testHavingOnDsHll,GPT-4o,True,True,True,1.000000,5,0.054590
+druid,30,MSQDataSketchesTest#testHavingOnDsHll,Gemini Flash-2.5,True,True,True,1.000000,4,0.087470
+druid,31,MSQDataSketchesTest#testEmptyHllSketch,Claude Sonnet-4,True,True,True,1.000000,5,0.191361
+druid,31,MSQDataSketchesTest#testEmptyHllSketch,GPT-4o,True,True,True,1.000000,5,0.065436
+druid,31,MSQDataSketchesTest#testEmptyHllSketch,Gemini Flash-2.5,True,True,True,1.000000,3,0.013112
+druid,32,MSQCompactionRunnerTest#testCompactionConfigWithMetricsSpecProducesCorrectSpec,Claude Sonnet-4,False,False,False,0.990992,0,0.208222
+druid,32,MSQCompactionRunnerTest#testCompactionConfigWithMetricsSpecProducesCorrectSpec,GPT-4o,True,True,True,1.000000,4,0.141755
+druid,32,MSQCompactionRunnerTest#testCompactionConfigWithMetricsSpecProducesCorrectSpec,Gemini Flash-2.5,True,True,True,1.000000,5,0.039223
+druid,33,MSQCompactionRunnerTest#testCompactionConfigWithProjectionsProducesCorrectSpec,Claude Sonnet-4,False,False,False,0.989124,0,0.156420
+druid,33,MSQCompactionRunnerTest#testCompactionConfigWithProjectionsProducesCorrectSpec,GPT-4o,True,False,True,0.942047,1,0.108307
+druid,33,MSQCompactionRunnerTest#testCompactionConfigWithProjectionsProducesCorrectSpec,Gemini Flash-2.5,True,True,True,1.000000,2,0.016781
+druid,34,MSQCompactionRunnerTest#testCompactionConfigWithoutMetricsSpecProducesCorrectSpec,Claude Sonnet-4,False,False,False,0.988930,0,0.149661
+druid,34,MSQCompactionRunnerTest#testCompactionConfigWithoutMetricsSpecProducesCorrectSpec,GPT-4o,True,False,True,0.939685,3,0.085831
+druid,34,MSQCompactionRunnerTest#testCompactionConfigWithoutMetricsSpecProducesCorrectSpec,Gemini Flash-2.5,True,False,True,1.000000,2,0.018807
+druid,35,MSQCompactionRunnerTest#testCompactionConfigWithSortOnNonTimeDimensionsProducesCorrectSpec,Claude Sonnet-4,False,False,False,0.983675,0,0.188552
+druid,35,MSQCompactionRunnerTest#testCompactionConfigWithSortOnNonTimeDimensionsProducesCorrectSpec,GPT-4o,True,False,True,0.951688,1,0.119187
+druid,35,MSQCompactionRunnerTest#testCompactionConfigWithSortOnNonTimeDimensionsProducesCorrectSpec,Gemini Flash-2.5,True,True,True,1.000000,4,0.023184
+druid,36,MSQLoadedSegmentTests#testGroupByWithOnlyLoadedSegmentsOnFoo,Claude Sonnet-4,True,True,True,1.000000,5,0.232773
+druid,36,MSQLoadedSegmentTests#testGroupByWithOnlyLoadedSegmentsOnFoo,GPT-4o,True,True,True,1.000000,5,0.058812
+druid,36,MSQLoadedSegmentTests#testGroupByWithOnlyLoadedSegmentsOnFoo,Gemini Flash-2.5,True,True,True,1.000000,2,0.043374
+druid,37,MSQLoadedSegmentTests#testSelectWithLoadedSegmentsOnFoo,Claude Sonnet-4,True,True,True,1.000000,5,0.203755
+druid,37,MSQLoadedSegmentTests#testSelectWithLoadedSegmentsOnFoo,GPT-4o,True,True,True,1.000000,5,0.061638
+druid,37,MSQLoadedSegmentTests#testSelectWithLoadedSegmentsOnFoo,Gemini Flash-2.5,True,True,True,1.000000,3,0.015908
+druid,38,MSQLoadedSegmentTests#testDataServerQueryFailedShouldFail,Claude Sonnet-4,True,True,True,1.000000,2,0.204325
+druid,38,MSQLoadedSegmentTests#testDataServerQueryFailedShouldFail,GPT-4o,True,True,True,1.000000,4,0.062421
+druid,38,MSQLoadedSegmentTests#testDataServerQueryFailedShouldFail,Gemini Flash-2.5,True,True,True,1.000000,5,0.041307
+druid,39,MSQLoadedSegmentTests#testSelectWithLoadedSegmentsOnFooWithOrderBy,Claude Sonnet-4,True,True,True,1.000000,4,0.212336
+druid,39,MSQLoadedSegmentTests#testSelectWithLoadedSegmentsOnFooWithOrderBy,GPT-4o,True,True,True,1.000000,5,0.054142
+druid,39,MSQLoadedSegmentTests#testSelectWithLoadedSegmentsOnFooWithOrderBy,Gemini Flash-2.5,True,True,True,1.000000,4,0.031457
+druid,40,MSQLoadedSegmentTests#testGroupByWithLoadedSegmentsOnFoo,Claude Sonnet-4,True,True,True,1.000000,5,0.218038
+druid,40,MSQLoadedSegmentTests#testGroupByWithLoadedSegmentsOnFoo,GPT-4o,True,True,True,1.000000,5,0.058924
+druid,40,MSQLoadedSegmentTests#testGroupByWithLoadedSegmentsOnFoo,Gemini Flash-2.5,True,True,True,1.000000,3,0.149727
+druid,41,MSQWarningsTest#testSuccessWhenParseExceptionsOnLimit,Claude Sonnet-4,False,False,False,0.983564,0,0.090093
+druid,41,MSQWarningsTest#testSuccessWhenParseExceptionsOnLimit,GPT-4o,True,True,True,1.000000,5,0.062370
+druid,41,MSQWarningsTest#testSuccessWhenParseExceptionsOnLimit,Gemini Flash-2.5,False,False,False,1.000000,0,0.019749
+druid,42,MSQWarningsTest#testSuccessWhenNoLimitEnforced,Claude Sonnet-4,False,False,False,0.983564,0,0.103175
+druid,42,MSQWarningsTest#testSuccessWhenNoLimitEnforced,GPT-4o,True,True,True,1.000000,5,0.073411
+druid,42,MSQWarningsTest#testSuccessWhenNoLimitEnforced,Gemini Flash-2.5,False,False,False,0.983564,0,0.011466
+druid,43,MSQWarningsTest#testFailureWhenParseExceptionsExceedPositiveLimit,Claude Sonnet-4,False,False,False,0.982612,0,0.112631
+druid,43,MSQWarningsTest#testFailureWhenParseExceptionsExceedPositiveLimit,GPT-4o,True,True,True,1.000000,5,0.070130
+druid,43,MSQWarningsTest#testFailureWhenParseExceptionsExceedPositiveLimit,Gemini Flash-2.5,False,False,False,1.000000,0,0.017040
+druid,44,MSQWarningsTest#testThrowExceptionWhenParseExceptionsExceedLimit,Claude Sonnet-4,False,False,False,0.982612,0,0.083194
+druid,44,MSQWarningsTest#testThrowExceptionWhenParseExceptionsExceedLimit,GPT-4o,True,True,True,1.000000,5,0.066303
+druid,44,MSQWarningsTest#testThrowExceptionWhenParseExceptionsExceedLimit,Gemini Flash-2.5,False,False,False,1.000000,0,0.019983
+druid,45,MSQWarningsTest#testInvalidMaxParseExceptionsPassed,Claude Sonnet-4,False,False,False,0.986712,0,0.115695
+druid,45,MSQWarningsTest#testInvalidMaxParseExceptionsPassed,GPT-4o,True,True,True,1.000000,5,0.098725
+druid,45,MSQWarningsTest#testInvalidMaxParseExceptionsPassed,Gemini Flash-2.5,True,True,True,1.000000,1,0.016205
+druid,46,MSQWarningsTest#testSuccessWhenParseExceptionsOnLimitOverridesMode,Claude Sonnet-4,False,False,False,0.984386,0,0.123381
+druid,46,MSQWarningsTest#testSuccessWhenParseExceptionsOnLimitOverridesMode,GPT-4o,True,True,True,1.000000,5,0.085978
+druid,46,MSQWarningsTest#testSuccessWhenParseExceptionsOnLimitOverridesMode,Gemini Flash-2.5,True,True,True,1.000000,1,0.011184
+druid,47,MSQWarningsTest#testSuccessInNonStrictMode,Claude Sonnet-4,False,False,False,0.985305,0,0.076631
+druid,47,MSQWarningsTest#testSuccessInNonStrictMode,GPT-4o,True,True,True,1.000000,4,0.064781
+druid,47,MSQWarningsTest#testSuccessInNonStrictMode,Gemini Flash-2.5,True,False,True,0.979547,1,0.029765
+druid,48,MSQWarningsTest#testFailureInStrictMode,Claude Sonnet-4,False,False,False,0.982114,0,0.145319
+druid,48,MSQWarningsTest#testFailureInStrictMode,GPT-4o,True,True,True,1.000000,5,0.079749
+druid,48,MSQWarningsTest#testFailureInStrictMode,Gemini Flash-2.5,True,False,True,1.000000,1,0.022826
+druid,49,MSQWarningsTest#testSuccessWhenModeIsOverridden,Claude Sonnet-4,False,False,False,0.984579,0,0.122753
+druid,49,MSQWarningsTest#testSuccessWhenModeIsOverridden,GPT-4o,True,True,True,1.000000,5,0.074509
+druid,49,MSQWarningsTest#testSuccessWhenModeIsOverridden,Gemini Flash-2.5,False,False,False,0.914167,0,0.019713
+druid,50,MSQParseExceptionsTest#testIngestWithSanitizedNullByteUsingContextParameter,Claude Sonnet-4,False,False,False,0.993750,0,0.152067
+druid,50,MSQParseExceptionsTest#testIngestWithSanitizedNullByteUsingContextParameter,GPT-4o,True,True,True,1.000000,4,0.071502
+druid,50,MSQParseExceptionsTest#testIngestWithSanitizedNullByteUsingContextParameter,Gemini Flash-2.5,True,True,True,1.000000,2,0.016283
+druid,51,MSQParseExceptionsTest#testIngestWithSanitizedNullByte,Claude Sonnet-4,False,False,False,0.993715,0,0.149752
+druid,51,MSQParseExceptionsTest#testIngestWithSanitizedNullByte,GPT-4o,True,True,True,1.000000,4,0.088463
+druid,51,MSQParseExceptionsTest#testIngestWithSanitizedNullByte,Gemini Flash-2.5,True,True,True,1.000000,3,0.012261
+druid,52,MSQParseExceptionsTest#testMultiValueStringWithIncorrectType,Claude Sonnet-4,False,False,False,0.991479,0,0.142865
+druid,52,MSQParseExceptionsTest#testMultiValueStringWithIncorrectType,GPT-4o,True,True,True,1.000000,5,0.112304
+druid,52,MSQParseExceptionsTest#testMultiValueStringWithIncorrectType,Gemini Flash-2.5,True,True,True,1.000000,2,0.010418
+druid,54,ServerSelectorTest#testSegmentUpdate,Claude Sonnet-4,True,True,True,1.000000,5,0.163857
+druid,54,ServerSelectorTest#testSegmentUpdate,GPT-4o,True,True,True,1.000000,5,0.045605
+druid,54,ServerSelectorTest#testSegmentUpdate,Gemini Flash-2.5,True,True,True,1.000000,5,0.008768
+druid,55,ServerSelectorTest#testSegmentWithData,Claude Sonnet-4,True,True,True,1.000000,5,0.158101
+druid,55,ServerSelectorTest#testSegmentWithData,GPT-4o,True,True,True,1.000000,5,0.047110
+druid,55,ServerSelectorTest#testSegmentWithData,Gemini Flash-2.5,True,True,True,1.000000,5,0.007518
+druid,56,ServerSelectorTest#testSegmentCannotBeNull,Claude Sonnet-4,True,True,True,1.000000,5,0.153453
+druid,56,ServerSelectorTest#testSegmentCannotBeNull,GPT-4o,True,True,True,1.000000,5,0.046779
+druid,56,ServerSelectorTest#testSegmentCannotBeNull,Gemini Flash-2.5,True,True,True,1.000000,5,0.028678
+druid,57,ServerSelectorTest#testSegmentWithNoData,Claude Sonnet-4,True,True,True,1.000000,5,0.152357
+druid,57,ServerSelectorTest#testSegmentWithNoData,GPT-4o,True,True,True,1.000000,5,0.047052
+druid,57,ServerSelectorTest#testSegmentWithNoData,Gemini Flash-2.5,True,True,True,1.000000,5,0.007961
+druid,58,ExternalTableScanRuleTest#testMatchesWhenExternalScanUnsupported,Claude Sonnet-4,True,True,True,1.000000,5,0.161545
+druid,58,ExternalTableScanRuleTest#testMatchesWhenExternalScanUnsupported,GPT-4o,True,True,True,1.000000,4,0.049326
+druid,58,ExternalTableScanRuleTest#testMatchesWhenExternalScanUnsupported,Gemini Flash-2.5,True,True,True,1.000000,5,0.039271
+druid,59,BroadcastJoinSegmentMapFnProcessorTest#testBuildTableMemoryLimitWithSortMergeConfigured,Claude Sonnet-4,True,True,True,1.000000,5,0.223276
+druid,59,BroadcastJoinSegmentMapFnProcessorTest#testBuildTableMemoryLimitWithSortMergeConfigured,GPT-4o,True,True,True,1.000000,5,0.090487
+druid,59,BroadcastJoinSegmentMapFnProcessorTest#testBuildTableMemoryLimitWithSortMergeConfigured,Gemini Flash-2.5,True,True,True,1.000000,4,0.059163
+druid,60,BroadcastJoinSegmentMapFnProcessorTest#testBuildTableAndInlineData,Claude Sonnet-4,True,True,True,1.000000,5,0.197021
+druid,60,BroadcastJoinSegmentMapFnProcessorTest#testBuildTableAndInlineData,GPT-4o,True,True,True,1.000000,5,0.069212
+druid,60,BroadcastJoinSegmentMapFnProcessorTest#testBuildTableAndInlineData,Gemini Flash-2.5,True,True,True,1.000000,4,0.053956
+druid,61,BroadcastJoinSegmentMapFnProcessorTest#testBuildTableMemoryLimit,Claude Sonnet-4,True,True,True,1.000000,5,0.183626
+druid,61,BroadcastJoinSegmentMapFnProcessorTest#testBuildTableMemoryLimit,GPT-4o,True,True,True,1.000000,4,0.064356
+druid,61,BroadcastJoinSegmentMapFnProcessorTest#testBuildTableMemoryLimit,Gemini Flash-2.5,True,True,True,1.000000,4,0.057456
+druid,62,HadoopTuningConfigTest#testSerde,Claude Sonnet-4,True,True,True,1.000000,5,0.211764
+druid,62,HadoopTuningConfigTest#testSerde,GPT-4o,True,False,False,0.955428,5,0.063731
+druid,62,HadoopTuningConfigTest#testSerde,Gemini Flash-2.5,True,True,True,1.000000,5,0.005248
+druid,63,SinkTest#testGetSinkSignature,Claude Sonnet-4,True,True,True,1.000000,5,0.146526
+druid,63,SinkTest#testGetSinkSignature,GPT-4o,True,True,True,1.000000,5,0.044254
+druid,63,SinkTest#testGetSinkSignature,Gemini Flash-2.5,True,True,True,1.000000,4,0.006697
+druid,64,SinkTest#testSwap,Claude Sonnet-4,True,True,True,1.000000,5,0.150774
+druid,64,SinkTest#testSwap,GPT-4o,True,True,True,1.000000,5,0.034767
+druid,64,SinkTest#testSwap,Gemini Flash-2.5,True,True,True,1.000000,5,0.013742
+druid,65,QueryLifecycleTest#testRunSimple_withPolicyRestriction_segmentMetadataQueryRunAsInternal,Claude Sonnet-4,False,False,False,0.860742,0,0.015698
+druid,65,QueryLifecycleTest#testRunSimple_withPolicyRestriction_segmentMetadataQueryRunAsInternal,GPT-4o,True,False,True,0.912331,2,0.165728
+druid,65,QueryLifecycleTest#testRunSimple_withPolicyRestriction_segmentMetadataQueryRunAsInternal,Gemini Flash-2.5,True,False,True,0.873755,3,0.049170
+druid,66,LookupDataSourceTest#test_isConcrete,Claude Sonnet-4,True,True,True,1.000000,5,0.191011
+druid,66,LookupDataSourceTest#test_isConcrete,GPT-4o,True,True,True,1.000000,2,0.088134
+druid,66,LookupDataSourceTest#test_isConcrete,Gemini Flash-2.5,True,True,True,1.000000,4,0.009214
+druid,67,TableDataSourceTest#test_isConcrete,Claude Sonnet-4,True,True,True,1.000000,5,0.207555
+druid,67,TableDataSourceTest#test_isConcrete,GPT-4o,True,True,True,1.000000,1,0.131065
+druid,67,TableDataSourceTest#test_isConcrete,Gemini Flash-2.5,True,True,True,1.000000,1,0.062190
+druid,68,UnionDataSourceTest#test_isConcrete,Claude Sonnet-4,True,True,True,1.000000,5,0.189933
+druid,68,UnionDataSourceTest#test_isConcrete,GPT-4o,True,True,True,1.000000,3,0.120279
+druid,68,UnionDataSourceTest#test_isConcrete,Gemini Flash-2.5,True,True,True,1.000000,3,0.014328
+druid,69,InlineDataSourceTest#test_isConcrete,Claude Sonnet-4,True,True,True,1.000000,5,0.232442
+druid,69,InlineDataSourceTest#test_isConcrete,GPT-4o,True,True,True,1.000000,3,0.140301
+druid,69,InlineDataSourceTest#test_isConcrete,Gemini Flash-2.5,True,True,True,1.000000,5,0.011312
+druid,70,GroupByQueryTest#testSegmentLookUpForNestedQueries,Claude Sonnet-4,True,True,True,1.000000,5,0.265975
+druid,70,GroupByQueryTest#testSegmentLookUpForNestedQueries,GPT-4o,True,True,True,1.000000,5,0.072353
+druid,70,GroupByQueryTest#testSegmentLookUpForNestedQueries,Gemini Flash-2.5,True,False,False,0.887692,4,0.133644
+druid,71,K8sTaskAdapterTest#getTaskId,Claude Sonnet-4,False,False,False,0.915551,0,0.059797
+druid,71,K8sTaskAdapterTest#getTaskId,GPT-4o,True,True,True,1.000000,5,0.026736
+druid,71,K8sTaskAdapterTest#getTaskId,Gemini Flash-2.5,True,False,False,0.924697,5,0.011946
+druid,72,CatalogCacheTest#testLifecycle,Claude Sonnet-4,True,False,True,0.932639,5,0.226448
+druid,72,CatalogCacheTest#testLifecycle,GPT-4o,True,False,True,0.932639,5,0.067567
+druid,72,CatalogCacheTest#testLifecycle,Gemini Flash-2.5,True,False,True,0.955448,5,0.008668
+druid,73,SqlStatementResourceHelperTest#testEmptyCountersForDataSourceDestination,Claude Sonnet-4,True,True,True,1.000000,1,0.244270
+druid,73,SqlStatementResourceHelperTest#testEmptyCountersForDataSourceDestination,GPT-4o,True,True,True,1.000000,5,0.088572
+druid,73,SqlStatementResourceHelperTest#testEmptyCountersForDataSourceDestination,Gemini Flash-2.5,True,True,True,1.000000,5,0.010770
+druid,74,DataSourceMSQDestinationTest#testEquals,Claude Sonnet-4,True,False,True,0.724244,5,0.328731
+druid,74,DataSourceMSQDestinationTest#testEquals,GPT-4o,True,False,True,0.634509,3,0.174861
+druid,74,DataSourceMSQDestinationTest#testEquals,Gemini Flash-2.5,True,False,True,0.572562,1,0.060230
+druid,75,DataSourceMSQDestinationTest#testBackwardCompatibility,Claude Sonnet-4,True,True,True,1.000000,5,0.184908
+druid,75,DataSourceMSQDestinationTest#testBackwardCompatibility,GPT-4o,True,True,True,1.000000,5,0.063729
+druid,75,DataSourceMSQDestinationTest#testBackwardCompatibility,Gemini Flash-2.5,True,True,True,1.000000,3,0.016202
+druid,76,CompactionSupervisorSpecTest#testCreateRunningSpec,Claude Sonnet-4,True,True,True,1.000000,5,0.199434
+druid,76,CompactionSupervisorSpecTest#testCreateRunningSpec,GPT-4o,True,True,True,1.000000,4,0.104520
+druid,76,CompactionSupervisorSpecTest#testCreateRunningSpec,Gemini Flash-2.5,True,True,True,1.000000,5,0.012922
+druid,77,CompactionSupervisorSpecTest#testGetStatusWithInvalidSpec,Claude Sonnet-4,True,True,True,1.000000,5,0.212812
+druid,77,CompactionSupervisorSpecTest#testGetStatusWithInvalidSpec,GPT-4o,True,True,True,1.000000,5,0.078670
+druid,77,CompactionSupervisorSpecTest#testGetStatusWithInvalidSpec,Gemini Flash-2.5,True,True,True,1.000000,3,0.013927
+druid,78,CompactionSupervisorSpecTest#testSerdeOfSuspendedSpec,Claude Sonnet-4,True,True,True,1.000000,5,0.220269
+druid,78,CompactionSupervisorSpecTest#testSerdeOfSuspendedSpec,GPT-4o,True,True,True,1.000000,5,0.088794
+druid,78,CompactionSupervisorSpecTest#testSerdeOfSuspendedSpec,Gemini Flash-2.5,True,True,True,1.000000,4,0.029056
+druid,79,CompactionSupervisorSpecTest#testStartStopSupervisorForSuspendedSpec,Claude Sonnet-4,True,True,True,1.000000,5,0.205782
+druid,79,CompactionSupervisorSpecTest#testStartStopSupervisorForSuspendedSpec,GPT-4o,True,True,True,1.000000,3,0.124484
+druid,79,CompactionSupervisorSpecTest#testStartStopSupervisorForSuspendedSpec,Gemini Flash-2.5,True,True,True,1.000000,5,0.017119
+druid,80,CompactionSupervisorSpecTest#testStartStopSupervisorWhenSchedulerStopped,Claude Sonnet-4,True,True,True,1.000000,5,0.198584
+druid,80,CompactionSupervisorSpecTest#testStartStopSupervisorWhenSchedulerStopped,GPT-4o,True,True,True,1.000000,5,0.098711
+druid,80,CompactionSupervisorSpecTest#testStartStopSupervisorWhenSchedulerStopped,Gemini Flash-2.5,True,True,True,1.000000,4,0.009974
+druid,81,CompactionSupervisorSpecTest#testSerdeOfActiveSpec,Claude Sonnet-4,True,True,True,1.000000,5,0.199197
+druid,81,CompactionSupervisorSpecTest#testSerdeOfActiveSpec,GPT-4o,True,True,True,1.000000,3,0.102025
+druid,81,CompactionSupervisorSpecTest#testSerdeOfActiveSpec,Gemini Flash-2.5,True,True,True,1.000000,3,0.009164
+druid,82,CompactionSupervisorSpecTest#testStartStopSupervisorForActiveSpec,Claude Sonnet-4,True,True,True,1.000000,5,0.206369
+druid,82,CompactionSupervisorSpecTest#testStartStopSupervisorForActiveSpec,GPT-4o,True,False,True,0.946463,2,0.086230
+druid,82,CompactionSupervisorSpecTest#testStartStopSupervisorForActiveSpec,Gemini Flash-2.5,True,True,True,1.000000,4,0.013790
+druid,83,CompactionSupervisorSpecTest#testCreateSuspendedSpec,Claude Sonnet-4,True,True,True,1.000000,5,0.198655
+druid,83,CompactionSupervisorSpecTest#testCreateSuspendedSpec,GPT-4o,True,True,True,1.000000,3,0.142754
+druid,83,CompactionSupervisorSpecTest#testCreateSuspendedSpec,Gemini Flash-2.5,True,True,True,1.000000,5,0.010620
+druid,84,CompactionSupervisorSpecTest#testGetIdAndDataSources,Claude Sonnet-4,True,True,True,1.000000,5,0.206735
+druid,84,CompactionSupervisorSpecTest#testGetIdAndDataSources,GPT-4o,True,True,True,1.000000,4,0.136423
+druid,84,CompactionSupervisorSpecTest#testGetIdAndDataSources,Gemini Flash-2.5,True,True,True,1.000000,5,0.010371
+druid,85,CompactionRunSimulatorTest#testSimulateClusterCompactionConfigUpdate,Claude Sonnet-4,True,True,True,1.000000,5,0.244865
+druid,85,CompactionRunSimulatorTest#testSimulateClusterCompactionConfigUpdate,GPT-4o,True,True,True,1.000000,4,0.083913
+druid,85,CompactionRunSimulatorTest#testSimulateClusterCompactionConfigUpdate,Gemini Flash-2.5,True,True,True,1.000000,5,0.018208
+druid,86,DataSegmentTest#testV1Serialization,Claude Sonnet-4,False,False,False,0.978537,0,0.094352
+druid,86,DataSegmentTest#testV1Serialization,GPT-4o,True,True,True,1.000000,4,0.118898
+druid,86,DataSegmentTest#testV1Serialization,Gemini Flash-2.5,True,True,True,1.000000,3,0.043471
+druid,87,DataSegmentTest#testDeserializationDataSegmentLastCompactionStateWithNullSpecs,Claude Sonnet-4,False,False,False,0.985055,0,0.094506
+druid,87,DataSegmentTest#testDeserializationDataSegmentLastCompactionStateWithNullSpecs,GPT-4o,True,True,True,1.000000,4,0.067556
+druid,87,DataSegmentTest#testDeserializationDataSegmentLastCompactionStateWithNullSpecs,Gemini Flash-2.5,True,False,False,0.902852,3,0.017375
+druid,88,DataSegmentTest#testWithLastCompactionState,Claude Sonnet-4,False,False,False,0.948998,0,0.144498
+druid,88,DataSegmentTest#testWithLastCompactionState,GPT-4o,True,True,True,1.000000,5,0.145363
+druid,88,DataSegmentTest#testWithLastCompactionState,Gemini Flash-2.5,True,True,True,1.000000,3,0.069478
+druid,89,DruidCompactionConfigTest#testCopyWithDatasourceConfigs,Claude Sonnet-4,True,True,True,1.000000,5,0.200316
+druid,89,DruidCompactionConfigTest#testCopyWithDatasourceConfigs,GPT-4o,True,True,True,1.000000,5,0.139954
+druid,89,DruidCompactionConfigTest#testCopyWithDatasourceConfigs,Gemini Flash-2.5,True,True,True,1.000000,5,0.009553
+druid,90,CoordinatorCompactionConfigsResourceTest#testAddDatasourceConfigWithMSQEngineIsInvalid,Claude Sonnet-4,False,False,False,0.966279,0,0.107373
+druid,90,CoordinatorCompactionConfigsResourceTest#testAddDatasourceConfigWithMSQEngineIsInvalid,GPT-4o,True,False,True,0.966279,1,0.153253
+druid,90,CoordinatorCompactionConfigsResourceTest#testAddDatasourceConfigWithMSQEngineIsInvalid,Gemini Flash-2.5,True,True,True,1.000000,4,0.025921
+druid,91,CoordinatorCompactionConfigsResourceTest#testUpdateIsNotRetriedIfFailureIsNotRetryable,Claude Sonnet-4,False,False,False,0.900908,0,0.099406
+druid,91,CoordinatorCompactionConfigsResourceTest#testUpdateIsNotRetriedIfFailureIsNotRetryable,GPT-4o,True,True,True,1.000000,3,0.161694
+druid,91,CoordinatorCompactionConfigsResourceTest#testUpdateIsNotRetriedIfFailureIsNotRetryable,Gemini Flash-2.5,True,True,True,1.000000,5,0.022043
+druid,92,CoordinatorCompactionConfigsResourceTest#testAddInvalidDatasourceConfigThrowsBadRequest,Claude Sonnet-4,False,False,False,0.969654,0,0.115327
+druid,92,CoordinatorCompactionConfigsResourceTest#testAddInvalidDatasourceConfigThrowsBadRequest,GPT-4o,True,True,True,1.000000,3,0.161490
+druid,92,CoordinatorCompactionConfigsResourceTest#testAddInvalidDatasourceConfigThrowsBadRequest,Gemini Flash-2.5,True,True,True,1.000000,5,0.031770
+druid,93,CoordinatorCompactionConfigsResourceTest#testDeleteDatasourceConfig,Claude Sonnet-4,False,False,False,0.922735,0,0.106601
+druid,93,CoordinatorCompactionConfigsResourceTest#testDeleteDatasourceConfig,GPT-4o,True,True,True,0.949762,4,0.176349
+druid,93,CoordinatorCompactionConfigsResourceTest#testDeleteDatasourceConfig,Gemini Flash-2.5,True,True,True,1.000000,5,0.093161
+druid,94,CoordinatorCompactionConfigsResourceTest#testUpdateIsRetriedIfFailureIsRetryable,Claude Sonnet-4,False,False,False,0.908354,0,0.106434
+druid,94,CoordinatorCompactionConfigsResourceTest#testUpdateIsRetriedIfFailureIsRetryable,GPT-4o,True,True,True,1.000000,4,0.106770
+druid,94,CoordinatorCompactionConfigsResourceTest#testUpdateIsRetriedIfFailureIsRetryable,Gemini Flash-2.5,True,True,True,1.000000,5,0.061432
+druid,95,CoordinatorCompactionConfigsResourceTest#testGetDatasourceConfigHistory,Claude Sonnet-4,False,False,False,0.937874,0,0.134371
+druid,95,CoordinatorCompactionConfigsResourceTest#testGetDatasourceConfigHistory,GPT-4o,True,True,True,1.000000,4,0.147872
+druid,95,CoordinatorCompactionConfigsResourceTest#testGetDatasourceConfigHistory,Gemini Flash-2.5,True,True,True,1.000000,5,0.046957
+druid,96,DataSegmentPlusTest#testSerde,Claude Sonnet-4,True,True,True,1.000000,5,0.191888
+druid,96,DataSegmentPlusTest#testSerde,GPT-4o,True,True,True,1.000000,4,0.252623
+druid,96,DataSegmentPlusTest#testSerde,Gemini Flash-2.5,True,True,True,1.000000,5,0.087683
+druid,97,OverlordCompactionSchedulerTest#testRunSimulation,Claude Sonnet-4,True,True,True,1.000000,5,0.194251
+druid,97,OverlordCompactionSchedulerTest#testRunSimulation,GPT-4o,True,False,False,0.984510,1,0.161847
+druid,97,OverlordCompactionSchedulerTest#testRunSimulation,Gemini Flash-2.5,True,True,True,1.000000,4,0.076747
+druid,98,OverlordCompactionSchedulerTest#testStartCompactionForDatasource,Claude Sonnet-4,True,True,True,1.000000,5,0.208638
+druid,98,OverlordCompactionSchedulerTest#testStartCompactionForDatasource,GPT-4o,True,True,True,1.000000,2,0.096022
+druid,98,OverlordCompactionSchedulerTest#testStartCompactionForDatasource,Gemini Flash-2.5,True,True,True,1.000000,4,0.061784
+druid,99,OverlordCompactionSchedulerTest#testStopCompactionForDatasource,Claude Sonnet-4,True,True,True,1.000000,5,0.270718
+druid,99,OverlordCompactionSchedulerTest#testStopCompactionForDatasource,GPT-4o,True,True,True,1.000000,1,0.127263
+druid,99,OverlordCompactionSchedulerTest#testStopCompactionForDatasource,Gemini Flash-2.5,True,True,True,1.000000,5,0.030014
+druid,100,OverlordCompactionSchedulerTest#testMsqCompactionConfigWithOneMaxTasksIsInvalid,Claude Sonnet-4,True,True,True,1.000000,5,0.000000
+druid,100,OverlordCompactionSchedulerTest#testMsqCompactionConfigWithOneMaxTasksIsInvalid,GPT-4o,True,True,True,0.964343,3,0.000000
+druid,100,OverlordCompactionSchedulerTest#testMsqCompactionConfigWithOneMaxTasksIsInvalid,Gemini Flash-2.5,True,True,True,1.000000,5,0.000000
+gson,0,RecursiveTypesResolveTest#testDoubleSubtype,Claude Sonnet-4,True,True,True,1.000000,5,0.000000
+gson,0,RecursiveTypesResolveTest#testDoubleSubtype,GPT-4o,True,True,True,1.000000,5,0.015631
+gson,0,RecursiveTypesResolveTest#testDoubleSubtype,Gemini Flash-2.5,True,True,True,1.000000,5,0.002697
+gson,1,RecursiveTypesResolveTest#testDoubleSupertype,Claude Sonnet-4,True,True,True,1.000000,5,0.045559
+gson,1,RecursiveTypesResolveTest#testDoubleSupertype,GPT-4o,True,True,True,1.000000,5,0.015171
+gson,1,RecursiveTypesResolveTest#testDoubleSupertype,Gemini Flash-2.5,True,True,True,1.000000,5,0.002189
+gson,2,RecursiveTypesResolveTest#testSuperSubtype,Claude Sonnet-4,True,True,True,1.000000,5,0.048218
+gson,2,RecursiveTypesResolveTest#testSuperSubtype,GPT-4o,True,True,True,1.000000,5,0.015178
+gson,2,RecursiveTypesResolveTest#testSuperSubtype,Gemini Flash-2.5,True,True,True,1.000000,4,0.002322
+gson,3,RecursiveTypesResolveTest#testSubSupertype,Claude Sonnet-4,True,True,True,1.000000,5,0.045072
+gson,3,RecursiveTypesResolveTest#testSubSupertype,GPT-4o,True,True,True,1.000000,5,0.015139
+gson,3,RecursiveTypesResolveTest#testSubSupertype,Gemini Flash-2.5,True,True,True,1.000000,5,0.002527
+gson,4,MapTest#testCustomSerializerForSpecificMapType,Claude Sonnet-4,False,False,False,0.977464,0,0.024417
+gson,4,MapTest#testCustomSerializerForSpecificMapType,GPT-4o,True,True,True,1.000000,5,0.023451
+gson,4,MapTest#testCustomSerializerForSpecificMapType,Gemini Flash-2.5,True,True,True,1.000000,1,0.042769
+gson,5,PostConstructAdapterFactoryTest#test,Claude Sonnet-4,True,True,True,1.000000,5,0.026822
+gson,5,PostConstructAdapterFactoryTest#test,GPT-4o,True,True,True,1.000000,5,0.009779
+gson,5,PostConstructAdapterFactoryTest#test,Gemini Flash-2.5,True,True,True,1.000000,4,0.002099
+gson,6,DelegateTypeAdapterTest#testDelegateInvokedOnStrings,Claude Sonnet-4,True,True,True,1.000000,5,0.024004
+gson,6,DelegateTypeAdapterTest#testDelegateInvokedOnStrings,GPT-4o,True,True,True,1.000000,5,0.008926
+gson,6,DelegateTypeAdapterTest#testDelegateInvokedOnStrings,Gemini Flash-2.5,True,True,True,1.000000,5,0.002330
+gson,7,DelegateTypeAdapterTest#testDelegateInvoked,Claude Sonnet-4,True,True,True,1.000000,5,0.024084
+gson,7,DelegateTypeAdapterTest#testDelegateInvoked,GPT-4o,True,True,True,1.000000,5,0.009030
+gson,7,DelegateTypeAdapterTest#testDelegateInvoked,Gemini Flash-2.5,True,True,True,1.000000,5,0.002438
+gson,8,JavaVersionTest#testJava7,Claude Sonnet-4,True,True,True,1.000000,5,0.109732
+gson,8,JavaVersionTest#testJava7,GPT-4o,True,True,True,1.000000,5,0.036964
+gson,8,JavaVersionTest#testJava7,Gemini Flash-2.5,True,True,True,1.000000,5,0.006077
+gson,9,JavaVersionTest#testJava6,Claude Sonnet-4,True,True,True,1.000000,5,0.112592
+gson,9,JavaVersionTest#testJava6,GPT-4o,True,True,True,1.000000,5,0.041441
+gson,9,JavaVersionTest#testJava6,Gemini Flash-2.5,True,True,True,1.000000,5,0.004749
+gson,10,JavaVersionTest#testJava10,Claude Sonnet-4,True,True,True,1.000000,5,0.108416
+gson,10,JavaVersionTest#testJava10,GPT-4o,True,True,True,1.000000,5,0.032966
+gson,10,JavaVersionTest#testJava10,Gemini Flash-2.5,True,True,True,1.000000,5,0.005302
+gson,11,JavaVersionTest#testUnknownVersionFormat,Claude Sonnet-4,True,True,True,1.000000,5,0.113927
+gson,11,JavaVersionTest#testUnknownVersionFormat,GPT-4o,True,True,True,1.000000,5,0.036625
+gson,11,JavaVersionTest#testUnknownVersionFormat,Gemini Flash-2.5,True,True,True,1.000000,5,0.005185
+gson,13,JsonTreeReaderTest#testOverrides,Claude Sonnet-4,True,True,True,1.000000,5,0.138664
+gson,13,JsonTreeReaderTest#testOverrides,GPT-4o,True,True,True,1.000000,5,0.035385
+gson,13,JsonTreeReaderTest#testOverrides,Gemini Flash-2.5,True,True,True,1.000000,4,0.011570
+gson,15,DefaultTypeAdaptersTest#testClassSerialization,Claude Sonnet-4,False,False,False,1.000000,0,0.017515
+gson,15,DefaultTypeAdaptersTest#testClassSerialization,GPT-4o,True,True,True,1.000000,3,0.056122
+gson,15,DefaultTypeAdaptersTest#testClassSerialization,Gemini Flash-2.5,True,True,True,1.000000,3,0.017728
+gson,18,NamingPolicyTest#testGsonDuplicateNameDueToBadNamingPolicy,Claude Sonnet-4,True,True,True,1.000000,4,0.048886
+gson,18,NamingPolicyTest#testGsonDuplicateNameDueToBadNamingPolicy,GPT-4o,True,True,True,1.000000,5,0.017177
+gson,18,NamingPolicyTest#testGsonDuplicateNameDueToBadNamingPolicy,Gemini Flash-2.5,True,True,True,1.000000,3,0.023559
+gson,19,NamingPolicyTest#testGsonDuplicateNameUsingSerializedNameFieldNamingPolicySerialization,Claude Sonnet-4,True,True,True,1.000000,5,0.046970
+gson,19,NamingPolicyTest#testGsonDuplicateNameUsingSerializedNameFieldNamingPolicySerialization,GPT-4o,True,True,True,1.000000,5,0.026268
+gson,19,NamingPolicyTest#testGsonDuplicateNameUsingSerializedNameFieldNamingPolicySerialization,Gemini Flash-2.5,True,True,True,1.000000,3,0.014049
+gson,21,StreamingTypeAdaptersTest#testNullSafe,Claude Sonnet-4,True,True,True,1.000000,5,0.050712
+gson,21,StreamingTypeAdaptersTest#testNullSafe,GPT-4o,True,True,True,1.000000,5,0.024346
+gson,21,StreamingTypeAdaptersTest#testNullSafe,Gemini Flash-2.5,True,True,True,1.000000,2,0.037942
+gson,24,TypeTokenTest#testTypeTokenRaw,Claude Sonnet-4,True,False,False,0.975456,5,0.096774
+gson,24,TypeTokenTest#testTypeTokenRaw,GPT-4o,True,False,False,0.919631,5,0.060574
+gson,24,TypeTokenTest#testTypeTokenRaw,Gemini Flash-2.5,True,True,True,1.000000,4,0.007290
+gson,25,ToNumberPolicyTest#testDouble,Claude Sonnet-4,True,False,False,0.865539,5,0.051900
+gson,25,ToNumberPolicyTest#testDouble,GPT-4o,True,False,False,0.902675,5,0.021751
+gson,25,ToNumberPolicyTest#testDouble,Gemini Flash-2.5,True,False,False,0.865539,5,0.004485
+gson,26,ObjectTest#testClassWithDuplicateFields,Claude Sonnet-4,False,False,False,0.915106,0,0.039950
+gson,26,ObjectTest#testClassWithDuplicateFields,GPT-4o,True,True,True,1.000000,5,0.027092
+gson,26,ObjectTest#testClassWithDuplicateFields,Gemini Flash-2.5,True,True,True,1.000000,4,0.012384
+gson,27,JsonReaderTest#testUnescapingInvalidCharacters,Claude Sonnet-4,False,False,False,0.948078,0,0.123855
+gson,27,JsonReaderTest#testUnescapingInvalidCharacters,GPT-4o,True,True,True,1.000000,5,0.019241
+gson,27,JsonReaderTest#testUnescapingInvalidCharacters,Gemini Flash-2.5,False,False,False,0.948078,0,0.000000
+gson,28,GsonTest#testOverridesDefaultExcluder,Claude Sonnet-4,False,False,False,0.840725,0,0.093311
+gson,28,GsonTest#testOverridesDefaultExcluder,GPT-4o,True,True,True,1.000000,5,0.021217
+gson,28,GsonTest#testOverridesDefaultExcluder,Gemini Flash-2.5,True,True,True,1.000000,2,0.093477
+gson,29,GsonTest#testClonedTypeAdapterFactoryListsAreIndependent,Claude Sonnet-4,False,False,False,0.847306,0,0.088649
+gson,29,GsonTest#testClonedTypeAdapterFactoryListsAreIndependent,GPT-4o,True,True,True,1.000000,5,0.045861
+gson,29,GsonTest#testClonedTypeAdapterFactoryListsAreIndependent,Gemini Flash-2.5,False,False,False,1.000000,0,0.116589
+gson,30,JsonTreeWriterTest#testOverrides,Claude Sonnet-4,True,False,True,0.749684,5,0.161416
+gson,30,JsonTreeWriterTest#testOverrides,GPT-4o,True,False,True,0.848693,5,0.034247
+gson,30,JsonTreeWriterTest#testOverrides,Gemini Flash-2.5,True,False,True,0.857879,4,0.041523
+gson,31,JsonPrimitiveTest#testEqualsIntegerAndBigInteger,Claude Sonnet-4,True,False,True,0.934391,5,0.118139
+gson,31,JsonPrimitiveTest#testEqualsIntegerAndBigInteger,GPT-4o,True,False,True,0.934391,5,0.026519
+gson,31,JsonPrimitiveTest#testEqualsIntegerAndBigInteger,Gemini Flash-2.5,True,False,True,0.934391,2,0.006806
+gson,32,JsonReaderTest#testDeeplyNestedObjects,Claude Sonnet-4,False,False,False,0.936864,0,0.179669
+gson,32,JsonReaderTest#testDeeplyNestedObjects,GPT-4o,True,False,False,0.942962,5,0.054480
+gson,32,JsonReaderTest#testDeeplyNestedObjects,Gemini Flash-2.5,False,False,False,0.936864,0,0.001083
+gson,33,DefaultTypeAdaptersTest#testClassDeserialization,Claude Sonnet-4,False,False,False,0.902061,0,0.031237
+gson,33,DefaultTypeAdaptersTest#testClassDeserialization,GPT-4o,True,True,True,1.000000,2,0.046807
+gson,33,DefaultTypeAdaptersTest#testClassDeserialization,Gemini Flash-2.5,True,True,True,1.000000,2,0.010283
+gson,34,JsonArrayTest#testEqualsNonEmptyArray,Claude Sonnet-4,True,False,False,1.000000,4,0.118587
+gson,34,JsonArrayTest#testEqualsNonEmptyArray,GPT-4o,True,False,False,0.910534,5,0.042954
+gson,34,JsonArrayTest#testEqualsNonEmptyArray,Gemini Flash-2.5,True,False,False,0.910534,4,0.095575
+gson,35,JsonObjectTest#testEqualsNonEmptyObject,Claude Sonnet-4,True,False,False,0.932958,5,0.138521
+gson,35,JsonObjectTest#testEqualsNonEmptyObject,GPT-4o,True,False,False,0.917228,5,0.026476
+gson,35,JsonObjectTest#testEqualsNonEmptyObject,Gemini Flash-2.5,True,False,False,0.917228,3,0.061214
+gson,36,ReflectionAccessTest#testSerializeInternalImplementationObject,Claude Sonnet-4,True,False,False,0.943707,5,0.075749
+gson,36,ReflectionAccessTest#testSerializeInternalImplementationObject,GPT-4o,True,False,False,0.875159,4,0.038479
+gson,36,ReflectionAccessTest#testSerializeInternalImplementationObject,Gemini Flash-2.5,True,False,False,0.943707,1,0.055347
+gson,37,ReflectionAccessFilterTest#testBlockInaccessibleJava,Claude Sonnet-4,False,False,False,0.859429,0,0.082501
+gson,37,ReflectionAccessFilterTest#testBlockInaccessibleJava,GPT-4o,True,False,False,0.925190,5,0.027713
+gson,37,ReflectionAccessFilterTest#testBlockInaccessibleJava,Gemini Flash-2.5,True,False,False,0.946931,4,0.032821
+gson,38,ReflectionAccessFilterTest#testBlockInaccessibleJavaExtendingJdkClass,Claude Sonnet-4,True,False,False,0.937239,1,0.072105
+gson,38,ReflectionAccessFilterTest#testBlockInaccessibleJavaExtendingJdkClass,GPT-4o,True,False,False,0.921367,5,0.031746
+gson,38,ReflectionAccessFilterTest#testBlockInaccessibleJavaExtendingJdkClass,Gemini Flash-2.5,True,False,False,0.933860,4,0.005408
+gson,39,ReflectionAccessFilterTest#testBlockInaccessibleStaticField,Claude Sonnet-4,False,False,False,0.794567,0,0.083239
+gson,39,ReflectionAccessFilterTest#testBlockInaccessibleStaticField,GPT-4o,True,False,False,0.871461,5,0.023858
+gson,39,ReflectionAccessFilterTest#testBlockInaccessibleStaticField,Gemini Flash-2.5,True,False,False,0.871461,4,0.000000
+gson,40,ReflectionAccessFilterTest#testAllowForSupertype,Claude Sonnet-4,False,False,False,0.852648,0,0.074792
+gson,40,ReflectionAccessFilterTest#testAllowForSupertype,GPT-4o,True,False,False,0.909791,5,0.021717
+gson,40,ReflectionAccessFilterTest#testAllowForSupertype,Gemini Flash-2.5,True,False,False,0.909791,4,0.000000
+neo4j-java-driver,0,FuturesTest#shouldThrowInBlockingGetWhenFutureThrowsCheckedException,Claude Sonnet-4,True,False,False,0.907389,5,0.000000
+neo4j-java-driver,0,FuturesTest#shouldThrowInBlockingGetWhenFutureThrowsCheckedException,GPT-4o,True,False,False,0.907389,5,0.017216
+neo4j-java-driver,0,FuturesTest#shouldThrowInBlockingGetWhenFutureThrowsCheckedException,Gemini Flash-2.5,True,True,True,1.000000,5,0.002809
+neo4j-java-driver,1,HandshakeCompletedListenerTest#shouldWriteInitializationMessageInBoltV3WhenHandshakeCompleted,Claude Sonnet-4,True,True,True,1.000000,5,0.170169
+neo4j-java-driver,1,HandshakeCompletedListenerTest#shouldWriteInitializationMessageInBoltV3WhenHandshakeCompleted,GPT-4o,True,True,True,1.000000,5,0.030667
+neo4j-java-driver,1,HandshakeCompletedListenerTest#shouldWriteInitializationMessageInBoltV3WhenHandshakeCompleted,Gemini Flash-2.5,True,True,True,1.000000,5,0.004856
+neo4j-java-driver,2,HelloMessageTest#shouldHaveCorrectRoutingContext,Claude Sonnet-4,True,True,True,1.000000,5,0.109619
+neo4j-java-driver,2,HelloMessageTest#shouldHaveCorrectRoutingContext,GPT-4o,True,True,True,1.000000,5,0.030461
+neo4j-java-driver,2,HelloMessageTest#shouldHaveCorrectRoutingContext,Gemini Flash-2.5,True,True,True,1.000000,5,0.004152
+neo4j-java-driver,3,HelloMessageTest#shouldNotExposeCredentialsInToString,Claude Sonnet-4,True,True,True,1.000000,5,0.105156
+neo4j-java-driver,3,HelloMessageTest#shouldNotExposeCredentialsInToString,GPT-4o,True,True,True,1.000000,5,0.030442
+neo4j-java-driver,3,HelloMessageTest#shouldNotExposeCredentialsInToString,Gemini Flash-2.5,True,True,True,1.000000,5,0.004404
+neo4j-java-driver,4,HelloMessageTest#shouldHaveCorrectMetadata,Claude Sonnet-4,True,True,True,1.000000,5,0.108266
+neo4j-java-driver,4,HelloMessageTest#shouldHaveCorrectMetadata,GPT-4o,True,True,True,1.000000,5,0.031078
+neo4j-java-driver,4,HelloMessageTest#shouldHaveCorrectMetadata,Gemini Flash-2.5,True,True,True,1.000000,5,0.005146
+neo4j-java-driver,5,SessionPullResponseCompletionListenerTest#shouldReleaseConnectionOnFailure,Claude Sonnet-4,True,True,True,1.000000,5,0.187099
+neo4j-java-driver,5,SessionPullResponseCompletionListenerTest#shouldReleaseConnectionOnFailure,GPT-4o,True,True,True,1.000000,4,0.131043
+neo4j-java-driver,5,SessionPullResponseCompletionListenerTest#shouldReleaseConnectionOnFailure,Gemini Flash-2.5,True,True,True,1.000000,4,0.008919
+neo4j-java-driver,6,SessionPullResponseCompletionListenerTest#shouldReleaseConnectionImmediatelyOnAuthorizationExpiredExceptionFailure,Claude Sonnet-4,True,True,True,1.000000,5,0.174141
+neo4j-java-driver,6,SessionPullResponseCompletionListenerTest#shouldReleaseConnectionImmediatelyOnAuthorizationExpiredExceptionFailure,GPT-4o,True,True,True,1.000000,5,0.124694
+neo4j-java-driver,6,SessionPullResponseCompletionListenerTest#shouldReleaseConnectionImmediatelyOnAuthorizationExpiredExceptionFailure,Gemini Flash-2.5,True,True,True,1.000000,5,0.009140
+neo4j-java-driver,7,SessionPullResponseCompletionListenerTest#shouldReleaseConnectionImmediatelyOnConnectionReadTimeoutExceptionFailure,Claude Sonnet-4,True,True,True,1.000000,5,0.197276
+neo4j-java-driver,7,SessionPullResponseCompletionListenerTest#shouldReleaseConnectionImmediatelyOnConnectionReadTimeoutExceptionFailure,GPT-4o,True,True,True,1.000000,4,0.056451
+neo4j-java-driver,7,SessionPullResponseCompletionListenerTest#shouldReleaseConnectionImmediatelyOnConnectionReadTimeoutExceptionFailure,Gemini Flash-2.5,True,True,True,1.000000,5,0.009817
+neo4j-java-driver,8,SessionPullResponseCompletionListenerTest#shouldReleaseConnectionOnSuccess,Claude Sonnet-4,True,True,True,1.000000,5,0.187601
+neo4j-java-driver,8,SessionPullResponseCompletionListenerTest#shouldReleaseConnectionOnSuccess,GPT-4o,True,True,True,1.000000,4,0.055926
+neo4j-java-driver,8,SessionPullResponseCompletionListenerTest#shouldReleaseConnectionOnSuccess,Gemini Flash-2.5,True,True,True,1.000000,5,0.008529
+neo4j-java-driver,11,ExtractTest#testFields,Claude Sonnet-4,True,False,True,0.788359,5,0.090185
+neo4j-java-driver,11,ExtractTest#testFields,GPT-4o,True,False,True,0.788359,5,0.054696
+neo4j-java-driver,11,ExtractTest#testFields,Gemini Flash-2.5,True,False,True,0.788359,5,0.007432
+neo4j-java-driver,13,TransactionConfigTest#shouldDisallowMetadataWithIllegalValues,Claude Sonnet-4,True,False,False,0.759621,4,0.122248
+neo4j-java-driver,13,TransactionConfigTest#shouldDisallowMetadataWithIllegalValues,GPT-4o,True,False,False,0.759621,5,0.054741
+neo4j-java-driver,13,TransactionConfigTest#shouldDisallowMetadataWithIllegalValues,Gemini Flash-2.5,True,False,False,0.836044,5,0.005496
+neo4j-java-driver,16,ExtractTest#shouldFailToExtractMapOfValuesFromUnsupportedValues,Claude Sonnet-4,True,True,True,1.000000,5,0.134399
+neo4j-java-driver,16,ExtractTest#shouldFailToExtractMapOfValuesFromUnsupportedValues,GPT-4o,True,False,False,0.817268,5,0.032819
+neo4j-java-driver,16,ExtractTest#shouldFailToExtractMapOfValuesFromUnsupportedValues,Gemini Flash-2.5,True,False,False,0.675927,5,0.008423
+neo4j-java-driver,17,ExtractTest#testProperties,Claude Sonnet-4,True,True,True,1.000000,5,0.097971
+neo4j-java-driver,17,ExtractTest#testProperties,GPT-4o,True,True,True,1.000000,5,0.027958
+neo4j-java-driver,17,ExtractTest#testProperties,Gemini Flash-2.5,True,True,True,1.000000,4,0.009582
+neo4j-java-driver,18,ConnectionPoolImplTest#shouldDoNothingWhenRetainOnEmptyPool,Claude Sonnet-4,True,True,True,1.000000,5,0.034113
+neo4j-java-driver,18,ConnectionPoolImplTest#shouldDoNothingWhenRetainOnEmptyPool,GPT-4o,True,True,True,1.000000,5,0.009950
+neo4j-java-driver,18,ConnectionPoolImplTest#shouldDoNothingWhenRetainOnEmptyPool,Gemini Flash-2.5,True,True,True,1.000000,5,0.003587
+neo4j-java-driver,19,CertificateUtilTest#shouldLoadMultipleCertsIntoKeyStore,Claude Sonnet-4,True,True,True,1.000000,5,0.047676
+neo4j-java-driver,19,CertificateUtilTest#shouldLoadMultipleCertsIntoKeyStore,GPT-4o,True,True,True,0.971867,5,0.013129
+neo4j-java-driver,19,CertificateUtilTest#shouldLoadMultipleCertsIntoKeyStore,Gemini Flash-2.5,True,True,True,0.971867,5,0.002418
+neo4j-java-driver,20,ResetMessageEncoderTest#shouldFailToEncodeWrongMessage,Claude Sonnet-4,True,True,True,1.000000,5,0.105312
+neo4j-java-driver,20,ResetMessageEncoderTest#shouldFailToEncodeWrongMessage,GPT-4o,True,False,False,0.551989,5,0.027382
+neo4j-java-driver,20,ResetMessageEncoderTest#shouldFailToEncodeWrongMessage,Gemini Flash-2.5,True,False,False,0.569376,5,0.001714
+neo4j-java-driver,21,AsyncResultCursorImplTest#shouldReturnSummary,Claude Sonnet-4,True,True,True,1.000000,5,0.137083
+neo4j-java-driver,21,AsyncResultCursorImplTest#shouldReturnSummary,GPT-4o,True,True,True,1.000000,5,0.040128
+neo4j-java-driver,21,AsyncResultCursorImplTest#shouldReturnSummary,Gemini Flash-2.5,True,True,True,1.000000,5,0.006867
+neo4j-java-driver,22,BoltProtocolV3Test#shouldInitializeChannel,Claude Sonnet-4,False,False,False,0.968338,0,0.062105
+neo4j-java-driver,22,BoltProtocolV3Test#shouldInitializeChannel,GPT-4o,True,False,True,0.978079,5,0.076479
+neo4j-java-driver,22,BoltProtocolV3Test#shouldInitializeChannel,Gemini Flash-2.5,True,True,True,1.000000,5,0.007393
+neo4j-java-driver,23,BoltProtocolV41Test#shouldInitializeChannel,Claude Sonnet-4,False,False,False,0.968338,0,0.071630
+neo4j-java-driver,23,BoltProtocolV41Test#shouldInitializeChannel,GPT-4o,True,False,True,0.978079,5,0.049067
+neo4j-java-driver,23,BoltProtocolV41Test#shouldInitializeChannel,Gemini Flash-2.5,True,True,True,1.000000,5,0.017781
+neo4j-java-driver,24,BoltProtocolV42Test#shouldInitializeChannel,Claude Sonnet-4,False,False,False,0.968338,0,0.098186
+neo4j-java-driver,24,BoltProtocolV42Test#shouldInitializeChannel,GPT-4o,True,False,True,0.978079,3,0.048251
+neo4j-java-driver,24,BoltProtocolV42Test#shouldInitializeChannel,Gemini Flash-2.5,True,True,True,1.000000,4,0.016249
+neo4j-java-driver,25,BoltProtocolV4Test#shouldInitializeChannel,Claude Sonnet-4,False,False,False,0.968338,0,0.063572
+neo4j-java-driver,25,BoltProtocolV4Test#shouldInitializeChannel,GPT-4o,True,True,True,1.000000,5,0.070169
+neo4j-java-driver,25,BoltProtocolV4Test#shouldInitializeChannel,Gemini Flash-2.5,True,True,True,1.000000,5,0.013599
+neo4j-java-driver,26,BoltProtocolV44Test#shouldInitializeChannel,Claude Sonnet-4,False,False,False,0.968338,0,0.077557
+neo4j-java-driver,26,BoltProtocolV44Test#shouldInitializeChannel,GPT-4o,True,True,True,1.000000,5,0.044243
+neo4j-java-driver,26,BoltProtocolV44Test#shouldInitializeChannel,Gemini Flash-2.5,True,True,True,1.000000,5,0.007258
+neo4j-java-driver,27,BoltProtocolV43Test#shouldInitializeChannel,Claude Sonnet-4,False,False,False,0.968338,0,0.076252
+neo4j-java-driver,27,BoltProtocolV43Test#shouldInitializeChannel,GPT-4o,True,False,True,0.978079,5,0.045863
+neo4j-java-driver,27,BoltProtocolV43Test#shouldInitializeChannel,Gemini Flash-2.5,True,True,True,1.000000,5,0.008456
+neo4j-java-driver,28,DirectConnectionTest#shouldReturnServerAgent,Claude Sonnet-4,True,True,True,1.000000,5,0.108236
+neo4j-java-driver,28,DirectConnectionTest#shouldReturnServerAgent,GPT-4o,True,True,True,1.000000,5,0.040633
+neo4j-java-driver,28,DirectConnectionTest#shouldReturnServerAgent,Gemini Flash-2.5,True,True,True,1.000000,5,0.004653
+neo4j-java-driver,31,MessageDeserializerTest#testDeserializeNewDriver,Claude Sonnet-4,True,True,True,1.000000,5,0.031241
+neo4j-java-driver,31,MessageDeserializerTest#testDeserializeNewDriver,GPT-4o,True,True,True,1.000000,5,0.009083
+neo4j-java-driver,31,MessageDeserializerTest#testDeserializeNewDriver,Gemini Flash-2.5,True,True,True,1.000000,5,0.002290
+neo4j-java-driver,32,LeakLoggingNetworkSessionTest#logsNothingDuringFinalizationIfClosed,Claude Sonnet-4,True,True,True,1.000000,5,0.097176
+neo4j-java-driver,32,LeakLoggingNetworkSessionTest#logsNothingDuringFinalizationIfClosed,GPT-4o,True,True,True,1.000000,5,0.021274
+neo4j-java-driver,32,LeakLoggingNetworkSessionTest#logsNothingDuringFinalizationIfClosed,Gemini Flash-2.5,True,True,True,1.000000,5,0.003403
+neo4j-java-driver,33,LeastConnectedLoadBalancingStrategyTest#shouldTraceLogWhenNoAddressSelected,Claude Sonnet-4,True,True,True,1.000000,5,0.081662
+neo4j-java-driver,33,LeastConnectedLoadBalancingStrategyTest#shouldTraceLogWhenNoAddressSelected,GPT-4o,True,True,True,1.000000,5,0.024969
+neo4j-java-driver,33,LeastConnectedLoadBalancingStrategyTest#shouldTraceLogWhenNoAddressSelected,Gemini Flash-2.5,True,True,True,1.000000,5,0.003722
+neo4j-java-driver,34,LeastConnectedLoadBalancingStrategyTest#shouldTraceLogSelectedAddress,Claude Sonnet-4,True,True,True,1.000000,5,0.085898
+neo4j-java-driver,34,LeastConnectedLoadBalancingStrategyTest#shouldTraceLogSelectedAddress,GPT-4o,True,True,True,1.000000,5,0.023979
+neo4j-java-driver,34,LeastConnectedLoadBalancingStrategyTest#shouldTraceLogSelectedAddress,Gemini Flash-2.5,True,True,True,1.000000,5,0.003699
+neo4j-java-driver,35,BoltProtocolV3Test#shouldBeginTransactionWithConfig,Claude Sonnet-4,False,False,False,0.783942,0,0.056680
+neo4j-java-driver,35,BoltProtocolV3Test#shouldBeginTransactionWithConfig,GPT-4o,True,True,True,0.954462,5,0.042357
+neo4j-java-driver,35,BoltProtocolV3Test#shouldBeginTransactionWithConfig,Gemini Flash-2.5,True,True,True,0.954462,5,0.007276
+neo4j-java-driver,36,BoltProtocolV3Test#shouldBeginTransactionWithoutBookmark,Claude Sonnet-4,False,False,False,0.800967,0,0.040605
+neo4j-java-driver,36,BoltProtocolV3Test#shouldBeginTransactionWithoutBookmark,GPT-4o,True,True,True,1.000000,5,0.071635
+neo4j-java-driver,36,BoltProtocolV3Test#shouldBeginTransactionWithoutBookmark,Gemini Flash-2.5,True,True,True,1.000000,5,0.007503
+neo4j-java-driver,37,UnmanagedTransactionTest#shouldFlushWhenBookmarkGiven,Claude Sonnet-4,True,True,True,1.000000,5,0.101261
+neo4j-java-driver,37,UnmanagedTransactionTest#shouldFlushWhenBookmarkGiven,GPT-4o,True,False,True,0.906666,4,0.027272
+neo4j-java-driver,37,UnmanagedTransactionTest#shouldFlushWhenBookmarkGiven,Gemini Flash-2.5,True,False,True,0.906666,5,0.004501
+neo4j-java-driver,42,AddressSetTest#shouldPreserveOrderWhenRemoving,Claude Sonnet-4,True,True,True,1.000000,5,0.116926
+neo4j-java-driver,42,AddressSetTest#shouldPreserveOrderWhenRemoving,GPT-4o,True,True,True,1.000000,5,0.033738
+neo4j-java-driver,42,AddressSetTest#shouldPreserveOrderWhenRemoving,Gemini Flash-2.5,True,True,True,1.000000,5,0.009639
+neo4j-java-driver,43,AddressSetTest#shouldHaveCorrectSize,Claude Sonnet-4,True,True,True,1.000000,5,0.136113
+neo4j-java-driver,43,AddressSetTest#shouldHaveCorrectSize,GPT-4o,True,True,True,1.000000,5,0.036775
+neo4j-java-driver,43,AddressSetTest#shouldHaveCorrectSize,Gemini Flash-2.5,True,True,True,1.000000,5,0.006761
+neo4j-java-driver,44,AddressSetTest#shouldExposeCorrectArray,Claude Sonnet-4,True,True,True,1.000000,5,0.121579
+neo4j-java-driver,44,AddressSetTest#shouldExposeCorrectArray,GPT-4o,True,True,True,1.000000,5,0.036158
+neo4j-java-driver,44,AddressSetTest#shouldExposeCorrectArray,Gemini Flash-2.5,True,True,True,1.000000,5,0.008050
+neo4j-java-driver,49,ChannelPipelineBuilderImplTest#shouldBuildPipeline,Claude Sonnet-4,True,True,True,1.000000,5,0.162060
+neo4j-java-driver,49,ChannelPipelineBuilderImplTest#shouldBuildPipeline,GPT-4o,True,True,True,1.000000,5,0.076443
+neo4j-java-driver,49,ChannelPipelineBuilderImplTest#shouldBuildPipeline,Gemini Flash-2.5,True,True,True,1.000000,5,0.005961
+neo4j-java-driver,50,BoltProtocolTest#shouldCreateProtocolForKnownVersions,Claude Sonnet-4,True,False,False,0.723627,5,0.223263
+neo4j-java-driver,50,BoltProtocolTest#shouldCreateProtocolForKnownVersions,GPT-4o,True,True,True,1.000000,5,0.032963
+neo4j-java-driver,50,BoltProtocolTest#shouldCreateProtocolForKnownVersions,Gemini Flash-2.5,True,True,True,1.000000,5,0.005728
+neo4j-java-driver,53,UnmanagedTransactionTest#shouldBeClosedWhenMarkedAsTerminated,Claude Sonnet-4,True,True,True,1.000000,5,0.069025
+neo4j-java-driver,53,UnmanagedTransactionTest#shouldBeClosedWhenMarkedAsTerminated,GPT-4o,True,True,True,1.000000,5,0.026357
+neo4j-java-driver,53,UnmanagedTransactionTest#shouldBeClosedWhenMarkedAsTerminated,Gemini Flash-2.5,True,True,True,1.000000,5,0.008151
+neo4j-java-driver,54,UnmanagedTransactionTest#shouldReleaseConnectionWhenTerminatedAndRolledBack,Claude Sonnet-4,True,True,True,1.000000,5,0.074285
+neo4j-java-driver,54,UnmanagedTransactionTest#shouldReleaseConnectionWhenTerminatedAndRolledBack,GPT-4o,True,True,True,1.000000,5,0.017626
+neo4j-java-driver,54,UnmanagedTransactionTest#shouldReleaseConnectionWhenTerminatedAndRolledBack,Gemini Flash-2.5,True,True,True,1.000000,5,0.008947
+neo4j-java-driver,55,UnmanagedTransactionTest#shouldReleaseConnectionWhenTerminatedAndCommitted,Claude Sonnet-4,True,True,True,1.000000,5,0.065383
+neo4j-java-driver,55,UnmanagedTransactionTest#shouldReleaseConnectionWhenTerminatedAndCommitted,GPT-4o,True,True,True,1.000000,5,0.020488
+neo4j-java-driver,55,UnmanagedTransactionTest#shouldReleaseConnectionWhenTerminatedAndCommitted,Gemini Flash-2.5,True,True,True,1.000000,5,0.007662
+neo4j-java-driver,56,UnmanagedTransactionTest#shouldBeClosedWhenMarkedTerminatedAndClosed,Claude Sonnet-4,True,True,True,1.000000,5,0.070186
+neo4j-java-driver,56,UnmanagedTransactionTest#shouldBeClosedWhenMarkedTerminatedAndClosed,GPT-4o,True,True,True,1.000000,5,0.017676
+neo4j-java-driver,56,UnmanagedTransactionTest#shouldBeClosedWhenMarkedTerminatedAndClosed,Gemini Flash-2.5,True,True,True,1.000000,5,0.005159
+neo4j-java-driver,57,RoutingProcedureRunnerTest#shouldCallGetRoutingTableWithParam,Claude Sonnet-4,True,True,True,1.000000,5,0.086100
+neo4j-java-driver,57,RoutingProcedureRunnerTest#shouldCallGetRoutingTableWithParam,GPT-4o,True,True,True,1.000000,5,0.023815
+neo4j-java-driver,57,RoutingProcedureRunnerTest#shouldCallGetRoutingTableWithParam,Gemini Flash-2.5,True,True,True,1.000000,5,0.003889
+neo4j-java-driver,60,BoltProtocolUtilTest#shouldReturnHandshakeBuf,Claude Sonnet-4,True,True,True,1.000000,5,0.092517
+neo4j-java-driver,60,BoltProtocolUtilTest#shouldReturnHandshakeBuf,GPT-4o,True,True,True,1.000000,2,0.046346
+neo4j-java-driver,60,BoltProtocolUtilTest#shouldReturnHandshakeBuf,Gemini Flash-2.5,True,True,True,1.000000,5,0.003403
+neo4j-java-driver,61,BoltProtocolUtilTest#shouldReturnHandshakeString,Claude Sonnet-4,True,True,True,1.000000,5,0.156710
+neo4j-java-driver,61,BoltProtocolUtilTest#shouldReturnHandshakeString,GPT-4o,True,True,True,1.000000,5,0.056229
+neo4j-java-driver,61,BoltProtocolUtilTest#shouldReturnHandshakeString,Gemini Flash-2.5,True,True,True,1.000000,5,0.004606
+neo4j-java-driver,62,BoltProtocolTest#shouldThrowForChannelWithUnknownProtocolVersion,Claude Sonnet-4,True,True,True,1.000000,5,0.083777
+neo4j-java-driver,62,BoltProtocolTest#shouldThrowForChannelWithUnknownProtocolVersion,GPT-4o,True,True,True,1.000000,5,0.015944
+neo4j-java-driver,62,BoltProtocolTest#shouldThrowForChannelWithUnknownProtocolVersion,Gemini Flash-2.5,True,True,True,1.000000,5,0.002938
+neo4j-java-driver,63,BoltProtocolTest#shouldThrowForUnknownVersion,Claude Sonnet-4,True,True,True,1.000000,5,0.067567
+neo4j-java-driver,63,BoltProtocolTest#shouldThrowForUnknownVersion,GPT-4o,True,True,True,1.000000,5,0.019277
+neo4j-java-driver,63,BoltProtocolTest#shouldThrowForUnknownVersion,Gemini Flash-2.5,True,True,True,1.000000,5,0.002839
+neo4j-java-driver,64,ChannelAttributesTest#shouldSetAndGetProtocolVersion,Claude Sonnet-4,True,False,False,0.372297,5,0.077835
+neo4j-java-driver,64,ChannelAttributesTest#shouldSetAndGetProtocolVersion,GPT-4o,True,False,False,0.721017,5,0.018946
+neo4j-java-driver,64,ChannelAttributesTest#shouldSetAndGetProtocolVersion,Gemini Flash-2.5,True,False,False,0.721017,4,0.003555
+neo4j-java-driver,65,MetadataExtractorTest#shouldExtractEmptyQueryKeysWhenNoneInMetadata,Claude Sonnet-4,False,False,False,0.448924,0,0.079573
+neo4j-java-driver,65,MetadataExtractorTest#shouldExtractEmptyQueryKeysWhenNoneInMetadata,GPT-4o,True,False,False,0.576053,5,0.031284
+neo4j-java-driver,65,MetadataExtractorTest#shouldExtractEmptyQueryKeysWhenNoneInMetadata,Gemini Flash-2.5,True,False,False,0.576053,4,0.008334
+neo4j-java-driver,66,MetadataExtractorTest#shouldExtractQueryKeys,Claude Sonnet-4,False,False,False,0.373963,0,0.083898
+neo4j-java-driver,66,MetadataExtractorTest#shouldExtractQueryKeys,GPT-4o,True,False,False,0.438109,5,0.014982
+neo4j-java-driver,66,MetadataExtractorTest#shouldExtractQueryKeys,Gemini Flash-2.5,True,False,False,0.438109,4,0.021926
+neo4j-java-driver,67,RoutingTableHandlerTest#shouldRemoveRoutingTableHandlerIfFailedToLookup,Claude Sonnet-4,True,True,True,1.000000,5,0.064805
+neo4j-java-driver,67,RoutingTableHandlerTest#shouldRemoveRoutingTableHandlerIfFailedToLookup,GPT-4o,True,True,True,1.000000,5,0.019167
+neo4j-java-driver,67,RoutingTableHandlerTest#shouldRemoveRoutingTableHandlerIfFailedToLookup,Gemini Flash-2.5,True,True,True,1.000000,5,0.016217
+neo4j-java-driver,68,RoutingTableHandlerTest#shouldRetainAllFetchedAddressesInConnectionPoolAfterFetchingOfRoutingTable,Claude Sonnet-4,True,True,True,1.000000,5,0.070236
+neo4j-java-driver,68,RoutingTableHandlerTest#shouldRetainAllFetchedAddressesInConnectionPoolAfterFetchingOfRoutingTable,GPT-4o,True,True,True,1.000000,5,0.023817
+neo4j-java-driver,68,RoutingTableHandlerTest#shouldRetainAllFetchedAddressesInConnectionPoolAfterFetchingOfRoutingTable,Gemini Flash-2.5,True,True,True,0.984386,5,0.004600
+neo4j-java-driver,69,RoutingTableHandlerTest#acquireShouldUpdateRoutingTableWhenKnownRoutingTableIsStale,Claude Sonnet-4,True,True,True,1.000000,5,0.052896
+neo4j-java-driver,69,RoutingTableHandlerTest#acquireShouldUpdateRoutingTableWhenKnownRoutingTableIsStale,GPT-4o,True,False,False,0.972285,5,0.018013
+neo4j-java-driver,69,RoutingTableHandlerTest#acquireShouldUpdateRoutingTableWhenKnownRoutingTableIsStale,Gemini Flash-2.5,True,False,False,0.966377,4,0.025654
+neo4j-java-driver,70,DefaultBookmarkHolderTest#bookmarkCanBeSet,Claude Sonnet-4,True,True,True,1.000000,5,0.096300
+neo4j-java-driver,70,DefaultBookmarkHolderTest#bookmarkCanBeSet,GPT-4o,True,True,True,1.000000,5,0.025927
+neo4j-java-driver,70,DefaultBookmarkHolderTest#bookmarkCanBeSet,Gemini Flash-2.5,True,True,True,1.000000,5,0.004038
+neo4j-java-driver,71,DefaultBookmarkHolderTest#shouldNotOverwriteBookmarkWithEmptyBookmark,Claude Sonnet-4,True,True,True,1.000000,5,0.096087
+neo4j-java-driver,71,DefaultBookmarkHolderTest#shouldNotOverwriteBookmarkWithEmptyBookmark,GPT-4o,True,True,True,1.000000,5,0.048942
+neo4j-java-driver,71,DefaultBookmarkHolderTest#shouldNotOverwriteBookmarkWithEmptyBookmark,Gemini Flash-2.5,True,True,True,1.000000,5,0.004781
+neo4j-java-driver,72,DefaultBookmarkHolderTest#shouldNotOverwriteBookmarkWithNull,Claude Sonnet-4,True,True,True,1.000000,5,0.095969
+neo4j-java-driver,72,DefaultBookmarkHolderTest#shouldNotOverwriteBookmarkWithNull,GPT-4o,True,True,True,1.000000,5,0.031084
+neo4j-java-driver,72,DefaultBookmarkHolderTest#shouldNotOverwriteBookmarkWithNull,Gemini Flash-2.5,True,True,True,1.000000,5,0.005530
+neo4j-java-driver,73,BoltProtocolV1Test#shouldBeginTransactionWithBookmarks,Claude Sonnet-4,True,True,True,1.000000,5,0.149409
+neo4j-java-driver,73,BoltProtocolV1Test#shouldBeginTransactionWithBookmarks,GPT-4o,True,False,True,0.840828,3,0.073031
+neo4j-java-driver,73,BoltProtocolV1Test#shouldBeginTransactionWithBookmarks,Gemini Flash-2.5,True,True,True,1.000000,5,0.007852
+neo4j-java-driver,74,BoltProtocolV1Test#shouldCommitTransaction,Claude Sonnet-4,True,True,True,1.000000,5,0.148515
+neo4j-java-driver,74,BoltProtocolV1Test#shouldCommitTransaction,GPT-4o,True,False,False,0.961515,5,0.060942
+neo4j-java-driver,74,BoltProtocolV1Test#shouldCommitTransaction,Gemini Flash-2.5,True,True,True,1.000000,4,0.008315
+neo4j-java-driver,75,NetworkSessionTest#shouldBeginTxAfterBeginTxFailureOnBookmark,Claude Sonnet-4,True,True,True,1.000000,3,0.143114
+neo4j-java-driver,75,NetworkSessionTest#shouldBeginTxAfterBeginTxFailureOnBookmark,GPT-4o,True,True,True,1.000000,5,0.032189
+neo4j-java-driver,75,NetworkSessionTest#shouldBeginTxAfterBeginTxFailureOnBookmark,Gemini Flash-2.5,True,True,True,1.000000,5,0.011953
+neo4j-java-driver,76,NetworkSessionTest#shouldHaveEmptyLastBookmarkInitially,Claude Sonnet-4,True,False,False,0.359728,5,0.154399
+neo4j-java-driver,76,NetworkSessionTest#shouldHaveEmptyLastBookmarkInitially,GPT-4o,True,False,False,0.659924,5,0.036929
+neo4j-java-driver,76,NetworkSessionTest#shouldHaveEmptyLastBookmarkInitially,Gemini Flash-2.5,True,False,False,0.659924,3,0.060571
+neo4j-java-driver,77,NetworkSessionTest#bookmarkIsPropagatedFromSession,Claude Sonnet-4,True,True,True,1.000000,5,0.172574
+neo4j-java-driver,77,NetworkSessionTest#bookmarkIsPropagatedFromSession,GPT-4o,True,True,True,1.000000,5,0.031185
+neo4j-java-driver,77,NetworkSessionTest#bookmarkIsPropagatedFromSession,Gemini Flash-2.5,True,True,True,1.000000,5,0.007543
+neo4j-java-driver,78,NetworkSessionTest#bookmarkIsPropagatedBetweenTransactions,Claude Sonnet-4,True,True,True,1.000000,5,0.130251
+neo4j-java-driver,78,NetworkSessionTest#bookmarkIsPropagatedBetweenTransactions,GPT-4o,True,False,True,0.818265,5,0.037780
+neo4j-java-driver,78,NetworkSessionTest#bookmarkIsPropagatedBetweenTransactions,Gemini Flash-2.5,True,True,True,1.000000,5,0.023958
+neo4j-java-driver,79,NetworkSessionTest#shouldRunAfterBeginTxFailureOnBookmark,Claude Sonnet-4,True,True,True,1.000000,5,0.139949
+neo4j-java-driver,79,NetworkSessionTest#shouldRunAfterBeginTxFailureOnBookmark,GPT-4o,True,True,True,1.000000,4,0.037919
+neo4j-java-driver,79,NetworkSessionTest#shouldRunAfterBeginTxFailureOnBookmark,Gemini Flash-2.5,True,True,True,1.000000,3,0.024699
+neo4j-java-driver,80,NetworkSessionTest#updatesBookmarkWhenTxIsClosed,Claude Sonnet-4,True,False,False,0.906932,5,0.161553
+neo4j-java-driver,80,NetworkSessionTest#updatesBookmarkWhenTxIsClosed,GPT-4o,True,False,False,0.906932,5,0.037755
+neo4j-java-driver,80,NetworkSessionTest#updatesBookmarkWhenTxIsClosed,Gemini Flash-2.5,True,False,False,0.906932,5,0.022573
+neo4j-java-driver,81,MetadataExtractorTest#shouldBuildResultSummaryWithProfiledPlan,Claude Sonnet-4,False,False,False,0.989012,0,0.076559
+neo4j-java-driver,81,MetadataExtractorTest#shouldBuildResultSummaryWithProfiledPlan,GPT-4o,True,False,False,0.989012,5,0.017723
+neo4j-java-driver,81,MetadataExtractorTest#shouldBuildResultSummaryWithProfiledPlan,Gemini Flash-2.5,True,False,False,1.000000,3,0.026185
+neo4j-java-driver,82,InternalRxStatementResultTest#shouldObtainKeys,Claude Sonnet-4,True,False,True,0.822081,5,0.060003
+neo4j-java-driver,82,InternalRxStatementResultTest#shouldObtainKeys,GPT-4o,True,False,True,0.854163,5,0.016447
+neo4j-java-driver,82,InternalRxStatementResultTest#shouldObtainKeys,Gemini Flash-2.5,True,False,True,0.854163,5,0.003178
+neo4j-java-driver,83,InternalRxStatementResultTest#shouldCancelKeys,Claude Sonnet-4,True,False,True,0.749349,5,0.099191
+neo4j-java-driver,83,InternalRxStatementResultTest#shouldCancelKeys,GPT-4o,True,True,True,1.000000,5,0.031378
+neo4j-java-driver,83,InternalRxStatementResultTest#shouldCancelKeys,Gemini Flash-2.5,True,True,True,1.000000,5,0.004032
+neo4j-java-driver,84,AsyncStatementResultCursorImplTest#shouldReturnSummary,Claude Sonnet-4,True,True,True,1.000000,5,0.068372
+neo4j-java-driver,84,AsyncStatementResultCursorImplTest#shouldReturnSummary,GPT-4o,True,True,True,1.000000,5,0.024168
+neo4j-java-driver,84,AsyncStatementResultCursorImplTest#shouldReturnSummary,Gemini Flash-2.5,True,True,True,1.000000,5,0.004857
+neo4j-java-driver,85,ConfigTest#shouldHaveDefaultConnectionTimeout,Claude Sonnet-4,True,True,True,1.000000,5,0.041023
+neo4j-java-driver,85,ConfigTest#shouldHaveDefaultConnectionTimeout,GPT-4o,True,True,True,1.000000,5,0.016802
+neo4j-java-driver,85,ConfigTest#shouldHaveDefaultConnectionTimeout,Gemini Flash-2.5,True,True,True,1.000000,5,0.002492
+neo4j-java-driver,86,NetworkSessionTest#releasesOpenConnectionUsedForRunWhenSessionIsClosed,Claude Sonnet-4,True,True,True,1.000000,5,0.128208
+neo4j-java-driver,86,NetworkSessionTest#releasesOpenConnectionUsedForRunWhenSessionIsClosed,GPT-4o,True,True,True,1.000000,5,0.079248
+neo4j-java-driver,86,NetworkSessionTest#releasesOpenConnectionUsedForRunWhenSessionIsClosed,Gemini Flash-2.5,True,True,True,1.000000,4,0.064378
+neo4j-java-driver,87,AsyncStatementResultCursorImplTest#shouldReturnFailureWhenExists,Claude Sonnet-4,True,True,True,1.000000,5,0.142209
+neo4j-java-driver,87,AsyncStatementResultCursorImplTest#shouldReturnFailureWhenExists,GPT-4o,True,True,True,1.000000,4,0.038894
+neo4j-java-driver,87,AsyncStatementResultCursorImplTest#shouldReturnFailureWhenExists,Gemini Flash-2.5,True,True,True,1.000000,4,0.031330
+neo4j-java-driver,88,AsyncStatementResultCursorImplTest#shouldReturnNullFailureWhenDoesNotExist,Claude Sonnet-4,True,True,True,1.000000,5,0.150467
+neo4j-java-driver,88,AsyncStatementResultCursorImplTest#shouldReturnNullFailureWhenDoesNotExist,GPT-4o,True,True,True,1.000000,4,0.024455
+neo4j-java-driver,88,AsyncStatementResultCursorImplTest#shouldReturnNullFailureWhenDoesNotExist,Gemini Flash-2.5,True,True,True,1.000000,5,0.020082
+neo4j-java-driver,89,AsyncStatementResultCursorTest#shouldReturnFailureWhenExists,Claude Sonnet-4,True,True,True,1.000000,5,0.188233
+neo4j-java-driver,89,AsyncStatementResultCursorTest#shouldReturnFailureWhenExists,GPT-4o,True,True,True,0.905851,3,0.184115
+neo4j-java-driver,89,AsyncStatementResultCursorTest#shouldReturnFailureWhenExists,Gemini Flash-2.5,True,True,True,1.000000,5,0.022876
+neo4j-java-driver,90,AsyncStatementResultCursorTest#shouldConsumeAsync,Claude Sonnet-4,True,True,True,1.000000,5,0.174071
+neo4j-java-driver,90,AsyncStatementResultCursorTest#shouldConsumeAsync,GPT-4o,True,True,True,1.000000,4,0.044252
+neo4j-java-driver,90,AsyncStatementResultCursorTest#shouldConsumeAsync,Gemini Flash-2.5,True,True,True,1.000000,5,0.012259
+neo4j-java-driver,91,AsyncStatementResultCursorTest#shouldPropagateFailureInConsumeAsync,Claude Sonnet-4,True,True,True,1.000000,5,0.180356
+neo4j-java-driver,91,AsyncStatementResultCursorTest#shouldPropagateFailureInConsumeAsync,GPT-4o,True,True,True,1.000000,5,0.053905
+neo4j-java-driver,91,AsyncStatementResultCursorTest#shouldPropagateFailureInConsumeAsync,Gemini Flash-2.5,True,True,True,1.000000,3,0.013031
+neo4j-java-driver,92,AsyncStatementResultCursorTest#shouldReturnNullFailureWhenDoesNotExist,Claude Sonnet-4,True,False,True,0.785326,5,0.174018
+neo4j-java-driver,92,AsyncStatementResultCursorTest#shouldReturnNullFailureWhenDoesNotExist,GPT-4o,True,False,True,0.887065,4,0.104568
+neo4j-java-driver,92,AsyncStatementResultCursorTest#shouldReturnNullFailureWhenDoesNotExist,Gemini Flash-2.5,True,False,True,0.887065,4,0.023087
+neo4j-java-driver,93,RxStatementResultCursorTest#shouldCancel,Claude Sonnet-4,True,True,True,1.000000,5,0.137802
+neo4j-java-driver,93,RxStatementResultCursorTest#shouldCancel,GPT-4o,True,False,True,0.902158,5,0.042017
+neo4j-java-driver,93,RxStatementResultCursorTest#shouldCancel,Gemini Flash-2.5,True,True,True,1.000000,5,0.042813
+neo4j-java-driver,94,RxStatementResultCursorTest#shouldCancelIfNotPulled,Claude Sonnet-4,True,True,True,1.000000,5,0.124960
+neo4j-java-driver,94,RxStatementResultCursorTest#shouldCancelIfNotPulled,GPT-4o,True,True,True,1.000000,5,0.081917
+neo4j-java-driver,94,RxStatementResultCursorTest#shouldCancelIfNotPulled,Gemini Flash-2.5,True,False,True,0.925752,3,0.008677
+neo4j-java-driver,95,RxStatementResultCursorTest#shouldReturnSummaryFuture,Claude Sonnet-4,True,True,True,1.000000,5,0.139351
+neo4j-java-driver,95,RxStatementResultCursorTest#shouldReturnSummaryFuture,GPT-4o,True,False,True,0.959817,5,0.059403
+neo4j-java-driver,95,RxStatementResultCursorTest#shouldReturnSummaryFuture,Gemini Flash-2.5,True,False,True,0.959817,1,0.008473
+neo4j-java-driver,96,RxStatementResultCursorTest#shouldWaitForRunToFinishBeforeCreatingRxResultCurosr,Claude Sonnet-4,True,True,True,1.000000,5,0.152859
+neo4j-java-driver,96,RxStatementResultCursorTest#shouldWaitForRunToFinishBeforeCreatingRxResultCurosr,GPT-4o,True,True,True,1.000000,5,0.051126
+neo4j-java-driver,96,RxStatementResultCursorTest#shouldWaitForRunToFinishBeforeCreatingRxResultCurosr,Gemini Flash-2.5,True,True,True,1.000000,3,0.009011
+neo4j-java-driver,97,RxStatementResultCursorTest#shouldInstallRecordConsumerAndReportError,Claude Sonnet-4,True,True,True,1.000000,5,0.139544
+neo4j-java-driver,97,RxStatementResultCursorTest#shouldInstallRecordConsumerAndReportError,GPT-4o,True,False,True,0.974664,5,0.061594
+neo4j-java-driver,97,RxStatementResultCursorTest#shouldInstallRecordConsumerAndReportError,Gemini Flash-2.5,True,False,True,1.000000,3,0.012999
+neo4j-java-driver,98,RxStatementResultCursorTest#shouldReturnStatementKeys,Claude Sonnet-4,True,True,True,1.000000,5,0.142788
+neo4j-java-driver,98,RxStatementResultCursorTest#shouldReturnStatementKeys,GPT-4o,True,True,True,1.000000,5,0.072244
+neo4j-java-driver,98,RxStatementResultCursorTest#shouldReturnStatementKeys,Gemini Flash-2.5,True,True,True,1.000000,5,0.012838
+neo4j-java-driver,99,RxStatementResultCursorTest#shouldPull,Claude Sonnet-4,True,True,True,1.000000,5,0.124763
+neo4j-java-driver,99,RxStatementResultCursorTest#shouldPull,GPT-4o,True,True,True,1.000000,4,0.043944
+neo4j-java-driver,99,RxStatementResultCursorTest#shouldPull,Gemini Flash-2.5,True,True,True,1.000000,5,0.010052
+neo4j-java-driver,100,RxStatementResultCursorTest#shouldInstallSummaryConsumerWithoutReportingError,Claude Sonnet-4,True,True,True,1.000000,5,0.000000
+neo4j-java-driver,100,RxStatementResultCursorTest#shouldInstallSummaryConsumerWithoutReportingError,GPT-4o,True,True,True,1.000000,5,0.000000
+neo4j-java-driver,100,RxStatementResultCursorTest#shouldInstallSummaryConsumerWithoutReportingError,Gemini Flash-2.5,True,True,True,1.000000,5,0.000000
+xwiki-commons,0,SystemHTTPProxyTest#testProxy,Claude Sonnet-4,True,False,True,0.872519,4,0.160871
+xwiki-commons,0,SystemHTTPProxyTest#testProxy,GPT-4o,True,False,False,0.795687,4,0.050374
+xwiki-commons,0,SystemHTTPProxyTest#testProxy,Gemini Flash-2.5,True,False,False,0.837812,3,0.015775
+xwiki-commons,1,XWikiExtensionRepositoryTest#resolveVersions,Claude Sonnet-4,True,False,True,0.929106,5,0.061835
+xwiki-commons,1,XWikiExtensionRepositoryTest#resolveVersions,GPT-4o,True,False,True,0.963308,3,0.009294
+xwiki-commons,1,XWikiExtensionRepositoryTest#resolveVersions,Gemini Flash-2.5,True,False,True,0.925441,5,0.008873
+xwiki-commons,3,DefaultComponentDescriptorTest#testToString,Claude Sonnet-4,True,True,True,1.000000,5,0.054106
+xwiki-commons,3,DefaultComponentDescriptorTest#testToString,GPT-4o,True,True,True,1.000000,5,0.020233
+xwiki-commons,3,DefaultComponentDescriptorTest#testToString,Gemini Flash-2.5,True,True,True,1.000000,4,0.004944
+xwiki-commons,4,FormatMojoTest#defaultLanguageForMatchingContentPage,Claude Sonnet-4,True,True,True,1.000000,5,0.137691
+xwiki-commons,4,FormatMojoTest#defaultLanguageForMatchingContentPage,GPT-4o,True,True,True,1.000000,5,0.030866
+xwiki-commons,4,FormatMojoTest#defaultLanguageForMatchingContentPage,Gemini Flash-2.5,True,True,True,1.000000,4,0.017342
+xwiki-commons,5,FormatMojoTest#defaultLanguageForNonMatchingContentPage,Claude Sonnet-4,True,True,True,1.000000,5,0.169644
+xwiki-commons,5,FormatMojoTest#defaultLanguageForNonMatchingContentPage,GPT-4o,True,True,True,1.000000,5,0.030718
+xwiki-commons,5,FormatMojoTest#defaultLanguageForNonMatchingContentPage,Gemini Flash-2.5,True,True,True,1.000000,2,0.005426
+xwiki-commons,7,RestrictParseLocationEventHandlerTest#includeEventWhenAllowedPath,Claude Sonnet-4,True,True,True,1.000000,5,0.097367
+xwiki-commons,7,RestrictParseLocationEventHandlerTest#includeEventWhenAllowedPath,GPT-4o,True,False,False,0.735146,5,0.038043
+xwiki-commons,7,RestrictParseLocationEventHandlerTest#includeEventWhenAllowedPath,Gemini Flash-2.5,True,True,True,1.000000,5,0.005598
+xwiki-commons,8,UnstableAnnotationCheckTest#checkPackageWithOtherAnnotation,Claude Sonnet-4,True,True,True,1.000000,5,0.105403
+xwiki-commons,8,UnstableAnnotationCheckTest#checkPackageWithOtherAnnotation,GPT-4o,True,False,True,0.809652,5,0.013947
+xwiki-commons,8,UnstableAnnotationCheckTest#checkPackageWithOtherAnnotation,Gemini Flash-2.5,True,False,True,0.795055,5,0.007961
+xwiki-commons,9,UnstableAnnotationCheckTest#checkWithUnstableOkAtClassLevel,Claude Sonnet-4,True,True,True,1.000000,5,0.120256
+xwiki-commons,9,UnstableAnnotationCheckTest#checkWithUnstableOkAtClassLevel,GPT-4o,True,False,True,0.795055,5,0.014374
+xwiki-commons,9,UnstableAnnotationCheckTest#checkWithUnstableOkAtClassLevel,Gemini Flash-2.5,True,False,True,0.809652,4,0.002951
+xwiki-commons,10,UnstableAnnotationCheckTest#checkWithUnstableOkAtMethodLevel,Claude Sonnet-4,True,False,True,0.809652,5,0.133389
+xwiki-commons,10,UnstableAnnotationCheckTest#checkWithUnstableOkAtMethodLevel,GPT-4o,True,False,True,0.892985,4,0.017660
+xwiki-commons,10,UnstableAnnotationCheckTest#checkWithUnstableOkAtMethodLevel,Gemini Flash-2.5,True,False,True,0.795055,5,0.005290
+xwiki-commons,11,UnstableAnnotationCheckTest#checkWithUnstableAnnotationShouldNotBeRemovedMultipleSince,Claude Sonnet-4,True,True,True,1.000000,5,0.133942
+xwiki-commons,11,UnstableAnnotationCheckTest#checkWithUnstableAnnotationShouldNotBeRemovedMultipleSince,GPT-4o,True,False,True,0.809652,5,0.015370
+xwiki-commons,11,UnstableAnnotationCheckTest#checkWithUnstableAnnotationShouldNotBeRemovedMultipleSince,Gemini Flash-2.5,True,False,True,0.795055,5,0.007299
+xwiki-commons,12,UnstableAnnotationCheckTest#checkPackageWithUnstable,Claude Sonnet-4,True,True,True,1.000000,5,0.103012
+xwiki-commons,12,UnstableAnnotationCheckTest#checkPackageWithUnstable,GPT-4o,True,False,True,0.795055,5,0.012941
+xwiki-commons,12,UnstableAnnotationCheckTest#checkPackageWithUnstable,Gemini Flash-2.5,True,False,True,0.809652,5,0.002656
+xwiki-commons,13,XWikiToStringBuilderTest#toStringBuilder,Claude Sonnet-4,True,True,True,1.000000,5,0.034775
+xwiki-commons,13,XWikiToStringBuilderTest#toStringBuilder,GPT-4o,True,False,True,0.856037,5,0.007193
+xwiki-commons,13,XWikiToStringBuilderTest#toStringBuilder,Gemini Flash-2.5,True,False,True,0.856037,4,0.001787
+xwiki-commons,14,UnstableAnnotationCheckTest#checkWithUnstableAnnotationAndWrongSinceFormat,Claude Sonnet-4,True,True,True,1.000000,5,0.043641
+xwiki-commons,14,UnstableAnnotationCheckTest#checkWithUnstableAnnotationAndWrongSinceFormat,GPT-4o,True,True,True,1.000000,5,0.009443
+xwiki-commons,14,UnstableAnnotationCheckTest#checkWithUnstableAnnotationAndWrongSinceFormat,Gemini Flash-2.5,True,False,True,0.707490,3,0.002954
+xwiki-commons,15,ExtensionConverterTest#testConvertFromExtensionAllowedOnRoot,Claude Sonnet-4,True,True,True,1.000000,5,0.056835
+xwiki-commons,15,ExtensionConverterTest#testConvertFromExtensionAllowedOnRoot,GPT-4o,True,True,True,1.000000,5,0.015533
+xwiki-commons,15,ExtensionConverterTest#testConvertFromExtensionAllowedOnRoot,Gemini Flash-2.5,True,True,True,1.000000,5,0.003324
+xwiki-commons,16,XMLFilterTest#testFromSAX,Claude Sonnet-4,True,True,True,1.000000,3,0.528467
+xwiki-commons,16,XMLFilterTest#testFromSAX,GPT-4o,True,True,True,1.000000,5,0.012519
+xwiki-commons,16,XMLFilterTest#testFromSAX,Gemini Flash-2.5,True,True,True,1.000000,4,0.008846
+xwiki-commons,17,XMLFilterTest#testContainerWithNamedParameters,Claude Sonnet-4,True,True,True,1.000000,3,0.509300
+xwiki-commons,17,XMLFilterTest#testContainerWithNamedParameters,GPT-4o,True,True,True,1.000000,5,0.012715
+xwiki-commons,17,XMLFilterTest#testContainerWithNamedParameters,Gemini Flash-2.5,True,True,True,1.000000,5,0.007003
+xwiki-commons,18,XMLFilterTest#testContainerWithParameters,Claude Sonnet-4,True,True,True,1.000000,3,0.652979
+xwiki-commons,18,XMLFilterTest#testContainerWithParameters,GPT-4o,True,True,True,1.000000,5,0.012876
+xwiki-commons,18,XMLFilterTest#testContainerWithParameters,Gemini Flash-2.5,True,True,True,1.000000,5,0.003160
+xwiki-commons,20,UpgradePlanJobTest#testUpgradePlanWithDependencyOnRoot,Claude Sonnet-4,True,True,True,1.000000,5,0.038759
+xwiki-commons,20,UpgradePlanJobTest#testUpgradePlanWithDependencyOnRoot,GPT-4o,True,True,True,1.000000,5,0.013287
+xwiki-commons,20,UpgradePlanJobTest#testUpgradePlanWithDependencyOnRoot,Gemini Flash-2.5,True,True,True,1.000000,5,0.002877
+xwiki-commons,21,DefaultCoreExtensionRepositoryTest#testSearchWithSeveralFeatures,Claude Sonnet-4,True,False,True,0.842988,5,0.405378
+xwiki-commons,21,DefaultCoreExtensionRepositoryTest#testSearchWithSeveralFeatures,GPT-4o,True,False,True,0.842988,5,0.210469
+xwiki-commons,21,DefaultCoreExtensionRepositoryTest#testSearchWithSeveralFeatures,Gemini Flash-2.5,True,True,True,1.000000,4,0.012975
+xwiki-commons,22,DefaultJobStatusStorageTest#testStoreJobStatus,Claude Sonnet-4,True,True,True,1.000000,5,0.044782
+xwiki-commons,22,DefaultJobStatusStorageTest#testStoreJobStatus,GPT-4o,True,True,True,1.000000,5,0.015007
+xwiki-commons,22,DefaultJobStatusStorageTest#testStoreJobStatus,Gemini Flash-2.5,True,True,True,1.000000,5,0.002381
+xwiki-commons,23,JobStatusSerializerTest#testLogWithComponentField,Claude Sonnet-4,True,True,True,1.000000,5,0.062690
+xwiki-commons,23,JobStatusSerializerTest#testLogWithComponentField,GPT-4o,True,True,True,1.000000,5,0.020898
+xwiki-commons,23,JobStatusSerializerTest#testLogWithComponentField,Gemini Flash-2.5,True,True,True,1.000000,5,0.013429
+xwiki-commons,24,JobStatusSerializerTest#testLog,Claude Sonnet-4,True,True,True,1.000000,5,0.055509
+xwiki-commons,24,JobStatusSerializerTest#testLog,GPT-4o,True,True,True,1.000000,5,0.020165
+xwiki-commons,24,JobStatusSerializerTest#testLog,Gemini Flash-2.5,True,True,True,1.000000,5,0.011474
+xwiki-commons,25,JobStatusSerializerTest#testLogWithSerializableProviderField,Claude Sonnet-4,True,True,True,1.000000,5,0.069821
+xwiki-commons,25,JobStatusSerializerTest#testLogWithSerializableProviderField,GPT-4o,True,True,True,1.000000,5,0.020925
+xwiki-commons,25,JobStatusSerializerTest#testLogWithSerializableProviderField,Gemini Flash-2.5,True,True,True,1.000000,5,0.003624
+xwiki-commons,26,JobStatusSerializerTest#testLogWithProviderField,Claude Sonnet-4,True,True,True,1.000000,5,0.066922
+xwiki-commons,26,JobStatusSerializerTest#testLogWithProviderField,GPT-4o,True,True,True,1.000000,5,0.023189
+xwiki-commons,26,JobStatusSerializerTest#testLogWithProviderField,Gemini Flash-2.5,True,True,True,1.000000,5,0.004208
+xwiki-commons,27,JobStatusSerializerTest#testLogWithCustomObjectArgument,Claude Sonnet-4,True,True,True,1.000000,5,0.063848
+xwiki-commons,27,JobStatusSerializerTest#testLogWithCustomObjectArgument,GPT-4o,True,True,True,1.000000,5,0.027102
+xwiki-commons,27,JobStatusSerializerTest#testLogWithCustomObjectArgument,Gemini Flash-2.5,True,True,True,1.000000,5,0.003818
+xwiki-commons,28,JobStatusSerializerTest#testLogWithStandaloneComponentArgument,Claude Sonnet-4,True,True,True,1.000000,5,0.061431
+xwiki-commons,28,JobStatusSerializerTest#testLogWithStandaloneComponentArgument,GPT-4o,True,True,True,1.000000,5,0.024315
+xwiki-commons,28,JobStatusSerializerTest#testLogWithStandaloneComponentArgument,Gemini Flash-2.5,True,True,True,1.000000,5,0.004249
+xwiki-commons,29,JobStatusSerializerTest#testLogWithComponentManagerField,Claude Sonnet-4,True,True,True,1.000000,5,0.066200
+xwiki-commons,29,JobStatusSerializerTest#testLogWithComponentManagerField,GPT-4o,True,True,True,1.000000,5,0.022026
+xwiki-commons,29,JobStatusSerializerTest#testLogWithComponentManagerField,Gemini Flash-2.5,True,True,True,1.000000,5,0.004476
+xwiki-commons,30,JobStatusSerializerTest#testLogWithLoggerField,Claude Sonnet-4,True,True,True,1.000000,3,0.059372
+xwiki-commons,30,JobStatusSerializerTest#testLogWithLoggerField,GPT-4o,True,True,True,1.000000,5,0.022327
+xwiki-commons,30,JobStatusSerializerTest#testLogWithLoggerField,Gemini Flash-2.5,True,True,True,1.000000,5,0.004050
+xwiki-commons,31,JobStatusSerializerTest#testLogWithSerializableImplementationProviderField,Claude Sonnet-4,True,True,True,1.000000,4,0.068497
+xwiki-commons,31,JobStatusSerializerTest#testLogWithSerializableImplementationProviderField,GPT-4o,True,True,True,1.000000,5,0.021692
+xwiki-commons,31,JobStatusSerializerTest#testLogWithSerializableImplementationProviderField,Gemini Flash-2.5,True,True,True,1.000000,5,0.004190
+xwiki-commons,32,JobStatusSerializerTest#testLogWithStandaloneComponentField,Claude Sonnet-4,True,True,True,1.000000,4,0.074386
+xwiki-commons,32,JobStatusSerializerTest#testLogWithStandaloneComponentField,GPT-4o,True,True,True,1.000000,5,0.025238
+xwiki-commons,32,JobStatusSerializerTest#testLogWithStandaloneComponentField,Gemini Flash-2.5,True,True,True,1.000000,5,0.004075
+xwiki-commons,33,JobStatusSerializerTest#test,Claude Sonnet-4,True,True,True,1.000000,5,0.063180
+xwiki-commons,33,JobStatusSerializerTest#test,GPT-4o,True,True,True,1.000000,5,0.021903
+xwiki-commons,33,JobStatusSerializerTest#test,Gemini Flash-2.5,True,True,True,1.000000,5,0.004028
+xwiki-commons,34,JobStatusSerializerTest#testLogWithCrossReference,Claude Sonnet-4,True,True,True,1.000000,5,0.060377
+xwiki-commons,34,JobStatusSerializerTest#testLogWithCrossReference,GPT-4o,True,True,True,1.000000,5,0.022933
+xwiki-commons,34,JobStatusSerializerTest#testLogWithCrossReference,Gemini Flash-2.5,True,True,True,1.000000,4,0.004168
+xwiki-commons,35,JobStatusSerializerTest#testLogWithSerializableCustomObjectArgument,Claude Sonnet-4,True,True,True,1.000000,5,0.066797
+xwiki-commons,35,JobStatusSerializerTest#testLogWithSerializableCustomObjectArgument,GPT-4o,True,True,True,1.000000,5,0.022568
+xwiki-commons,35,JobStatusSerializerTest#testLogWithSerializableCustomObjectArgument,Gemini Flash-2.5,True,True,True,1.000000,5,0.003997
+xwiki-commons,36,JobStatusSerializerTest#testLogWithNotSerializableCustomObjectArgument,Claude Sonnet-4,True,True,True,1.000000,5,0.061259
+xwiki-commons,36,JobStatusSerializerTest#testLogWithNotSerializableCustomObjectArgument,GPT-4o,True,True,True,1.000000,5,0.019615
+xwiki-commons,36,JobStatusSerializerTest#testLogWithNotSerializableCustomObjectArgument,Gemini Flash-2.5,True,True,True,1.000000,5,0.004027
+xwiki-commons,37,JobStatusSerializerTest#testLogWithComponentArgument,Claude Sonnet-4,True,True,True,1.000000,5,0.063805
+xwiki-commons,37,JobStatusSerializerTest#testLogWithComponentArgument,GPT-4o,True,True,True,1.000000,5,0.024667
+xwiki-commons,37,JobStatusSerializerTest#testLogWithComponentArgument,Gemini Flash-2.5,True,True,True,1.000000,5,0.004112
+xwiki-commons,38,JobStatusSerializerTest#testLogWithException,Claude Sonnet-4,True,True,True,1.000000,5,0.056265
+xwiki-commons,38,JobStatusSerializerTest#testLogWithException,GPT-4o,True,True,True,1.000000,5,0.023079
+xwiki-commons,38,JobStatusSerializerTest#testLogWithException,Gemini Flash-2.5,True,True,True,1.000000,5,0.003635
+xwiki-commons,39,JobStatusSerializerTest#testLogWithSerializableStandaloneComponentArgument,Claude Sonnet-4,True,True,True,1.000000,5,0.059419
+xwiki-commons,39,JobStatusSerializerTest#testLogWithSerializableStandaloneComponentArgument,GPT-4o,True,True,True,1.000000,5,0.022227
+xwiki-commons,39,JobStatusSerializerTest#testLogWithSerializableStandaloneComponentArgument,Gemini Flash-2.5,True,True,True,1.000000,5,0.003582
+xwiki-commons,40,JobStatusSerializerTest#testLogWithArguments,Claude Sonnet-4,True,True,True,1.000000,3,0.062560
+xwiki-commons,40,JobStatusSerializerTest#testLogWithArguments,GPT-4o,True,True,True,1.000000,5,0.019066
+xwiki-commons,40,JobStatusSerializerTest#testLogWithArguments,Gemini Flash-2.5,True,True,True,1.000000,5,0.004920
+xwiki-commons,43,DefaultHTMLCleanerTest#elementExpansion,Claude Sonnet-4,False,False,False,0.692683,0,0.037209
+xwiki-commons,43,DefaultHTMLCleanerTest#elementExpansion,GPT-4o,True,True,True,1.000000,1,0.029235
+xwiki-commons,43,DefaultHTMLCleanerTest#elementExpansion,Gemini Flash-2.5,True,True,True,1.000000,3,0.009919
+xwiki-commons,44,DefaultHTMLCleanerTest#convertImageAlignment,Claude Sonnet-4,False,False,False,0.617830,0,0.021323
+xwiki-commons,44,DefaultHTMLCleanerTest#convertImageAlignment,GPT-4o,True,True,True,1.000000,1,0.061535
+xwiki-commons,44,DefaultHTMLCleanerTest#convertImageAlignment,Gemini Flash-2.5,True,True,True,1.000000,3,0.034534
+xwiki-commons,45,DefaultHTMLCleanerTest#specialCharacters,Claude Sonnet-4,False,False,False,1.000000,0,0.019676
+xwiki-commons,45,DefaultHTMLCleanerTest#specialCharacters,GPT-4o,True,True,True,1.000000,1,0.045448
+xwiki-commons,45,DefaultHTMLCleanerTest#specialCharacters,Gemini Flash-2.5,True,True,True,1.000000,4,0.024712
+xwiki-commons,46,DefaultHTMLCleanerTest#scriptAndCData,Claude Sonnet-4,False,False,False,0.979223,0,0.038209
+xwiki-commons,46,DefaultHTMLCleanerTest#scriptAndCData,GPT-4o,False,False,False,0.979223,0,0.056285
+xwiki-commons,46,DefaultHTMLCleanerTest#scriptAndCData,Gemini Flash-2.5,True,True,True,1.000000,2,0.009140
+xwiki-commons,47,DefaultHTMLCleanerTest#closeUnbalancedTags,Claude Sonnet-4,False,False,False,0.606932,0,0.025633
+xwiki-commons,47,DefaultHTMLCleanerTest#closeUnbalancedTags,GPT-4o,True,True,True,1.000000,2,0.054711
+xwiki-commons,47,DefaultHTMLCleanerTest#closeUnbalancedTags,Gemini Flash-2.5,True,True,True,1.000000,3,0.005919
+xwiki-commons,48,DefaultHTMLCleanerTest#convertImplicitParagraphs,Claude Sonnet-4,False,False,False,0.951700,0,0.023942
+xwiki-commons,48,DefaultHTMLCleanerTest#convertImplicitParagraphs,GPT-4o,True,True,True,1.000000,2,0.029654
+xwiki-commons,48,DefaultHTMLCleanerTest#convertImplicitParagraphs,Gemini Flash-2.5,True,True,True,1.000000,4,0.019080
+xwiki-commons,49,JMXVelocityEngineTest#testGetTemplates,Claude Sonnet-4,True,False,False,0.841798,5,0.048648
+xwiki-commons,49,JMXVelocityEngineTest#testGetTemplates,GPT-4o,True,False,False,0.895077,3,0.022270
+xwiki-commons,49,JMXVelocityEngineTest#testGetTemplates,Gemini Flash-2.5,True,False,False,0.888891,4,0.002305
+xwiki-commons,50,ObservationManagerTest#testRegisterSameListenerSeveralTimes,Claude Sonnet-4,True,True,True,1.000000,5,0.052341
+xwiki-commons,50,ObservationManagerTest#testRegisterSameListenerSeveralTimes,GPT-4o,True,True,True,1.000000,3,0.011936
+xwiki-commons,50,ObservationManagerTest#testRegisterSameListenerSeveralTimes,Gemini Flash-2.5,True,True,True,1.000000,4,0.016030
+xwiki-commons,51,BcRsaSsaPssSignerFactoryTest#testSha256SignatureVerification,Claude Sonnet-4,True,True,True,1.000000,5,0.047905
+xwiki-commons,51,BcRsaSsaPssSignerFactoryTest#testSha256SignatureVerification,GPT-4o,True,True,True,1.000000,4,0.020953
+xwiki-commons,51,BcRsaSsaPssSignerFactoryTest#testSha256SignatureVerification,Gemini Flash-2.5,True,True,True,1.000000,5,0.014148
+xwiki-commons,52,BcRsaSsaPssSignerFactoryTest#testEncodedDefaultSignatureVerification,Claude Sonnet-4,True,True,True,1.000000,5,0.061454
+xwiki-commons,52,BcRsaSsaPssSignerFactoryTest#testEncodedDefaultSignatureVerification,GPT-4o,True,True,True,1.000000,4,0.019254
+xwiki-commons,52,BcRsaSsaPssSignerFactoryTest#testEncodedDefaultSignatureVerification,Gemini Flash-2.5,True,True,True,1.000000,4,0.005583
+xwiki-commons,53,BcRsaSsaPssSignerFactoryTest#testEncodedSha224SignatureVerification,Claude Sonnet-4,True,True,True,1.000000,5,0.050942
+xwiki-commons,53,BcRsaSsaPssSignerFactoryTest#testEncodedSha224SignatureVerification,GPT-4o,True,True,True,1.000000,4,0.017856
+xwiki-commons,53,BcRsaSsaPssSignerFactoryTest#testEncodedSha224SignatureVerification,Gemini Flash-2.5,True,True,True,1.000000,4,0.005470
+xwiki-commons,54,BcRsaSsaPssSignerFactoryTest#testSha224SignatureVerification,Claude Sonnet-4,True,True,True,0.774051,5,0.047923
+xwiki-commons,54,BcRsaSsaPssSignerFactoryTest#testSha224SignatureVerification,GPT-4o,True,True,True,0.774051,5,0.018179
+xwiki-commons,54,BcRsaSsaPssSignerFactoryTest#testSha224SignatureVerification,Gemini Flash-2.5,True,True,True,0.774051,4,0.005859
+xwiki-commons,55,BcRsaSsaPssSignerFactoryTest#testSha384SignatureVerification,Claude Sonnet-4,True,True,True,0.774051,5,0.058278
+xwiki-commons,55,BcRsaSsaPssSignerFactoryTest#testSha384SignatureVerification,GPT-4o,True,True,True,0.774051,4,0.019128
+xwiki-commons,55,BcRsaSsaPssSignerFactoryTest#testSha384SignatureVerification,Gemini Flash-2.5,True,True,True,0.774051,5,0.005085
+xwiki-commons,56,BcRsaSsaPssSignerFactoryTest#testDefaultSignatureVerification,Claude Sonnet-4,True,True,True,1.000000,5,0.053710
+xwiki-commons,56,BcRsaSsaPssSignerFactoryTest#testDefaultSignatureVerification,GPT-4o,True,True,True,1.000000,3,0.018015
+xwiki-commons,56,BcRsaSsaPssSignerFactoryTest#testDefaultSignatureVerification,Gemini Flash-2.5,True,True,True,1.000000,4,0.004321
+xwiki-commons,57,BcRsaSsaPssSignerFactoryTest#testEncodedSha384SignatureVerification,Claude Sonnet-4,True,True,True,1.000000,5,0.050343
+xwiki-commons,57,BcRsaSsaPssSignerFactoryTest#testEncodedSha384SignatureVerification,GPT-4o,True,True,True,1.000000,4,0.018558
+xwiki-commons,57,BcRsaSsaPssSignerFactoryTest#testEncodedSha384SignatureVerification,Gemini Flash-2.5,True,True,True,1.000000,4,0.013466
+xwiki-commons,58,BcRsaSsaPssSignerFactoryTest#testEncodedSha512SignatureVerification,Claude Sonnet-4,True,True,True,1.000000,5,0.056045
+xwiki-commons,58,BcRsaSsaPssSignerFactoryTest#testEncodedSha512SignatureVerification,GPT-4o,True,True,True,1.000000,2,0.017460
+xwiki-commons,58,BcRsaSsaPssSignerFactoryTest#testEncodedSha512SignatureVerification,Gemini Flash-2.5,True,False,True,0.941325,2,0.006015
+xwiki-commons,59,BcRsaSsaPssSignerFactoryTest#testEncodedSha256SignatureVerification,Claude Sonnet-4,True,True,True,1.000000,5,0.055726
+xwiki-commons,59,BcRsaSsaPssSignerFactoryTest#testEncodedSha256SignatureVerification,GPT-4o,True,True,True,1.000000,5,0.014803
+xwiki-commons,59,BcRsaSsaPssSignerFactoryTest#testEncodedSha256SignatureVerification,Gemini Flash-2.5,True,True,True,1.000000,4,0.009490
+xwiki-commons,60,BcRsaSsaPssSignerFactoryTest#testSha512SignatureVerification,Claude Sonnet-4,True,True,True,0.774051,5,0.049579
+xwiki-commons,60,BcRsaSsaPssSignerFactoryTest#testSha512SignatureVerification,GPT-4o,True,True,True,0.774051,5,0.022678
+xwiki-commons,60,BcRsaSsaPssSignerFactoryTest#testSha512SignatureVerification,Gemini Flash-2.5,True,True,True,0.774051,5,0.007230
+xwiki-commons,62,AetherDefaultRepositoryManagerTest#testDownload,Claude Sonnet-4,True,True,True,1.000000,5,0.143272
+xwiki-commons,62,AetherDefaultRepositoryManagerTest#testDownload,GPT-4o,True,False,False,0.799254,2,0.046442
+xwiki-commons,62,AetherDefaultRepositoryManagerTest#testDownload,Gemini Flash-2.5,True,True,True,1.000000,5,0.004626
+xwiki-commons,63,TranslationMarkerTest#add,Claude Sonnet-4,True,False,True,0.440233,5,0.036374
+xwiki-commons,63,TranslationMarkerTest#add,GPT-4o,True,False,True,0.465040,5,0.010013
+xwiki-commons,63,TranslationMarkerTest#add,Gemini Flash-2.5,True,False,True,0.459626,4,0.002847
+xwiki-commons,64,EscapeToolTest#testURL,Claude Sonnet-4,True,True,True,1.000000,5,0.050545
+xwiki-commons,64,EscapeToolTest#testURL,GPT-4o,True,True,True,1.000000,5,0.011393
+xwiki-commons,64,EscapeToolTest#testURL,Gemini Flash-2.5,True,True,True,1.000000,1,0.020498
+xwiki-commons,65,EscapeToolTest#testURLWithCollection,Claude Sonnet-4,True,True,True,1.000000,5,0.036782
+xwiki-commons,65,EscapeToolTest#testURLWithCollection,GPT-4o,True,True,True,1.000000,5,0.011870
+xwiki-commons,65,EscapeToolTest#testURLWithCollection,Gemini Flash-2.5,True,True,True,1.000000,5,0.009364
+xwiki-commons,66,EscapeToolTest#testURLWithArray,Claude Sonnet-4,True,True,True,1.000000,4,0.039148
+xwiki-commons,66,EscapeToolTest#testURLWithArray,GPT-4o,True,True,True,1.000000,5,0.013713
+xwiki-commons,66,EscapeToolTest#testURLWithArray,Gemini Flash-2.5,False,False,False,1.000000,0,0.022140
+xwiki-commons,67,UpgradePlanJobTest#testUpgradePlanOnRoot,Claude Sonnet-4,True,True,True,1.000000,5,0.055390
+xwiki-commons,67,UpgradePlanJobTest#testUpgradePlanOnRoot,GPT-4o,True,False,True,0.923848,5,0.008756
+xwiki-commons,67,UpgradePlanJobTest#testUpgradePlanOnRoot,Gemini Flash-2.5,True,False,True,0.923848,5,0.001566
+xwiki-commons,68,InstallPlanJobTest#testInstallPlanWithUnsupportedType,Claude Sonnet-4,True,False,True,0.614444,5,0.068295
+xwiki-commons,68,InstallPlanJobTest#testInstallPlanWithUnsupportedType,GPT-4o,True,False,True,0.614444,5,0.012087
+xwiki-commons,68,InstallPlanJobTest#testInstallPlanWithUnsupportedType,Gemini Flash-2.5,True,False,True,0.614444,5,0.003570
+xwiki-commons,69,InstallPlanJobTest#testInstallPlanWithFeatureAsCoreExtension,Claude Sonnet-4,True,False,True,0.768188,5,0.064101
+xwiki-commons,69,InstallPlanJobTest#testInstallPlanWithFeatureAsCoreExtension,GPT-4o,True,False,True,0.768188,5,0.010499
+xwiki-commons,69,InstallPlanJobTest#testInstallPlanWithFeatureAsCoreExtension,Gemini Flash-2.5,True,False,True,0.768188,5,0.003505
+xwiki-commons,70,InstallPlanJobTest#testInstallPlanWithFeatureAsCoreExtensionFeature,Claude Sonnet-4,True,False,True,0.811660,4,0.075813
+xwiki-commons,70,InstallPlanJobTest#testInstallPlanWithFeatureAsCoreExtensionFeature,GPT-4o,True,False,True,0.811660,4,0.015270
+xwiki-commons,70,InstallPlanJobTest#testInstallPlanWithFeatureAsCoreExtensionFeature,Gemini Flash-2.5,True,False,True,0.795647,5,0.003845
+xwiki-commons,71,InstallPlanJobTest#testInstallPlanWithCoreDependencyOnRoot,Claude Sonnet-4,True,False,True,0.847762,4,0.061176
+xwiki-commons,71,InstallPlanJobTest#testInstallPlanWithCoreDependencyOnRoot,GPT-4o,True,False,True,0.841740,5,0.015911
+xwiki-commons,71,InstallPlanJobTest#testInstallPlanWithCoreDependencyOnRoot,Gemini Flash-2.5,True,False,True,0.807956,5,0.004540
+xwiki-commons,72,InstallPlanJobTest#testInstallPlanWithInstalledDependencyOnRoot,Claude Sonnet-4,True,False,True,0.847762,4,0.065893
+xwiki-commons,72,InstallPlanJobTest#testInstallPlanWithInstalledDependencyOnRoot,GPT-4o,True,False,True,0.807956,5,0.014682
+xwiki-commons,72,InstallPlanJobTest#testInstallPlanWithInstalledDependencyOnRoot,Gemini Flash-2.5,True,False,True,0.807956,5,0.003333
+xwiki-commons,73,InstallPlanJobTest#testInstallPlanWithCoreExtensionFeature,Claude Sonnet-4,True,False,True,0.802465,4,0.077628
+xwiki-commons,73,InstallPlanJobTest#testInstallPlanWithCoreExtensionFeature,GPT-4o,True,False,True,0.802465,5,0.013266
+xwiki-commons,73,InstallPlanJobTest#testInstallPlanWithCoreExtensionFeature,Gemini Flash-2.5,True,False,True,0.802465,5,0.003934
+xwiki-commons,74,InstallPlanJobTest#testInstallPlanWithSimpleRemoteExtensionOnRoot,Claude Sonnet-4,True,False,True,0.817516,4,0.101587
+xwiki-commons,74,InstallPlanJobTest#testInstallPlanWithSimpleRemoteExtensionOnRoot,GPT-4o,True,False,True,0.821513,5,0.033527
+xwiki-commons,74,InstallPlanJobTest#testInstallPlanWithSimpleRemoteExtensionOnRoot,Gemini Flash-2.5,True,False,True,0.817516,5,0.004670
+xwiki-commons,75,InstallPlanJobTest#testInstallPlanWithRemoteDependencyOnRoot,Claude Sonnet-4,True,False,True,0.847482,3,0.057523
+xwiki-commons,75,InstallPlanJobTest#testInstallPlanWithRemoteDependencyOnRoot,GPT-4o,True,False,True,0.798398,5,0.016489
+xwiki-commons,75,InstallPlanJobTest#testInstallPlanWithRemoteDependencyOnRoot,Gemini Flash-2.5,True,False,True,0.798398,5,0.004311
+xwiki-commons,76,InstallPlanJobTest#testInstallPlanWithCoreExtension,Claude Sonnet-4,True,False,True,0.777476,5,0.063009
+xwiki-commons,76,InstallPlanJobTest#testInstallPlanWithCoreExtension,GPT-4o,True,False,True,0.794320,4,0.020562
+xwiki-commons,76,InstallPlanJobTest#testInstallPlanWithCoreExtension,Gemini Flash-2.5,True,False,True,0.777476,5,0.003904
+xwiki-commons,77,DefaultDiffManagerTest#testMergeCharOnConflicts,Claude Sonnet-4,True,True,True,1.000000,5,0.049725
+xwiki-commons,77,DefaultDiffManagerTest#testMergeCharOnConflicts,GPT-4o,True,True,True,1.000000,5,0.020210
+xwiki-commons,77,DefaultDiffManagerTest#testMergeCharOnConflicts,Gemini Flash-2.5,True,True,True,1.000000,5,0.002767
+xwiki-commons,78,ReflectionUtilsTest#testGetAllFields,Claude Sonnet-4,True,True,True,1.000000,5,0.049740
+xwiki-commons,78,ReflectionUtilsTest#testGetAllFields,GPT-4o,True,True,True,1.000000,5,0.017107
+xwiki-commons,78,ReflectionUtilsTest#testGetAllFields,Gemini Flash-2.5,True,True,True,1.000000,5,0.002406
+xwiki-commons,79,ExecutionContextPropertyTest#assertClonedFrom,Claude Sonnet-4,True,True,True,1.000000,5,0.033087
+xwiki-commons,79,ExecutionContextPropertyTest#assertClonedFrom,GPT-4o,True,True,True,1.000000,5,0.009549
+xwiki-commons,79,ExecutionContextPropertyTest#assertClonedFrom,Gemini Flash-2.5,True,True,True,1.000000,5,0.002205
+xwiki-commons,80,ExecutionContextPropertyTest#cloning,Claude Sonnet-4,True,True,True,1.000000,5,0.035365
+xwiki-commons,80,ExecutionContextPropertyTest#cloning,GPT-4o,True,True,True,1.000000,5,0.008883
+xwiki-commons,80,ExecutionContextPropertyTest#cloning,Gemini Flash-2.5,True,True,True,1.000000,5,0.002022
+xwiki-commons,81,ExecutionContextPropertyTest#defaultValues,Claude Sonnet-4,True,True,True,1.000000,5,0.030072
+xwiki-commons,81,ExecutionContextPropertyTest#defaultValues,GPT-4o,True,True,True,1.000000,5,0.010272
+xwiki-commons,81,ExecutionContextPropertyTest#defaultValues,Gemini Flash-2.5,True,True,True,1.000000,5,0.001829
+xwiki-commons,82,ExecutionContextTest#illegalInheritance,Claude Sonnet-4,True,True,True,1.000000,5,0.025674
+xwiki-commons,82,ExecutionContextTest#illegalInheritance,GPT-4o,True,True,True,1.000000,5,0.008041
+xwiki-commons,82,ExecutionContextTest#illegalInheritance,Gemini Flash-2.5,True,True,True,1.000000,5,0.001587
+xwiki-commons,83,ExecutionContextTest#inheritance,Claude Sonnet-4,True,True,True,1.000000,5,0.028273
+xwiki-commons,83,ExecutionContextTest#inheritance,GPT-4o,True,True,True,1.000000,5,0.006568
+xwiki-commons,83,ExecutionContextTest#inheritance,Gemini Flash-2.5,True,True,True,1.000000,5,0.002456
+xwiki-commons,84,DefaultExtensionManagerConfigurationTest#testGetRepositoriesWithInvalid,Claude Sonnet-4,True,True,True,0.914283,5,0.071869
+xwiki-commons,84,DefaultExtensionManagerConfigurationTest#testGetRepositoriesWithInvalid,GPT-4o,True,True,True,1.000000,3,0.049308
+xwiki-commons,84,DefaultExtensionManagerConfigurationTest#testGetRepositoriesWithInvalid,Gemini Flash-2.5,True,True,True,0.914283,5,0.003974
+xwiki-commons,85,ReflectionUtilsTest#testUnserializeListType,Claude Sonnet-4,True,True,True,1.000000,5,0.067723
+xwiki-commons,85,ReflectionUtilsTest#testUnserializeListType,GPT-4o,True,True,True,1.000000,1,0.018319
+xwiki-commons,85,ReflectionUtilsTest#testUnserializeListType,Gemini Flash-2.5,True,False,False,0.830930,4,0.014717
+xwiki-commons,86,ReflectionUtilsTest#testUnserializeMapType,Claude Sonnet-4,True,True,True,1.000000,5,0.065378
+xwiki-commons,86,ReflectionUtilsTest#testUnserializeMapType,GPT-4o,True,False,False,0.856754,1,0.019058
+xwiki-commons,86,ReflectionUtilsTest#testUnserializeMapType,Gemini Flash-2.5,True,False,False,0.856754,5,0.003374
+xwiki-commons,87,ReflectionUtilsTest#testUnserializeMapTypeWithGenerics,Claude Sonnet-4,True,True,True,1.000000,5,0.068970
+xwiki-commons,87,ReflectionUtilsTest#testUnserializeMapTypeWithGenerics,GPT-4o,True,False,False,0.878475,1,0.017734
+xwiki-commons,87,ReflectionUtilsTest#testUnserializeMapTypeWithGenerics,Gemini Flash-2.5,True,False,False,0.878475,5,0.002590
+xwiki-commons,88,ReflectionUtilsTest#testUnserializeType,Claude Sonnet-4,True,False,False,0.783944,5,0.063900
+xwiki-commons,88,ReflectionUtilsTest#testUnserializeType,GPT-4o,True,False,False,0.783944,1,0.018300
+xwiki-commons,88,ReflectionUtilsTest#testUnserializeType,Gemini Flash-2.5,True,True,True,1.000000,5,0.002682
+xwiki-commons,89,ReflectionUtilsTest#testUnserializeTypeWithGenerics,Claude Sonnet-4,True,True,True,1.000000,4,0.064245
+xwiki-commons,89,ReflectionUtilsTest#testUnserializeTypeWithGenerics,GPT-4o,True,True,True,1.000000,1,0.019688
+xwiki-commons,89,ReflectionUtilsTest#testUnserializeTypeWithGenerics,Gemini Flash-2.5,True,False,False,0.820578,4,0.001756
+xwiki-commons,90,ReflectionUtilsTest#testUnserializeMapInMapWithTypeWithGenerics,Claude Sonnet-4,True,True,True,1.000000,5,0.072087
+xwiki-commons,90,ReflectionUtilsTest#testUnserializeMapInMapWithTypeWithGenerics,GPT-4o,True,True,True,1.000000,1,0.018954
+xwiki-commons,90,ReflectionUtilsTest#testUnserializeMapInMapWithTypeWithGenerics,Gemini Flash-2.5,True,False,False,0.911611,4,0.005415
+xwiki-commons,91,ComponentAnnotationLoaderTest#testPriorities,Claude Sonnet-4,True,True,True,1.000000,5,0.302668
+xwiki-commons,91,ComponentAnnotationLoaderTest#testPriorities,GPT-4o,True,True,True,1.000000,1,0.037917
+xwiki-commons,91,ComponentAnnotationLoaderTest#testPriorities,Gemini Flash-2.5,True,True,True,1.000000,5,0.007101
+xwiki-commons,92,DefaultInstalledExtensionRepositoryTest#testInit,Claude Sonnet-4,True,False,False,0.500852,5,0.249792
+xwiki-commons,92,DefaultInstalledExtensionRepositoryTest#testInit,GPT-4o,True,False,False,0.500852,1,0.043005
+xwiki-commons,92,DefaultInstalledExtensionRepositoryTest#testInit,Gemini Flash-2.5,True,False,False,0.500852,4,0.012091
+xwiki-commons,93,ServletEnvironmentTest#testGetTemporaryDirectoryWhenNotSet,Claude Sonnet-4,True,False,True,0.940222,5,0.369790
+xwiki-commons,93,ServletEnvironmentTest#testGetTemporaryDirectoryWhenNotSet,GPT-4o,True,False,False,0.871594,1,0.051262
+xwiki-commons,93,ServletEnvironmentTest#testGetTemporaryDirectoryWhenNotSet,Gemini Flash-2.5,True,False,True,0.871594,4,0.009285
+xwiki-commons,94,ServletEnvironmentTest#testGetPermanentDirectoryWhenNotSet,Claude Sonnet-4,True,True,True,1.000000,5,0.161720
+xwiki-commons,94,ServletEnvironmentTest#testGetPermanentDirectoryWhenNotSet,GPT-4o,True,True,True,1.000000,1,0.027169
+xwiki-commons,94,ServletEnvironmentTest#testGetPermanentDirectoryWhenNotSet,Gemini Flash-2.5,True,True,True,1.000000,4,0.010422
+xwiki-commons,95,StandardEnvironmentTest#testGetTemporaryDirectoryWhenNotADirectory,Claude Sonnet-4,True,True,True,1.000000,5,0.333033
+xwiki-commons,95,StandardEnvironmentTest#testGetTemporaryDirectoryWhenNotADirectory,GPT-4o,True,True,True,1.000000,1,0.027039
+xwiki-commons,95,StandardEnvironmentTest#testGetTemporaryDirectoryWhenNotADirectory,Gemini Flash-2.5,True,True,True,1.000000,4,0.011619
+xwiki-commons,96,DefaultJobManagerTest#testGetJobStatusForUnexistingJob,Claude Sonnet-4,True,False,True,0.621636,5,0.286281
+xwiki-commons,96,DefaultJobManagerTest#testGetJobStatusForUnexistingJob,GPT-4o,True,False,True,0.945662,1,0.034554
+xwiki-commons,96,DefaultJobManagerTest#testGetJobStatusForUnexistingJob,Gemini Flash-2.5,True,True,True,1.000000,5,0.008445
+xwiki-commons,98,DefaultVelocityConfigurationTest#testDefaultPropertiesPresent,Claude Sonnet-4,True,False,False,0.720024,5,0.238053
+xwiki-commons,98,DefaultVelocityConfigurationTest#testDefaultPropertiesPresent,GPT-4o,True,False,False,0.736963,1,0.029889
+xwiki-commons,98,DefaultVelocityConfigurationTest#testDefaultPropertiesPresent,Gemini Flash-2.5,True,False,False,0.720024,5,0.005294
+xwiki-commons,99,SystemTest#testInitializeWithAllDirectoriesSet,Claude Sonnet-4,True,True,True,1.000000,5,0.206071
+xwiki-commons,99,SystemTest#testInitializeWithAllDirectoriesSet,GPT-4o,True,True,True,1.000000,1,0.016151
+xwiki-commons,99,SystemTest#testInitializeWithAllDirectoriesSet,Gemini Flash-2.5,True,True,True,1.000000,5,0.007001
+xwiki-commons,100,SystemTest#testInitializeWithNoParameter,Claude Sonnet-4,True,True,True,1.000000,5,0.000000
+xwiki-commons,100,SystemTest#testInitializeWithNoParameter,GPT-4o,True,True,True,1.000000,1,0.000000
+xwiki-commons,100,SystemTest#testInitializeWithNoParameter,Gemini Flash-2.5,True,True,True,1.000000,5,0.000000
