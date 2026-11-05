@@ -1,0 +1,671 @@
+visibility,subject,case_id,attempt,model,success,test_preserving,perfect_match,assertion_match,codebleu,cost_usd,final_state,final_state_detail,run_tests_calls,last_edit_untested,never_ran_tests,context_limit_stop,feedback_traceable,feedback_revising
+public,alluxio,alluxio-01,1,GPT-4o,True,True,False,True,0.983335,0.047298,,,1,False,False,False,True,False
+public,alluxio,alluxio-01,2,GPT-4o,True,True,False,True,0.889405,0.080875,,,3,False,False,False,True,False
+public,alluxio,alluxio-01,3,GPT-4o,True,True,False,True,0.910698,0.058163,,,2,False,False,False,True,False
+public,alluxio,alluxio-01,4,GPT-4o,True,True,False,True,0.908436,0.056722,,,2,False,False,False,True,False
+public,alluxio,alluxio-01,5,GPT-4o,True,True,False,True,0.871825,0.060468,,,2,False,False,False,True,False
+public,alluxio,alluxio-02,1,GPT-4o,False,False,False,False,0.572309,0.118450,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-02,2,GPT-4o,False,False,False,False,0.884657,0.128093,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,alluxio,alluxio-02,3,GPT-4o,False,False,False,False,0.845158,0.182242,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,alluxio,alluxio-02,4,GPT-4o,False,False,False,False,0.874294,0.167625,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-02,5,GPT-4o,False,False,False,False,0.345381,0.206125,license check fails,license,4,False,False,False,False,False
+public,alluxio,alluxio-03,1,GPT-4o,False,False,False,False,0.462968,0.561533,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-03,2,GPT-4o,False,False,False,False,0.290882,0.424930,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-03,3,GPT-4o,False,False,False,False,0.383197,0.394845,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-03,4,GPT-4o,False,False,False,False,0.510343,0.559382,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-03,5,GPT-4o,False,False,False,False,0.411167,0.403640,test does not compile,test_compile_error,1,False,False,False,False,False
+public,alluxio,alluxio-04,1,GPT-4o,True,True,False,False,0.698600,0.385778,,,2,False,False,False,True,True
+public,alluxio,alluxio-04,2,GPT-4o,False,False,False,False,0.685289,0.246778,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,alluxio,alluxio-04,3,GPT-4o,False,False,False,False,0.475881,0.276648,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,alluxio,alluxio-04,4,GPT-4o,True,False,False,False,0.482778,0.362120,,,3,False,False,False,True,True
+public,alluxio,alluxio-04,5,GPT-4o,False,False,False,False,0.262001,0.403130,license check fails,license,3,False,False,False,False,False
+public,alluxio,alluxio-05,1,GPT-4o,False,False,False,False,0.860749,0.218138,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-05,2,GPT-4o,True,False,False,False,0.321435,0.203985,,,2,False,False,False,True,True
+public,alluxio,alluxio-05,3,GPT-4o,False,False,False,False,0.383654,0.138408,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-05,4,GPT-4o,False,False,False,False,0.852764,0.274225,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-05,5,GPT-4o,False,False,False,False,0.852853,0.199710,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-06,1,GPT-4o,False,False,False,False,0.503524,0.265752,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-06,2,GPT-4o,False,False,False,False,0.342783,0.299175,test does not compile,test_compile_error,4,False,False,False,False,False
+public,alluxio,alluxio-06,3,GPT-4o,False,False,False,False,0.470255,0.203935,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-06,4,GPT-4o,False,False,False,False,0.457088,0.459677,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-06,5,GPT-4o,False,False,False,False,0.479928,0.205138,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-07,1,GPT-4o,False,False,False,False,0.108610,0.264555,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-07,2,GPT-4o,False,False,False,False,0.062894,0.326350,test does not compile,test_compile_error,4,False,False,False,False,False
+public,alluxio,alluxio-07,3,GPT-4o,False,False,False,False,0.137521,0.286333,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-07,4,GPT-4o,False,False,False,False,0.127133,0.967728,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-07,5,GPT-4o,False,False,False,False,0.999060,0.109868,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,alluxio,alluxio-08,1,GPT-4o,False,False,False,False,0.182989,0.168410,test does not compile,test_compile_error,4,False,False,False,False,False
+public,alluxio,alluxio-08,2,GPT-4o,False,False,False,False,0.670540,0.049373,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,alluxio,alluxio-08,3,GPT-4o,False,False,False,False,0.186838,0.182425,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,alluxio,alluxio-08,4,GPT-4o,True,False,False,False,0.188139,0.101265,,,2,False,False,False,True,False
+public,alluxio,alluxio-08,5,GPT-4o,False,False,False,False,0.153662,0.130965,license check fails,license,3,False,False,False,False,False
+public,alluxio,alluxio-09,1,GPT-4o,False,False,False,False,0.629944,0.114702,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,alluxio,alluxio-09,2,GPT-4o,False,False,False,False,0.212853,0.116907,test throws an exception,test_error_exception,2,False,False,False,False,False
+public,alluxio,alluxio-09,3,GPT-4o,False,False,False,False,0.157007,0.316460,test does not compile,test_compile_error,4,False,False,False,False,False
+public,alluxio,alluxio-09,4,GPT-4o,False,False,False,False,0.153939,0.298493,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-09,5,GPT-4o,False,False,False,False,0.221421,0.206047,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-10,1,GPT-4o,False,False,False,False,0.796489,0.087965,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-10,2,GPT-4o,False,False,False,False,0.663229,0.120605,license check fails,license,3,False,False,False,False,False
+public,alluxio,alluxio-10,3,GPT-4o,False,False,False,False,0.752512,0.197155,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-10,4,GPT-4o,False,False,False,False,0.880208,0.085007,test does not compile,test_compile_error,1,False,False,False,False,False
+public,alluxio,alluxio-10,5,GPT-4o,True,True,False,True,0.844269,0.082218,,,2,False,False,False,True,False
+public,alluxio,alluxio-11,1,GPT-4o,False,False,False,False,0.716397,0.466015,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,alluxio,alluxio-11,2,GPT-4o,False,False,False,False,0.553573,0.417755,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,alluxio,alluxio-11,3,GPT-4o,False,False,False,False,0.715536,0.251990,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,alluxio,alluxio-11,4,GPT-4o,False,False,False,False,0.779525,0.549968,test does not compile,test_compile_error,4,False,False,False,False,False
+public,alluxio,alluxio-11,5,GPT-4o,False,False,False,False,0.715677,0.351765,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,alluxio,alluxio-12,1,GPT-4o,False,False,False,False,0.589062,0.230080,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,alluxio,alluxio-12,2,GPT-4o,False,False,False,False,0.772028,0.149075,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,alluxio,alluxio-12,3,GPT-4o,False,False,False,False,0.722719,0.087385,license check fails,license,2,False,False,False,False,False
+public,alluxio,alluxio-12,4,GPT-4o,False,False,False,False,0.795737,0.147882,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,alluxio,alluxio-12,5,GPT-4o,False,False,False,False,0.673169,0.098005,license check fails,license,2,False,False,False,False,False
+public,alluxio,alluxio-13,1,GPT-4o,False,False,False,False,0.518014,0.269775,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-13,2,GPT-4o,False,False,False,False,0.327603,0.270315,test does not compile,test_compile_error,4,False,False,False,False,False
+public,alluxio,alluxio-13,3,GPT-4o,False,False,False,False,0.324039,0.165275,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-13,4,GPT-4o,False,False,False,False,0.471611,0.324370,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-13,5,GPT-4o,False,False,False,False,0.279157,0.189077,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-14,1,GPT-4o,False,False,False,False,0.860371,0.080538,test throws an exception,test_error_exception,1,False,False,False,False,False
+public,alluxio,alluxio-14,2,GPT-4o,False,False,False,False,0.290180,0.242128,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-14,3,GPT-4o,False,False,False,False,0.288030,0.301967,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-14,4,GPT-4o,False,False,False,False,0.291175,0.235270,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-14,5,GPT-4o,False,False,False,False,0.235609,0.172593,license check fails,license,2,False,False,False,False,False
+public,alluxio,alluxio-15,1,GPT-4o,False,False,False,False,0.148249,0.379588,test does not compile,test_compile_error,4,False,False,False,False,False
+public,alluxio,alluxio-15,2,GPT-4o,True,False,False,False,0.231954,0.738162,,,7,False,False,False,True,True
+public,alluxio,alluxio-15,3,GPT-4o,False,False,False,False,0.155844,0.699303,assertion still fails,assertion_failure,8,False,False,False,False,False
+public,alluxio,alluxio-15,4,GPT-4o,False,False,False,False,0.229017,0.464438,assertion still fails,assertion_failure,6,False,False,False,False,False
+public,alluxio,alluxio-15,5,GPT-4o,False,False,False,False,0.140839,0.167785,license check fails,license,3,False,False,False,False,False
+public,alluxio,alluxio-16,1,GPT-4o,False,False,False,False,0.590910,0.250487,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-16,2,GPT-4o,True,True,False,True,0.996039,0.093750,,,1,False,False,False,True,False
+public,alluxio,alluxio-16,3,GPT-4o,True,True,False,True,0.953019,0.083845,,,1,False,False,False,True,False
+public,alluxio,alluxio-16,4,GPT-4o,True,True,True,True,1.000000,0.080000,,,1,False,False,False,True,False
+public,alluxio,alluxio-16,5,GPT-4o,False,False,False,False,0.570690,0.134260,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-17,1,GPT-4o,True,True,False,True,0.923648,0.133903,,,1,False,False,False,True,False
+public,alluxio,alluxio-17,2,GPT-4o,True,True,False,True,0.988831,0.137757,,,1,False,False,False,True,False
+public,alluxio,alluxio-17,3,GPT-4o,True,True,True,True,1.000000,0.117127,,,1,False,False,False,True,False
+public,alluxio,alluxio-17,4,GPT-4o,True,True,False,True,0.958223,0.099953,,,1,False,False,False,True,False
+public,alluxio,alluxio-17,5,GPT-4o,True,True,False,True,0.920295,0.100048,,,1,False,False,False,True,False
+public,alluxio,alluxio-18,1,GPT-4o,False,False,False,False,0.139818,0.198385,test does not compile,test_compile_error,4,False,False,False,False,False
+public,alluxio,alluxio-18,2,GPT-4o,False,False,False,False,0.138204,0.160778,test does not compile,test_compile_error,4,False,False,False,False,False
+public,alluxio,alluxio-18,3,GPT-4o,False,False,False,False,0.113107,0.209035,test does not compile,test_compile_error,2,False,False,True,False,False
+public,alluxio,alluxio-18,4,GPT-4o,True,False,False,False,0.265867,0.115535,,,2,False,False,False,True,False
+public,alluxio,alluxio-18,5,GPT-4o,False,False,False,False,0.262272,0.197640,test throws an exception,test_error_exception,3,False,False,False,False,False
+public,alluxio,alluxio-19,1,GPT-4o,False,False,False,False,0.441280,0.222785,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,alluxio,alluxio-19,2,GPT-4o,False,False,False,False,0.454000,0.600302,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,alluxio,alluxio-19,3,GPT-4o,False,False,False,False,0.373026,0.272348,test does not compile,test_compile_error,4,False,False,False,False,False
+public,alluxio,alluxio-19,4,GPT-4o,False,False,False,False,0.327416,0.151972,test does not compile,test_compile_error,1,False,False,False,False,False
+public,alluxio,alluxio-19,5,GPT-4o,False,False,False,False,0.389653,0.395398,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,alluxio,alluxio-20,1,GPT-4o,True,True,False,False,0.878917,0.070078,,,1,False,False,False,True,False
+public,alluxio,alluxio-20,2,GPT-4o,True,True,False,False,0.877371,0.062732,,,1,False,False,False,True,False
+public,alluxio,alluxio-20,3,GPT-4o,True,True,False,False,0.872710,0.062807,,,1,False,False,False,True,False
+public,alluxio,alluxio-20,4,GPT-4o,False,False,False,False,0.790688,0.252098,test throws an exception,test_error_exception,3,False,False,False,False,False
+public,alluxio,alluxio-20,5,GPT-4o,False,False,False,False,0.847777,0.190558,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-21,1,GPT-4o,False,False,False,False,0.162903,0.453622,test throws an exception,test_error_exception,2,False,False,False,False,False
+public,alluxio,alluxio-21,2,GPT-4o,False,False,False,False,0.550507,0.094523,test throws an exception,test_error_exception,1,False,False,False,False,False
+public,alluxio,alluxio-21,3,GPT-4o,False,False,False,False,0.120898,0.286733,test does not compile,test_compile_error,3,False,False,False,False,False
+public,alluxio,alluxio-21,4,GPT-4o,False,False,False,False,0.121847,0.464080,test does not compile,test_compile_error,4,False,False,False,False,False
+public,alluxio,alluxio-21,5,GPT-4o,False,False,False,False,0.146190,0.500277,test does not compile,test_compile_error,5,False,False,False,False,False
+public,alluxio,alluxio-22,1,GPT-4o,False,False,False,False,0.662205,0.168770,license check fails,license,3,False,False,False,False,False
+public,alluxio,alluxio-22,2,GPT-4o,False,False,False,False,0.772537,0.368703,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,alluxio,alluxio-22,3,GPT-4o,False,False,False,False,0.747072,0.269053,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,alluxio,alluxio-22,4,GPT-4o,False,False,False,False,0.732160,0.156302,test does not compile,test_compile_error,2,False,False,False,False,False
+public,alluxio,alluxio-22,5,GPT-4o,False,False,False,False,0.776792,0.317778,test throws an exception,test_error_exception,3,False,False,False,False,False
+public,alluxio,alluxio-23,1,GPT-4o,True,True,True,True,1.000000,0.094268,,,1,False,False,False,True,False
+public,alluxio,alluxio-23,2,GPT-4o,True,True,True,True,1.000000,0.109030,,,2,False,False,False,True,False
+public,alluxio,alluxio-23,3,GPT-4o,True,True,True,True,1.000000,0.081743,,,1,False,False,False,True,False
+public,alluxio,alluxio-23,4,GPT-4o,True,True,True,True,1.000000,0.082763,,,1,False,False,False,True,False
+public,alluxio,alluxio-23,5,GPT-4o,True,True,True,True,1.000000,0.108285,,,2,False,False,False,True,False
+public,druid,druid-01,1,GPT-4o,False,False,False,False,0.720383,1.697783,test does not compile,test_compile_error,4,False,False,False,False,False
+public,druid,druid-01,2,GPT-4o,False,False,False,False,0.789801,1.773923,test does not compile,test_compile_error,4,False,False,True,False,False
+public,druid,druid-01,3,GPT-4o,False,False,False,False,0.681801,2.240348,test does not compile,test_compile_error,6,False,False,True,False,False
+public,druid,druid-01,4,GPT-4o,False,False,False,False,0.795182,1.842883,test does not compile,test_compile_error,4,False,False,True,False,False
+public,druid,druid-01,5,GPT-4o,False,False,False,False,0.744076,1.428840,test does not compile,test_compile_error,4,False,False,False,False,False
+public,druid,druid-02,1,GPT-4o,False,False,False,False,0.130947,4.428563,test does not compile,test_compile_error,15,False,False,False,False,False
+public,druid,druid-02,2,GPT-4o,False,False,False,False,0.146670,0.609172,test does not compile,test_compile_error,3,False,False,False,False,False
+public,druid,druid-02,3,GPT-4o,False,False,False,False,0.024831,0.705148,no test selected,no_tests_selected,3,False,False,False,False,False
+public,druid,druid-02,4,GPT-4o,True,False,False,False,0.069293,0.965777,,,5,False,False,False,True,True
+public,druid,druid-02,5,GPT-4o,True,False,False,False,0.110975,0.498992,,,4,False,False,False,True,True
+public,druid,druid-03,1,GPT-4o,False,False,False,False,0.995790,0.004588,tests never run,never_ran_tests,0,False,True,True,False,False
+public,druid,druid-03,2,GPT-4o,False,False,False,False,0.995790,0.002667,tests never run,never_ran_tests,0,False,True,True,False,False
+public,druid,druid-03,3,GPT-4o,False,False,False,False,0.995790,0.002668,tests never run,never_ran_tests,0,False,True,True,False,False
+public,druid,druid-03,4,GPT-4o,False,False,False,False,0.995790,0.002668,tests never run,never_ran_tests,0,False,True,True,False,False
+public,druid,druid-03,5,GPT-4o,False,False,False,False,0.995790,0.002667,tests never run,never_ran_tests,0,False,True,True,False,False
+public,druid,druid-04,1,GPT-4o,False,False,False,False,0.351540,0.851730,test does not compile,test_compile_error,3,False,False,False,False,False
+public,druid,druid-04,2,GPT-4o,False,False,False,False,0.433187,1.306765,test does not compile,test_compile_error,6,False,False,False,False,False
+public,druid,druid-04,3,GPT-4o,False,False,False,False,0.669972,0.603695,test does not compile,test_compile_error,3,False,False,False,False,False
+public,druid,druid-04,4,GPT-4o,False,False,False,False,0.276419,0.651445,test does not compile,test_compile_error,3,False,False,False,False,False
+public,druid,druid-04,5,GPT-4o,False,False,False,False,0.397040,1.571042,test does not compile,test_compile_error,8,False,False,False,False,False
+public,druid,druid-05,1,GPT-4o,False,False,False,False,0.242095,0.503095,test does not compile,test_compile_error,5,False,False,False,False,False
+public,druid,druid-05,2,GPT-4o,False,False,False,False,0.283305,0.235810,test does not compile,test_compile_error,2,False,False,False,False,False
+public,druid,druid-05,3,GPT-4o,False,False,False,False,0.294626,0.332780,test does not compile,test_compile_error,2,False,False,False,False,False
+public,druid,druid-05,4,GPT-4o,False,False,False,False,0.276336,0.391552,test does not compile,test_compile_error,3,True,False,False,False,False
+public,druid,druid-05,5,GPT-4o,False,False,False,False,0.330246,0.230702,test does not compile,test_compile_error,2,True,False,False,False,False
+public,druid,druid-06,1,GPT-4o,False,False,False,False,0.237757,0.429075,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,druid,druid-06,2,GPT-4o,False,False,False,False,0.217828,0.253782,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,druid,druid-06,3,GPT-4o,True,False,False,False,0.211398,0.556842,,,6,False,False,False,True,True
+public,druid,druid-06,4,GPT-4o,False,False,False,False,0.228175,0.449713,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,druid,druid-06,5,GPT-4o,True,False,False,False,0.231759,0.503747,,,6,False,False,False,True,True
+public,druid,druid-07,1,GPT-4o,False,False,False,False,0.230508,0.300248,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,druid,druid-07,2,GPT-4o,False,False,False,False,0.989665,0.171592,assertion still fails,assertion_failure,1,True,False,False,False,False
+public,druid,druid-07,3,GPT-4o,False,False,False,False,0.233583,1.254570,assertion still fails,assertion_failure,6,False,False,False,False,False
+public,druid,druid-07,4,GPT-4o,False,False,False,False,0.145203,0.653425,test does not compile,test_compile_error,5,False,False,False,False,False
+public,druid,druid-07,5,GPT-4o,False,False,False,False,0.145706,0.879352,test throws an exception,test_error_exception,3,True,False,False,False,False
+public,druid,druid-08,1,GPT-4o,False,False,False,False,0.238596,0.208063,test does not compile,test_compile_error,1,False,False,False,False,False
+public,druid,druid-08,2,GPT-4o,False,False,False,False,0.860019,0.044910,tests never run,never_ran_tests,0,False,True,False,False,False
+public,druid,druid-08,3,GPT-4o,True,False,False,False,0.483365,0.329955,,,3,False,False,False,True,True
+public,druid,druid-08,4,GPT-4o,True,False,False,False,0.449141,0.469695,,,4,False,False,False,True,True
+public,druid,druid-08,5,GPT-4o,False,False,False,False,0.222458,0.238150,test does not compile,test_compile_error,2,False,False,False,False,False
+public,druid,druid-09,1,GPT-4o,False,False,False,False,0.430977,1.082025,assertion still fails,assertion_failure,6,False,False,False,False,False
+public,druid,druid-09,2,GPT-4o,False,False,False,False,0.320171,0.858890,test does not compile,test_compile_error,6,False,False,False,False,False
+public,druid,druid-09,3,GPT-4o,True,True,False,False,0.432512,0.131232,,,2,False,False,False,True,False
+public,druid,druid-09,4,GPT-4o,False,False,False,False,0.420818,0.448815,test does not compile,test_compile_error,4,False,False,False,False,False
+public,druid,druid-09,5,GPT-4o,False,False,False,False,0.299531,1.060900,test does not compile,test_compile_error,6,True,False,False,False,False
+public,druid,druid-10,1,GPT-4o,False,False,False,False,0.687805,0.608610,test does not compile,test_compile_error,3,False,False,False,False,False
+public,druid,druid-10,2,GPT-4o,False,False,False,False,0.685790,1.396957,test does not compile,test_compile_error,4,False,False,False,False,False
+public,druid,druid-10,3,GPT-4o,False,False,False,False,0.357778,1.825187,test does not compile,test_compile_error,5,False,False,False,False,False
+public,druid,druid-10,4,GPT-4o,False,False,False,False,0.353548,0.561860,test does not compile,test_compile_error,3,False,False,False,False,False
+public,druid,druid-10,5,GPT-4o,False,False,False,False,0.226478,1.911480,test does not compile,test_compile_error,5,False,False,True,False,False
+public,druid,druid-11,1,GPT-4o,False,False,False,False,0.414657,1.050280,test does not compile,test_compile_error,4,False,False,False,False,False
+public,druid,druid-11,2,GPT-4o,False,False,False,False,0.386467,0.322610,test does not compile,test_compile_error,1,False,False,False,False,False
+public,druid,druid-11,3,GPT-4o,False,False,False,False,0.384532,1.507390,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,druid,druid-11,4,GPT-4o,False,False,False,False,0.720700,0.186275,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,druid,druid-11,5,GPT-4o,False,False,False,False,0.720700,0.324747,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,druid,druid-12,1,GPT-4o,True,False,False,False,0.635835,0.187178,,,2,False,False,False,True,True
+public,druid,druid-12,2,GPT-4o,True,True,False,False,0.916596,0.103092,,,1,False,False,False,True,False
+public,druid,druid-12,3,GPT-4o,True,False,False,False,0.634868,0.077323,,,1,False,False,False,True,False
+public,druid,druid-12,4,GPT-4o,True,False,False,False,0.638741,0.099017,,,2,False,False,False,True,False
+public,druid,druid-12,5,GPT-4o,True,False,False,False,0.634849,0.078657,,,1,False,False,False,True,False
+public,druid,druid-13,1,GPT-4o,True,True,False,False,0.821316,0.183055,,,3,False,False,False,True,True
+public,druid,druid-13,2,GPT-4o,False,False,False,False,0.831538,0.412203,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,druid,druid-13,3,GPT-4o,False,False,False,False,0.819470,0.349195,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,druid,druid-13,4,GPT-4o,True,True,False,False,0.819235,0.159475,,,3,False,False,False,True,True
+public,druid,druid-13,5,GPT-4o,False,False,False,False,0.826126,0.270355,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,druid,druid-14,1,GPT-4o,False,False,False,False,0.766674,0.578222,test does not compile,test_compile_error,4,False,False,False,False,False
+public,druid,druid-14,2,GPT-4o,False,False,False,False,0.779710,0.568693,test throws an exception,test_error_exception,4,False,False,False,False,False
+public,druid,druid-14,3,GPT-4o,False,False,False,False,0.686405,0.723870,test throws an exception,test_error_exception,5,False,False,False,False,False
+public,druid,druid-14,4,GPT-4o,False,False,False,False,0.743701,0.562925,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,druid,druid-14,5,GPT-4o,False,False,False,False,0.833865,0.459412,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,druid,druid-15,1,GPT-4o,False,False,False,False,0.160631,1.227520,test does not compile,test_compile_error,7,False,False,False,False,False
+public,druid,druid-15,2,GPT-4o,False,False,False,False,0.140320,0.810408,test does not compile,test_compile_error,5,False,False,False,False,False
+public,druid,druid-15,3,GPT-4o,False,False,False,False,0.144873,0.633843,test does not compile,test_compile_error,5,False,False,False,False,False
+public,druid,druid-15,4,GPT-4o,False,False,False,False,0.126018,0.518515,test does not compile,test_compile_error,5,False,False,False,False,False
+public,druid,druid-15,5,GPT-4o,False,False,False,False,0.160282,0.760325,test does not compile,test_compile_error,4,False,False,False,False,False
+public,druid,druid-16,1,GPT-4o,True,True,True,True,1.000000,0.065030,,,1,False,False,False,True,False
+public,druid,druid-16,2,GPT-4o,True,True,True,True,1.000000,0.057265,,,1,False,False,False,True,False
+public,druid,druid-16,3,GPT-4o,True,True,True,True,1.000000,0.056010,,,1,False,False,False,True,False
+public,druid,druid-16,4,GPT-4o,True,True,True,True,1.000000,0.057275,,,1,False,False,False,True,False
+public,druid,druid-16,5,GPT-4o,True,True,True,True,1.000000,0.055035,,,1,False,False,False,True,False
+public,druid,druid-17,1,GPT-4o,False,False,False,False,0.887490,1.071570,test does not compile,test_compile_error,1,False,False,True,False,False
+public,druid,druid-17,2,GPT-4o,False,False,False,False,0.366019,1.394275,test does not compile,test_compile_error,2,False,False,False,False,False
+public,druid,druid-17,3,GPT-4o,False,False,False,False,0.337394,1.126083,test does not compile,test_compile_error,3,False,False,False,False,False
+public,druid,druid-17,4,GPT-4o,False,False,False,False,0.340600,1.361328,test does not compile,test_compile_error,3,False,False,False,False,False
+public,druid,druid-17,5,GPT-4o,False,False,False,False,0.518311,0.336425,test does not compile,test_compile_error,2,False,False,False,False,False
+public,gson,gson-01,1,GPT-4o,True,True,False,False,0.146077,0.112908,,,2,False,False,False,True,False
+public,gson,gson-01,2,GPT-4o,True,True,False,False,0.126855,0.098135,,,2,False,False,False,True,False
+public,gson,gson-01,3,GPT-4o,True,True,False,False,0.130382,0.166205,,,2,False,False,False,True,False
+public,gson,gson-01,4,GPT-4o,False,False,False,False,0.142993,0.300110,test throws an exception,test_error_exception,4,False,False,False,False,False
+public,gson,gson-01,5,GPT-4o,True,True,False,False,0.142851,0.327862,,,4,False,False,False,True,True
+public,gson,gson-02,1,GPT-4o,False,False,False,False,0.405626,0.131405,test throws an exception,test_error_exception,3,False,False,False,False,False
+public,gson,gson-02,2,GPT-4o,False,False,False,False,0.938631,0.158708,test throws an exception,test_error_exception,3,False,False,False,False,False
+public,gson,gson-02,3,GPT-4o,False,False,False,False,0.927342,0.097888,test throws an exception,test_error_exception,2,False,False,False,False,False
+public,gson,gson-02,4,GPT-4o,False,False,False,False,0.938977,0.089622,test throws an exception,test_error_exception,2,False,False,False,False,False
+public,gson,gson-02,5,GPT-4o,False,False,False,False,0.223839,0.381480,test throws an exception,test_error_exception,6,False,False,False,False,False
+public,gson,gson-03,1,GPT-4o,True,True,False,False,0.623584,0.080913,,,3,False,False,False,True,True
+public,gson,gson-03,2,GPT-4o,True,True,False,False,0.640515,0.043888,,,2,False,False,False,True,False
+public,gson,gson-03,3,GPT-4o,True,True,False,False,0.616906,0.041053,,,2,False,False,False,True,False
+public,gson,gson-03,4,GPT-4o,True,True,False,False,0.628397,0.087030,,,3,False,False,False,True,True
+public,gson,gson-03,5,GPT-4o,True,True,False,False,0.628344,0.156092,,,5,False,False,False,True,True
+public,gson,gson-04,1,GPT-4o,False,False,False,False,0.236722,0.474923,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,gson,gson-04,2,GPT-4o,False,False,False,False,0.200197,2.211408,assertion still fails,assertion_failure,9,False,False,False,False,False
+public,gson,gson-04,3,GPT-4o,True,True,False,False,0.234633,1.012823,,,6,False,False,False,True,True
+public,gson,gson-04,4,GPT-4o,True,True,False,False,0.234549,0.881668,,,4,False,False,False,True,True
+public,gson,gson-04,5,GPT-4o,True,True,False,False,0.231465,0.695148,,,4,False,False,False,True,True
+public,gson,gson-05,1,GPT-4o,True,False,False,False,0.258201,0.289205,,,2,False,False,False,True,True
+public,gson,gson-05,2,GPT-4o,False,False,False,False,0.485409,0.336715,test does not compile,test_compile_error,3,False,False,False,False,False
+public,gson,gson-05,3,GPT-4o,False,False,False,False,0.828479,0.294490,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,gson,gson-05,4,GPT-4o,True,False,False,False,0.215610,0.359000,,,2,False,False,False,True,True
+public,gson,gson-05,5,GPT-4o,False,False,False,False,0.855390,0.699100,test throws an exception,test_error_exception,6,False,False,False,False,False
+public,gson,gson-06,1,GPT-4o,False,False,False,False,0.173763,0.677695,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,gson,gson-06,2,GPT-4o,False,False,False,False,0.200610,0.209782,test does not compile,test_compile_error,1,False,False,False,False,False
+public,gson,gson-06,3,GPT-4o,False,False,False,False,0.517739,0.445478,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,gson,gson-06,4,GPT-4o,False,False,False,False,0.234660,0.603580,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,gson,gson-06,5,GPT-4o,False,False,False,False,0.488378,0.281010,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,gson,gson-07,1,GPT-4o,True,True,False,False,0.893240,0.044923,,,1,False,False,False,True,False
+public,gson,gson-07,2,GPT-4o,True,True,False,False,0.893150,0.046558,,,1,False,False,False,True,False
+public,gson,gson-07,3,GPT-4o,True,True,False,False,0.891698,0.056100,,,2,False,False,False,True,False
+public,gson,gson-07,4,GPT-4o,True,True,False,False,0.891618,0.044233,,,1,False,False,False,True,False
+public,gson,gson-07,5,GPT-4o,True,True,False,False,0.859148,0.041467,,,1,False,False,False,True,False
+public,gson,gson-08,1,GPT-4o,True,True,False,False,0.840292,0.052315,,,1,False,False,False,True,False
+public,gson,gson-08,2,GPT-4o,True,True,False,False,0.819161,0.048840,,,1,False,False,False,True,False
+public,gson,gson-08,3,GPT-4o,False,False,False,False,0.800024,0.159430,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,gson,gson-08,4,GPT-4o,True,True,False,False,0.883280,0.126507,,,2,False,False,False,True,True
+public,gson,gson-08,5,GPT-4o,False,False,False,False,0.818397,0.171622,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,gson,gson-09,1,GPT-4o,True,False,False,False,0.136893,0.151655,,,1,False,False,False,True,False
+public,gson,gson-09,2,GPT-4o,True,True,False,False,0.170348,0.285172,,,2,False,False,False,True,True
+public,gson,gson-09,3,GPT-4o,True,True,False,False,0.168503,0.753418,,,6,False,False,False,True,True
+public,gson,gson-09,4,GPT-4o,True,True,False,False,0.172909,0.356108,,,3,False,False,False,True,True
+public,gson,gson-09,5,GPT-4o,True,True,False,False,0.178926,0.175408,,,2,False,False,False,True,False
+public,gson,gson-10,1,GPT-4o,True,False,False,False,0.182975,0.144807,,,3,False,False,False,True,True
+public,gson,gson-10,2,GPT-4o,False,False,False,False,0.184177,1.363475,assertion still fails,assertion_failure,8,False,False,False,False,False
+public,gson,gson-10,3,GPT-4o,True,False,False,False,0.140715,0.238972,,,2,False,False,False,True,True
+public,gson,gson-10,4,GPT-4o,True,False,False,False,0.176706,0.124453,,,3,False,False,False,True,True
+public,gson,gson-10,5,GPT-4o,True,False,False,False,0.156857,0.183162,,,4,False,False,False,True,True
+public,gson,gson-11,1,GPT-4o,False,False,False,False,0.510811,0.637565,test does not compile,test_compile_error,1,False,False,False,False,False
+public,gson,gson-11,2,GPT-4o,False,False,False,False,0.317225,0.441535,test does not compile,test_compile_error,1,False,False,False,False,False
+public,gson,gson-11,3,GPT-4o,False,False,False,False,0.302485,0.510618,test does not compile,test_compile_error,1,True,False,False,False,False
+public,gson,gson-11,4,GPT-4o,False,False,False,False,0.343071,0.475990,test does not compile,test_compile_error,2,False,False,False,False,False
+public,gson,gson-11,5,GPT-4o,False,False,False,False,0.561419,0.576542,test does not compile,test_compile_error,1,False,False,False,False,False
+public,gson,gson-12,1,GPT-4o,True,False,False,False,0.146631,0.091138,,,2,False,False,False,True,False
+public,gson,gson-12,2,GPT-4o,True,False,False,False,0.146291,0.288828,,,4,False,False,False,True,True
+public,gson,gson-12,3,GPT-4o,True,False,False,False,0.145717,0.119225,,,2,False,False,False,True,False
+public,gson,gson-12,4,GPT-4o,True,False,False,False,0.148669,0.086427,,,2,False,False,False,True,False
+public,gson,gson-12,5,GPT-4o,True,False,False,False,0.148624,0.075202,,,2,False,False,False,True,False
+public,gson,gson-13,1,GPT-4o,True,True,False,False,0.748374,0.236885,,,2,False,False,False,True,False
+public,gson,gson-13,2,GPT-4o,True,True,False,False,0.748374,0.181085,,,2,False,False,False,True,False
+public,gson,gson-13,3,GPT-4o,True,True,False,False,0.748374,0.181915,,,2,False,False,False,True,False
+public,gson,gson-13,4,GPT-4o,True,True,False,False,0.748374,0.256745,,,2,False,False,False,True,False
+public,gson,gson-13,5,GPT-4o,True,True,False,False,0.748374,0.454085,,,3,False,False,False,True,True
+public,gson,gson-14,1,GPT-4o,False,False,False,False,0.171178,0.381295,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,gson,gson-14,2,GPT-4o,False,False,False,False,0.165854,0.426082,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,gson,gson-14,3,GPT-4o,True,False,False,False,0.170005,0.314895,,,3,False,False,False,True,True
+public,gson,gson-14,4,GPT-4o,True,False,False,False,0.165409,0.455752,,,6,False,False,False,True,True
+public,gson,gson-14,5,GPT-4o,False,False,False,False,0.171661,0.280400,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,gson,gson-15,1,GPT-4o,False,False,False,False,0.178504,0.819435,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,gson,gson-15,2,GPT-4o,True,True,False,False,0.379867,0.537175,,,5,False,False,False,True,True
+public,gson,gson-15,3,GPT-4o,False,False,False,False,0.242419,0.844462,assertion still fails,assertion_failure,6,False,False,False,False,False
+public,gson,gson-15,4,GPT-4o,False,False,False,False,0.168075,0.966515,assertion still fails,assertion_failure,6,False,False,False,False,False
+public,gson,gson-15,5,GPT-4o,False,False,False,False,0.180862,0.802998,assertion still fails,assertion_failure,7,False,False,False,False,False
+public,gson,gson-16,1,GPT-4o,True,True,True,True,0.957264,0.028022,,,1,False,False,False,True,False
+public,gson,gson-16,2,GPT-4o,True,True,False,False,0.942419,0.032538,,,1,False,False,False,True,False
+public,gson,gson-16,3,GPT-4o,True,True,True,True,0.957264,0.025133,,,1,False,False,False,True,False
+public,gson,gson-16,4,GPT-4o,True,True,True,True,0.957264,0.042662,,,1,False,False,False,True,False
+public,gson,gson-16,5,GPT-4o,True,True,False,False,0.927305,0.041715,,,2,False,False,False,True,False
+public,gson,gson-17,1,GPT-4o,False,False,False,False,0.299852,0.223465,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,gson,gson-17,2,GPT-4o,True,False,False,False,0.240332,0.123020,,,2,False,False,False,True,True
+public,gson,gson-17,3,GPT-4o,False,False,False,False,0.194599,0.099795,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,gson,gson-17,4,GPT-4o,False,False,False,False,0.429602,0.290572,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,gson,gson-17,5,GPT-4o,True,False,False,False,0.237100,0.099290,,,2,False,False,False,True,True
+public,gson,gson-18,1,GPT-4o,False,False,False,False,0.158973,0.420935,assertion still fails,assertion_failure,6,False,False,False,False,False
+public,gson,gson-18,2,GPT-4o,True,False,False,False,0.159103,0.875477,,,8,False,False,False,True,True
+public,gson,gson-18,3,GPT-4o,True,False,False,False,0.140728,0.314637,,,5,False,False,False,True,True
+public,gson,gson-18,4,GPT-4o,False,False,False,False,0.159608,1.229475,assertion still fails,assertion_failure,10,False,False,False,False,False
+public,gson,gson-18,5,GPT-4o,False,False,False,False,0.167682,0.269813,test does not compile,test_compile_error,4,False,False,False,False,False
+public,gson,gson-19,1,GPT-4o,True,False,False,False,0.144591,0.156402,,,2,False,False,False,True,False
+public,gson,gson-19,2,GPT-4o,True,False,False,False,0.147620,0.111395,,,2,False,False,False,True,False
+public,gson,gson-19,3,GPT-4o,True,False,False,False,0.143929,0.112565,,,2,False,False,False,True,False
+public,gson,gson-19,4,GPT-4o,True,False,False,False,0.135559,0.175910,,,3,False,False,False,True,True
+public,gson,gson-19,5,GPT-4o,True,False,False,False,0.144534,0.113730,,,2,False,False,False,True,False
+public,gson,gson-20,1,GPT-4o,True,True,False,True,0.878235,0.037357,,,1,False,False,False,True,False
+public,gson,gson-20,2,GPT-4o,True,True,False,True,0.878235,0.032428,,,1,False,False,False,True,False
+public,gson,gson-20,3,GPT-4o,True,True,False,True,0.878235,0.032428,,,1,False,False,False,True,False
+public,gson,gson-20,4,GPT-4o,True,True,False,True,0.878235,0.028758,,,1,False,False,False,True,False
+public,gson,gson-20,5,GPT-4o,True,True,False,True,0.878235,0.027212,,,1,False,False,False,True,False
+public,gson,gson-21,1,GPT-4o,False,False,False,False,0.786825,0.189747,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,gson,gson-21,2,GPT-4o,True,True,False,False,0.763977,0.093405,,,2,False,False,False,True,False
+public,gson,gson-21,3,GPT-4o,True,False,False,False,0.392133,0.071955,,,2,False,False,False,True,False
+public,gson,gson-21,4,GPT-4o,True,False,False,False,0.209218,0.062327,,,2,False,False,False,True,True
+public,gson,gson-21,5,GPT-4o,True,True,False,False,0.777958,0.092953,,,2,False,False,False,True,False
+public,gson,gson-22,1,GPT-4o,True,True,False,False,0.987176,0.097105,,,2,False,False,False,True,False
+public,gson,gson-22,2,GPT-4o,True,True,False,False,0.987176,0.097795,,,2,False,False,False,True,False
+public,gson,gson-22,3,GPT-4o,True,False,False,False,0.446997,0.063820,,,2,False,False,False,True,False
+public,gson,gson-22,4,GPT-4o,True,True,False,False,0.987176,0.088950,,,2,False,False,False,True,False
+public,gson,gson-22,5,GPT-4o,True,True,False,False,0.987176,0.089420,,,2,False,False,False,True,False
+public,gson,gson-23,1,GPT-4o,True,True,False,False,0.936223,0.098807,,,2,False,False,False,True,False
+public,gson,gson-23,2,GPT-4o,True,True,False,False,0.945451,0.079695,,,2,False,False,False,True,False
+public,gson,gson-23,3,GPT-4o,True,True,False,False,0.945416,0.082140,,,2,False,False,False,True,False
+public,gson,gson-23,4,GPT-4o,True,True,False,False,0.945416,0.085280,,,2,False,False,False,True,False
+public,gson,gson-23,5,GPT-4o,True,True,False,False,0.945416,0.080040,,,2,False,False,False,True,False
+public,gson,gson-24,1,GPT-4o,False,False,False,False,0.672087,0.315070,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,gson,gson-24,2,GPT-4o,False,False,False,False,0.369363,0.605812,assertion still fails,assertion_failure,6,False,False,False,False,False
+public,gson,gson-24,3,GPT-4o,False,False,False,False,0.342271,0.415128,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,gson,gson-24,4,GPT-4o,False,False,False,False,0.671818,0.020640,tests never run,never_ran_tests,0,False,True,False,False,False
+public,gson,gson-24,5,GPT-4o,False,False,False,False,0.418139,0.365320,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,gson,gson-25,1,GPT-4o,True,True,False,True,0.990635,0.114278,,,3,False,False,False,True,False
+public,gson,gson-25,2,GPT-4o,True,False,False,False,0.257191,0.154290,,,4,False,False,False,True,True
+public,gson,gson-25,3,GPT-4o,True,False,False,False,0.326309,0.221660,,,5,False,False,False,True,True
+public,gson,gson-25,4,GPT-4o,True,False,False,False,0.311324,0.223958,,,5,False,False,False,True,True
+public,gson,gson-25,5,GPT-4o,True,True,False,False,0.990929,0.074525,,,1,False,False,False,True,False
+public,gson,gson-26,1,GPT-4o,False,False,False,False,0.851732,0.117970,test does not compile,test_compile_error,1,False,False,False,False,False
+public,gson,gson-26,2,GPT-4o,False,False,False,False,0.233008,0.345640,test does not compile,test_compile_error,2,False,False,False,False,False
+public,gson,gson-26,3,GPT-4o,False,False,False,False,0.851732,0.248705,test does not compile,test_compile_error,1,True,False,False,False,False
+public,gson,gson-26,4,GPT-4o,False,False,False,False,0.851732,0.154555,test does not compile,test_compile_error,1,True,False,False,False,False
+public,gson,gson-26,5,GPT-4o,False,False,False,False,0.851732,0.162562,test does not compile,test_compile_error,1,True,False,False,False,False
+public,gson,gson-27,1,GPT-4o,False,False,False,False,0.859764,1.160275,test does not compile,test_compile_error,4,False,False,False,False,False
+public,gson,gson-27,2,GPT-4o,False,False,False,False,0.868580,0.927017,test does not compile,test_compile_error,4,False,False,False,False,False
+public,gson,gson-27,3,GPT-4o,False,False,False,False,0.241259,0.700685,test throws an exception,test_error_exception,3,False,False,False,False,False
+public,gson,gson-27,4,GPT-4o,False,False,False,False,0.297016,0.610520,test does not compile,test_compile_error,1,False,False,False,False,False
+public,gson,gson-27,5,GPT-4o,False,False,False,False,0.345238,1.603262,test does not compile,test_compile_error,7,False,False,False,False,False
+public,gson,gson-28,1,GPT-4o,True,True,True,True,1.000000,0.078600,,,2,False,False,False,True,False
+public,gson,gson-28,2,GPT-4o,True,True,False,True,0.997289,0.065670,,,2,False,False,False,True,False
+public,gson,gson-28,3,GPT-4o,True,True,True,True,1.000000,0.071115,,,2,False,False,False,True,False
+public,gson,gson-28,4,GPT-4o,True,True,True,True,1.000000,0.066575,,,2,False,False,False,True,False
+public,gson,gson-28,5,GPT-4o,True,True,True,True,1.000000,0.064560,,,2,False,False,False,True,False
+public,gson,gson-29,1,GPT-4o,True,True,False,False,0.666582,0.229570,,,3,False,False,False,True,True
+public,gson,gson-29,2,GPT-4o,True,True,False,False,0.219569,0.064267,,,2,False,False,False,True,False
+public,gson,gson-29,3,GPT-4o,True,True,False,False,0.632726,0.105430,,,2,False,False,False,True,False
+public,gson,gson-29,4,GPT-4o,True,True,False,False,0.343045,0.221513,,,4,False,False,False,True,True
+public,gson,gson-29,5,GPT-4o,True,True,False,False,0.374484,0.126595,,,2,False,False,False,True,True
+public,gson,gson-30,1,GPT-4o,False,False,False,False,0.405359,0.546242,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,gson,gson-30,2,GPT-4o,True,True,False,False,0.406549,0.870722,,,6,False,False,False,True,True
+public,gson,gson-30,3,GPT-4o,False,False,False,False,0.389862,0.886457,assertion still fails,assertion_failure,7,False,False,False,False,False
+public,gson,gson-30,4,GPT-4o,False,False,False,False,0.393160,0.738822,assertion still fails,assertion_failure,6,False,False,False,False,False
+public,gson,gson-30,5,GPT-4o,False,False,False,False,0.395814,0.872120,assertion still fails,assertion_failure,7,False,False,False,False,False
+public,gson,gson-31,1,GPT-4o,True,True,False,False,0.239250,0.087702,,,2,False,False,False,True,False
+public,gson,gson-31,2,GPT-4o,True,True,False,False,0.239250,0.135070,,,3,False,False,False,True,True
+public,gson,gson-31,3,GPT-4o,True,True,False,False,0.239250,0.070013,,,2,False,False,False,True,False
+public,gson,gson-31,4,GPT-4o,True,True,False,False,0.239250,0.071872,,,2,False,False,False,True,False
+public,gson,gson-31,5,GPT-4o,True,True,False,False,0.239250,0.054100,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-01,1,GPT-4o,True,True,False,True,0.775685,0.157085,,,2,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-01,2,GPT-4o,True,True,False,True,0.815649,0.044945,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-01,3,GPT-4o,True,True,False,True,0.811520,0.059605,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-01,4,GPT-4o,True,True,False,True,0.780956,0.063675,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-01,5,GPT-4o,True,True,False,True,0.848827,0.065320,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-02,1,GPT-4o,True,True,False,True,0.910086,0.134778,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-02,2,GPT-4o,True,True,False,True,0.998909,0.116015,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-02,3,GPT-4o,True,True,False,True,0.998909,0.084047,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-02,4,GPT-4o,True,True,False,True,0.998909,0.085140,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-02,5,GPT-4o,True,True,False,True,0.998909,0.116270,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-03,1,GPT-4o,True,True,False,True,0.910430,0.055210,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-03,2,GPT-4o,True,True,False,True,0.910430,0.040590,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-03,3,GPT-4o,True,True,False,True,0.910430,0.052013,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-03,4,GPT-4o,True,True,False,True,0.910430,0.068830,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-03,5,GPT-4o,True,True,False,True,0.910430,0.044565,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-04,1,GPT-4o,False,False,False,False,0.609750,1.485058,test does not compile,test_compile_error,4,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-04,2,GPT-4o,False,False,False,False,0.556592,2.057837,test does not compile,test_compile_error,7,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-04,3,GPT-4o,False,False,False,False,0.550881,0.961213,test does not compile,test_compile_error,5,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-04,4,GPT-4o,False,False,False,False,0.558070,1.636963,test does not compile,test_compile_error,4,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-04,5,GPT-4o,False,False,False,False,0.626989,1.423938,test does not compile,test_compile_error,4,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-05,1,GPT-4o,True,True,False,False,0.555286,0.124002,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-05,2,GPT-4o,True,True,False,False,0.553025,0.146617,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-05,3,GPT-4o,True,False,False,False,0.243307,0.354648,,,4,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-05,4,GPT-4o,True,False,False,False,0.230447,0.089375,,,3,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-05,5,GPT-4o,True,False,False,False,0.226450,0.096310,,,3,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-06,1,GPT-4o,True,True,False,False,0.620363,0.275675,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-06,2,GPT-4o,True,False,False,False,0.339649,0.432958,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-06,3,GPT-4o,True,False,False,False,0.311879,0.329510,,,2,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-06,4,GPT-4o,True,False,False,False,0.121457,0.968620,,,6,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-06,5,GPT-4o,True,True,False,False,0.622101,0.243012,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-07,1,GPT-4o,False,False,False,False,0.426577,0.599250,test does not compile,test_compile_error,5,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-07,2,GPT-4o,False,False,False,False,0.511686,0.347153,test does not compile,test_compile_error,2,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-07,3,GPT-4o,False,False,False,False,0.461373,0.394130,test does not compile,test_compile_error,4,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-07,4,GPT-4o,False,False,False,False,0.519945,0.522125,test does not compile,test_compile_error,2,True,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-07,5,GPT-4o,False,False,False,False,0.520219,0.340470,test does not compile,test_compile_error,2,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-08,1,GPT-4o,False,False,False,False,0.146139,0.304340,test does not compile,test_compile_error,1,True,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-08,2,GPT-4o,False,False,False,False,0.323811,0.443103,test does not compile,test_compile_error,3,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-08,3,GPT-4o,False,False,False,False,0.218254,0.507357,test does not compile,test_compile_error,3,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-08,4,GPT-4o,False,False,False,False,0.152403,0.454030,test does not compile,test_compile_error,2,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-08,5,GPT-4o,False,False,False,False,0.323811,0.438075,test does not compile,test_compile_error,3,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-09,1,GPT-4o,False,False,False,False,0.625134,1.527577,assertion still fails,assertion_failure,10,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-09,2,GPT-4o,False,False,False,False,0.377554,0.845970,test does not compile,test_compile_error,8,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-09,3,GPT-4o,False,False,False,False,0.621235,0.787338,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-09,4,GPT-4o,False,False,False,False,0.617602,0.581580,assertion still fails,assertion_failure,6,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-09,5,GPT-4o,True,False,False,False,0.468910,2.527053,,,11,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-10,1,GPT-4o,True,True,True,True,1.000000,0.053270,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-10,2,GPT-4o,True,True,True,True,1.000000,0.054942,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-10,3,GPT-4o,True,True,True,True,1.000000,0.054852,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-10,4,GPT-4o,True,True,True,True,1.000000,0.049492,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-10,5,GPT-4o,True,True,True,True,1.000000,0.052077,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-11,1,GPT-4o,False,False,False,False,0.217547,0.582605,test does not compile,test_compile_error,4,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-11,2,GPT-4o,False,False,False,False,0.328892,0.456140,test does not compile,test_compile_error,3,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-11,3,GPT-4o,False,False,False,False,0.328944,0.667420,test does not compile,test_compile_error,4,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-11,4,GPT-4o,False,False,False,False,0.328892,0.510108,test does not compile,test_compile_error,3,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-11,5,GPT-4o,False,False,False,False,0.329488,0.460342,test does not compile,test_compile_error,3,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-12,1,GPT-4o,False,False,False,False,0.255456,0.506490,assertion still fails,assertion_failure,6,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-12,2,GPT-4o,True,False,False,False,0.407572,0.201445,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-12,3,GPT-4o,True,True,False,False,0.548518,1.249270,,,5,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-12,4,GPT-4o,True,False,False,False,0.258017,0.143493,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-12,5,GPT-4o,True,False,False,False,0.261503,0.148215,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-13,1,GPT-4o,False,False,False,False,0.092271,0.926085,test does not compile,test_compile_error,9,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-13,2,GPT-4o,False,False,False,False,0.127034,0.471040,test does not compile,test_compile_error,6,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-13,3,GPT-4o,False,False,False,False,0.127376,0.736518,test does not compile,test_compile_error,8,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-13,4,GPT-4o,False,False,False,False,0.123986,0.344237,test does not compile,test_compile_error,5,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-13,5,GPT-4o,False,False,False,False,0.709008,0.069725,other,timeout,1,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-14,1,GPT-4o,True,True,False,True,0.919045,0.229487,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-14,2,GPT-4o,True,True,True,True,1.000000,0.233295,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-14,3,GPT-4o,False,False,False,False,0.920793,0.291905,test throws an exception,test_error_exception,4,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-14,4,GPT-4o,True,True,False,True,0.970697,0.475983,,,5,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-14,5,GPT-4o,False,False,False,False,0.905487,0.094430,test does not compile,test_compile_error,2,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-15,1,GPT-4o,True,True,False,True,0.884226,0.224832,,,2,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-15,2,GPT-4o,True,True,False,True,0.884226,0.200297,,,2,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-15,3,GPT-4o,True,True,False,True,0.880686,0.193868,,,2,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-15,4,GPT-4o,True,True,False,True,0.893869,0.198867,,,2,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-15,5,GPT-4o,True,True,False,False,0.856827,0.291410,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-16,1,GPT-4o,True,True,False,True,0.905365,0.249358,,,4,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-16,2,GPT-4o,True,True,False,True,0.853515,0.179965,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-16,3,GPT-4o,False,False,False,False,0.462926,0.831818,test throws an exception,test_error_exception,10,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-16,4,GPT-4o,True,True,False,True,0.931192,0.110428,,,2,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-16,5,GPT-4o,True,False,False,False,0.541081,0.410017,,,6,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-17,1,GPT-4o,False,False,False,False,0.043970,0.227915,test does not compile,test_compile_error,2,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-17,2,GPT-4o,False,False,False,False,0.387238,1.840740,test does not compile,test_compile_error,11,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-17,3,GPT-4o,False,False,False,False,0.389097,0.389893,test does not compile,test_compile_error,2,True,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-17,4,GPT-4o,False,False,False,False,0.387184,0.216343,test does not compile,test_compile_error,1,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-17,5,GPT-4o,False,False,False,False,0.390844,0.155165,test does not compile,test_compile_error,1,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-18,1,GPT-4o,True,True,False,False,0.367032,0.874110,,,7,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-18,2,GPT-4o,True,False,False,False,0.368222,0.352105,,,4,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-18,3,GPT-4o,True,True,False,False,0.413264,0.345487,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-18,4,GPT-4o,True,True,False,False,0.394938,0.339815,,,4,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-18,5,GPT-4o,True,False,False,False,0.375244,0.261917,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-19,1,GPT-4o,True,True,False,True,0.748892,0.363492,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-19,2,GPT-4o,True,False,False,False,0.586204,0.981698,,,4,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-19,3,GPT-4o,True,True,False,False,0.743043,0.950003,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-19,4,GPT-4o,False,False,False,False,0.748661,0.278342,test does not compile,test_compile_error,2,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-19,5,GPT-4o,True,False,False,False,0.625865,0.651853,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-20,1,GPT-4o,False,False,False,False,0.504039,0.834817,test does not compile,test_compile_error,5,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-20,2,GPT-4o,False,False,False,False,0.504145,0.417320,test does not compile,test_compile_error,3,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-20,3,GPT-4o,False,False,False,False,0.272399,0.270535,test does not compile,test_compile_error,2,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-20,4,GPT-4o,False,False,False,False,0.291597,0.339820,test does not compile,test_compile_error,2,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-20,5,GPT-4o,False,False,False,False,0.399600,0.350480,test does not compile,test_compile_error,2,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-21,1,GPT-4o,True,True,False,True,0.689801,0.188290,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-21,2,GPT-4o,True,True,False,False,0.738748,0.225448,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-21,3,GPT-4o,True,False,False,False,0.257543,0.148002,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-21,4,GPT-4o,True,True,False,True,0.691012,0.265820,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-21,5,GPT-4o,True,False,False,False,0.292719,0.102528,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-22,1,GPT-4o,True,True,False,False,0.439272,0.083310,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-22,2,GPT-4o,True,True,False,False,0.426657,0.075130,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-22,3,GPT-4o,True,False,False,False,0.406900,0.073855,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-22,4,GPT-4o,True,False,False,False,0.406900,0.083990,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-22,5,GPT-4o,True,True,False,False,0.429161,0.080072,,,2,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-23,1,GPT-4o,False,False,False,False,0.656360,1.285100,test does not compile,test_compile_error,5,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-23,2,GPT-4o,False,False,False,False,0.882100,0.060757,test does not compile,test_compile_error,1,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-23,3,GPT-4o,False,False,False,False,0.719472,0.810333,other,timeout,3,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-23,4,GPT-4o,False,False,False,False,0.729968,0.777478,test does not compile,test_compile_error,4,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-23,5,GPT-4o,False,False,False,False,0.476096,0.510250,test does not compile,werror_lint,1,True,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-24,1,GPT-4o,True,True,False,True,0.695613,0.188382,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-24,2,GPT-4o,True,True,False,True,0.695369,0.227198,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-24,3,GPT-4o,False,False,False,False,0.689742,0.720242,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-24,4,GPT-4o,True,True,False,True,0.696086,0.301445,,,3,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-24,5,GPT-4o,True,True,False,True,0.695613,0.174143,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-25,1,GPT-4o,False,False,False,False,0.571547,0.620545,test does not compile,test_compile_error,3,True,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-25,2,GPT-4o,False,False,False,False,0.354749,0.396757,test does not compile,test_compile_error,1,True,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-25,3,GPT-4o,False,False,False,False,0.297629,1.613733,test does not compile,test_compile_error,8,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-25,4,GPT-4o,False,False,False,False,0.333729,1.102270,test does not compile,test_compile_error,6,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-25,5,GPT-4o,False,False,False,False,0.583330,0.141713,test does not compile,test_compile_error,1,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-26,1,GPT-4o,False,False,False,False,0.142342,0.359698,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-26,2,GPT-4o,True,True,False,False,0.141864,0.187767,,,2,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-26,3,GPT-4o,True,True,False,False,0.141923,0.391080,,,5,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-26,4,GPT-4o,False,False,False,False,0.139854,0.574770,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-26,5,GPT-4o,False,False,False,False,0.141503,0.241573,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-27,1,GPT-4o,True,False,False,False,0.464553,0.473775,,,4,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-27,2,GPT-4o,True,False,False,False,0.346309,0.142698,,,1,False,False,False,True,False
+public,neo4j-java-driver,neo4j-java-driver-27,3,GPT-4o,True,True,False,False,0.935651,1.125972,,,8,False,False,False,True,True
+public,neo4j-java-driver,neo4j-java-driver-27,4,GPT-4o,False,False,False,False,0.602627,0.868875,assertion still fails,assertion_failure,6,False,False,False,False,False
+public,neo4j-java-driver,neo4j-java-driver-27,5,GPT-4o,False,False,False,False,0.938133,0.100775,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-01,1,GPT-4o,False,False,False,False,0.293606,0.146110,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-01,2,GPT-4o,False,False,False,False,0.317874,0.233938,test does not compile,test_compile_error,5,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-01,3,GPT-4o,True,False,False,False,0.439932,0.111843,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-01,4,GPT-4o,False,False,False,False,0.285395,0.081165,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-01,5,GPT-4o,False,False,False,False,0.285349,0.173540,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-02,1,GPT-4o,True,True,False,False,0.747295,0.125493,,,3,False,False,False,True,True
+public,xwiki-commons,xwiki-commons-02,2,GPT-4o,True,True,False,False,0.784935,0.040122,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-02,3,GPT-4o,False,False,False,False,0.791396,0.127828,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-02,4,GPT-4o,False,False,False,False,0.899894,0.321268,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-02,5,GPT-4o,True,True,False,False,0.791285,0.037187,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-03,1,GPT-4o,False,False,False,False,0.841607,0.312015,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-03,2,GPT-4o,False,False,False,False,0.275124,0.485370,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-03,3,GPT-4o,False,False,False,False,0.300423,0.425947,test does not compile,test_compile_error,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-03,4,GPT-4o,False,False,False,False,0.303571,0.318388,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-03,5,GPT-4o,False,False,False,False,0.334622,0.307612,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-04,1,GPT-4o,True,True,False,False,0.493608,0.081387,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-04,2,GPT-4o,True,True,False,False,0.504925,0.077453,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-04,3,GPT-4o,True,True,False,False,0.438062,0.144775,,,3,False,False,False,True,True
+public,xwiki-commons,xwiki-commons-04,4,GPT-4o,False,False,False,False,0.507639,0.125732,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-04,5,GPT-4o,False,False,False,False,0.493434,0.134778,test throws an exception,test_error_exception,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-05,1,GPT-4o,False,False,False,False,0.170807,0.316488,no test selected,no_tests_selected,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-05,2,GPT-4o,True,False,False,False,0.143155,0.129205,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-05,3,GPT-4o,False,False,False,False,0.175945,0.631033,no test selected,no_tests_selected,5,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-05,4,GPT-4o,False,False,False,False,0.102705,0.854855,assertion still fails,assertion_failure,7,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-05,5,GPT-4o,False,False,False,False,0.177965,0.680995,no test selected,no_tests_selected,6,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-06,1,GPT-4o,False,False,False,False,0.181936,0.198213,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-06,2,GPT-4o,False,False,False,False,0.184239,0.175863,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-06,3,GPT-4o,False,False,False,False,0.164681,0.513510,test does not compile,test_compile_error,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-06,4,GPT-4o,False,False,False,False,0.186231,0.173180,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-06,5,GPT-4o,False,False,False,False,0.172106,0.420545,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-07,1,GPT-4o,False,False,False,False,0.635958,0.719580,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-07,2,GPT-4o,False,False,False,False,0.600684,0.940815,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-07,3,GPT-4o,False,False,False,False,0.625700,0.431012,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-07,4,GPT-4o,False,False,False,False,0.603360,0.888738,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-07,5,GPT-4o,False,False,False,False,0.625700,0.510522,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-08,1,GPT-4o,False,False,False,False,0.275146,0.140173,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-08,2,GPT-4o,False,False,False,False,0.215965,0.183495,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-08,3,GPT-4o,False,False,False,False,0.327035,0.139085,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-08,4,GPT-4o,False,False,False,False,0.167242,0.192002,test throws an exception,test_error_exception,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-08,5,GPT-4o,False,False,False,False,0.288564,0.166280,test does not compile,test_compile_error,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-09,1,GPT-4o,False,False,False,False,0.168576,0.528970,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-09,2,GPT-4o,False,False,False,False,0.137267,0.807800,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-09,3,GPT-4o,False,False,False,False,0.590260,0.182153,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-09,4,GPT-4o,False,False,False,False,0.161194,0.858895,test does not compile,test_compile_error,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-09,5,GPT-4o,False,False,False,False,0.178977,1.000513,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-10,1,GPT-4o,False,False,False,False,0.512306,0.149700,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-10,2,GPT-4o,True,True,False,False,0.516191,0.054053,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-10,3,GPT-4o,True,True,False,False,0.516191,0.050232,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-10,4,GPT-4o,False,False,False,False,0.550904,0.124417,assertion still fails,assertion_failure,2,True,False,False,False,False
+public,xwiki-commons,xwiki-commons-10,5,GPT-4o,True,True,False,False,0.516191,0.069078,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-11,1,GPT-4o,False,False,False,False,0.208350,0.290615,assertion still fails,assertion_failure,1,True,False,False,False,False
+public,xwiki-commons,xwiki-commons-11,2,GPT-4o,False,False,False,False,0.223484,0.368313,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-11,3,GPT-4o,False,False,False,False,0.226321,0.236833,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-11,4,GPT-4o,False,False,False,False,0.208350,0.173517,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-11,5,GPT-4o,False,False,False,False,0.208350,0.103305,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-12,1,GPT-4o,False,False,False,False,0.537810,0.364093,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-12,2,GPT-4o,False,False,False,False,0.372054,0.070705,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-12,3,GPT-4o,False,False,False,False,0.374008,0.142290,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-12,4,GPT-4o,False,False,False,False,0.307967,0.160972,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-12,5,GPT-4o,False,False,False,False,0.370325,0.181908,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-13,1,GPT-4o,True,True,False,True,0.992117,0.083172,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-13,2,GPT-4o,True,True,False,False,0.560113,0.055502,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-13,3,GPT-4o,False,False,False,False,0.339472,0.163718,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-13,4,GPT-4o,False,False,False,False,0.663442,0.428460,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-13,5,GPT-4o,True,True,False,True,0.990467,0.068148,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-14,1,GPT-4o,False,False,False,False,0.259740,0.374627,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-14,2,GPT-4o,False,False,False,False,0.302982,0.330755,test does not compile,test_compile_error,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-14,3,GPT-4o,False,False,False,False,0.362964,0.493178,test does not compile,test_compile_error,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-14,4,GPT-4o,False,False,False,False,0.284685,0.364350,test does not compile,test_compile_error,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-14,5,GPT-4o,False,False,False,False,0.274338,0.391985,test does not compile,test_compile_error,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-15,1,GPT-4o,False,False,False,False,0.870957,0.132222,test does not compile,test_compile_error,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-15,2,GPT-4o,True,False,False,False,0.379841,0.118793,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-15,3,GPT-4o,False,False,False,False,0.339371,0.084512,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-15,4,GPT-4o,True,True,False,True,0.892520,0.142238,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-15,5,GPT-4o,False,False,False,False,0.458862,0.202635,test does not compile,test_compile_error,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-16,1,GPT-4o,True,True,True,True,0.997029,0.071027,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-16,2,GPT-4o,True,True,True,True,0.997029,0.128125,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-16,3,GPT-4o,True,True,True,True,0.997029,0.071822,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-16,4,GPT-4o,True,True,True,True,0.997029,0.069002,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-16,5,GPT-4o,False,False,False,False,0.739653,0.207612,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-17,1,GPT-4o,True,True,False,False,0.980217,0.083513,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-17,2,GPT-4o,True,True,False,False,0.965563,0.086372,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-17,3,GPT-4o,True,True,False,False,0.962292,0.076407,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-17,4,GPT-4o,True,True,False,False,0.965563,0.080033,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-17,5,GPT-4o,True,True,False,False,0.980217,0.075322,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-18,1,GPT-4o,True,True,False,False,0.707495,0.118635,,,2,False,False,False,True,True
+public,xwiki-commons,xwiki-commons-18,2,GPT-4o,True,True,False,False,0.652154,0.185065,,,3,False,False,False,True,True
+public,xwiki-commons,xwiki-commons-18,3,GPT-4o,True,True,False,False,0.713216,0.135117,,,3,False,False,False,True,True
+public,xwiki-commons,xwiki-commons-18,4,GPT-4o,True,True,False,False,0.694909,0.075187,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-18,5,GPT-4o,True,True,False,False,0.688870,0.056522,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-19,1,GPT-4o,False,False,False,False,0.241018,0.243292,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-19,2,GPT-4o,False,False,False,False,0.226886,0.172620,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-19,3,GPT-4o,True,True,False,False,0.860061,0.201562,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-19,4,GPT-4o,False,False,False,False,0.241465,0.265950,test does not compile,test_compile_error,5,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-19,5,GPT-4o,False,False,False,False,0.226798,0.084748,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-20,1,GPT-4o,False,False,False,False,0.884034,0.077817,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-20,2,GPT-4o,False,False,False,False,0.900415,0.137097,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-20,3,GPT-4o,False,False,False,False,0.886657,0.084900,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-20,4,GPT-4o,False,False,False,False,0.880383,0.070622,test does not compile,test_compile_error,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-20,5,GPT-4o,False,False,False,False,0.907099,0.225343,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-21,1,GPT-4o,False,False,False,False,0.624887,0.064973,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-21,2,GPT-4o,True,True,False,True,0.987298,0.285922,,,4,False,False,False,True,True
+public,xwiki-commons,xwiki-commons-21,3,GPT-4o,False,False,False,False,0.926426,0.176652,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-21,4,GPT-4o,False,False,False,False,0.834182,0.104313,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-21,5,GPT-4o,False,False,False,False,0.369529,0.100007,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-22,1,GPT-4o,False,False,False,False,0.667824,0.495308,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-22,2,GPT-4o,False,False,False,False,0.348063,0.539280,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-22,3,GPT-4o,False,False,False,False,0.713663,0.456423,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-22,4,GPT-4o,False,False,False,False,0.532232,0.328700,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-22,5,GPT-4o,False,False,False,False,0.442215,0.509023,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-23,1,GPT-4o,True,False,False,False,0.344395,0.143838,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-23,2,GPT-4o,False,False,False,False,0.992248,0.034290,assertion still fails,assertion_failure,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-23,3,GPT-4o,True,False,False,False,0.342438,0.067730,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-23,4,GPT-4o,True,False,False,False,0.255008,0.110415,,,3,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-23,5,GPT-4o,True,False,False,False,0.316108,0.083578,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-24,1,GPT-4o,False,False,False,False,0.307330,0.325318,test throws an exception,test_error_exception,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-24,2,GPT-4o,False,False,False,False,0.306865,0.405430,test throws an exception,test_error_exception,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-24,3,GPT-4o,False,False,False,False,0.307436,0.367140,test throws an exception,test_error_exception,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-24,4,GPT-4o,False,False,False,False,0.306865,0.235397,test throws an exception,test_error_exception,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-24,5,GPT-4o,False,False,False,False,0.306865,0.298823,test throws an exception,test_error_exception,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-25,1,GPT-4o,False,False,False,False,0.349753,0.103653,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-25,2,GPT-4o,False,False,False,False,0.302955,0.093132,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-25,3,GPT-4o,False,False,False,False,0.828783,0.018877,tests never run,never_ran_tests,0,False,True,False,False,False
+public,xwiki-commons,xwiki-commons-25,4,GPT-4o,False,False,False,False,0.160055,0.201308,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-25,5,GPT-4o,False,False,False,False,0.294053,0.125982,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-26,1,GPT-4o,True,True,False,False,0.439159,0.228112,,,5,False,False,False,True,True
+public,xwiki-commons,xwiki-commons-26,2,GPT-4o,False,False,False,False,0.342708,0.319775,test does not compile,test_compile_error,6,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-26,3,GPT-4o,False,False,False,False,0.429591,0.161790,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-26,4,GPT-4o,False,False,False,False,0.396855,0.416745,assertion still fails,assertion_failure,7,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-26,5,GPT-4o,False,False,False,False,0.429021,0.176650,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-27,1,GPT-4o,False,False,False,False,0.984523,0.779612,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-27,2,GPT-4o,False,False,False,False,0.156664,0.314588,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-27,3,GPT-4o,False,False,False,False,0.215150,0.384490,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-27,4,GPT-4o,False,False,False,False,0.987274,0.297167,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-27,5,GPT-4o,False,False,False,False,0.165141,0.583683,assertion still fails,assertion_failure,7,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-28,1,GPT-4o,True,True,True,True,0.998521,0.069280,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-28,2,GPT-4o,True,True,True,True,0.998521,0.059665,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-28,3,GPT-4o,True,True,True,True,0.998521,0.060505,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-28,4,GPT-4o,True,True,True,True,0.998521,0.079678,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-28,5,GPT-4o,True,True,True,True,0.998521,0.080172,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-29,1,GPT-4o,False,False,False,False,0.317803,2.326363,assertion still fails,assertion_failure,9,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-29,2,GPT-4o,False,False,False,False,0.343382,0.145570,test does not compile,test_compile_error,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-29,3,GPT-4o,False,False,False,False,0.366816,0.578085,test does not compile,test_compile_error,5,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-29,4,GPT-4o,False,False,False,False,0.282657,0.098672,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-29,5,GPT-4o,False,False,False,False,0.322497,0.114137,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-30,1,GPT-4o,False,False,False,False,0.169239,0.147195,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-30,2,GPT-4o,False,False,False,False,0.168779,0.191570,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-30,3,GPT-4o,False,False,False,False,0.166044,0.194855,test throws an exception,test_error_exception,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-30,4,GPT-4o,False,False,False,False,0.220058,0.197493,test does not compile,test_compile_error,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-30,5,GPT-4o,True,False,False,False,0.260278,0.111357,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-31,1,GPT-4o,False,False,False,False,0.307831,0.259953,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-31,2,GPT-4o,False,False,False,False,0.290994,0.402788,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-31,3,GPT-4o,True,True,False,False,0.344207,0.422290,,,4,False,False,False,True,True
+public,xwiki-commons,xwiki-commons-31,4,GPT-4o,False,False,False,False,0.316884,0.276123,assertion still fails,assertion_failure,5,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-31,5,GPT-4o,False,False,False,False,0.313834,0.184370,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-32,1,GPT-4o,True,True,False,False,0.646174,0.058927,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-32,2,GPT-4o,True,True,False,False,0.646612,0.047683,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-32,3,GPT-4o,True,True,False,False,0.639861,0.050893,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-32,4,GPT-4o,False,False,False,False,0.715966,0.224937,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-32,5,GPT-4o,True,True,False,False,0.588222,0.046463,,,1,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-33,1,GPT-4o,True,True,False,False,0.509434,0.120437,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-33,2,GPT-4o,False,False,False,False,0.517432,0.233875,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-33,3,GPT-4o,False,False,False,False,0.518302,0.242602,assertion still fails,assertion_failure,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-33,4,GPT-4o,False,False,False,False,0.510885,0.145113,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-33,5,GPT-4o,True,True,False,False,0.513601,0.239757,,,2,False,False,False,True,True
+public,xwiki-commons,xwiki-commons-34,1,GPT-4o,True,False,False,False,0.237226,0.108565,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-34,2,GPT-4o,True,False,False,False,0.250319,0.096800,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-34,3,GPT-4o,True,False,False,False,0.238469,0.103895,,,2,False,False,False,True,False
+public,xwiki-commons,xwiki-commons-34,4,GPT-4o,False,False,False,False,0.543878,0.188460,test does not compile,test_compile_error,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-34,5,GPT-4o,True,False,False,False,0.235414,0.141967,,,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-35,1,GPT-4o,False,False,False,False,0.531718,0.218225,assertion still fails,assertion_failure,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-35,2,GPT-4o,False,False,False,False,0.208902,0.355648,test does not compile,test_compile_error,4,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-35,3,GPT-4o,False,False,False,False,0.165183,0.384185,test does not compile,test_compile_error,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-35,4,GPT-4o,False,False,False,False,0.531613,0.354655,assertion still fails,assertion_failure,3,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-35,5,GPT-4o,False,False,False,False,0.290706,0.234107,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-36,1,GPT-4o,False,False,False,False,0.945869,0.071948,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-36,2,GPT-4o,False,False,False,False,0.950914,0.084780,test does not compile,test_compile_error,1,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-36,3,GPT-4o,False,False,False,False,0.947358,0.234340,test does not compile,test_compile_error,1,True,False,False,False,False
+public,xwiki-commons,xwiki-commons-36,4,GPT-4o,False,False,False,False,0.909643,0.121938,test does not compile,test_compile_error,2,False,False,False,False,False
+public,xwiki-commons,xwiki-commons-36,5,GPT-4o,False,False,False,False,0.950914,0.116902,test does not compile,test_compile_error,2,False,False,False,False,False

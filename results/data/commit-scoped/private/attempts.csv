@@ -1,0 +1,206 @@
+visibility,subject,case_id,attempt,model,success,test_preserving,perfect_match,assertion_match,codebleu,cost_usd,final_state,final_state_detail,run_tests_calls,last_edit_untested,never_ran_tests,context_limit_stop,feedback_traceable,feedback_revising
+private,P1,P1-01,1,GPT-4o,False,False,False,False,0.850584,0.202605,assertion still fails,assertion_failure,3,False,False,False,False,False
+private,P1,P1-01,2,GPT-4o,False,False,False,False,0.945558,0.293210,assertion still fails,assertion_failure,2,False,False,False,False,False
+private,P1,P1-01,3,GPT-4o,False,False,False,False,0.757888,0.408455,test does not compile,test_compile_error,2,False,False,False,False,False
+private,P1,P1-01,4,GPT-4o,False,False,False,False,0.984134,0.357838,assertion still fails,assertion_failure,3,False,False,False,False,False
+private,P1,P1-01,5,GPT-4o,False,False,False,False,0.996154,0.052388,assertion still fails,assertion_failure,1,False,False,False,False,False
+private,P1,P1-02,1,GPT-4o,True,True,False,False,0.734641,0.154960,,,3,False,False,False,True,True
+private,P1,P1-02,2,GPT-4o,True,True,False,False,0.729608,0.081272,,,2,False,False,False,True,False
+private,P1,P1-02,3,GPT-4o,True,True,False,False,0.724290,0.158058,,,3,False,False,False,True,True
+private,P1,P1-02,4,GPT-4o,True,True,False,False,0.716301,0.078777,,,2,False,False,False,True,False
+private,P1,P1-02,5,GPT-4o,True,True,False,False,0.740391,0.152033,,,3,False,False,False,True,True
+private,P1,P1-03,1,GPT-4o,True,True,False,True,0.846540,0.047792,,,1,False,False,False,True,False
+private,P1,P1-03,2,GPT-4o,True,True,False,True,0.909308,0.102048,,,2,False,False,False,True,True
+private,P1,P1-03,3,GPT-4o,True,True,False,True,0.966731,0.051805,,,1,False,False,False,True,False
+private,P1,P1-03,4,GPT-4o,False,False,False,False,0.842308,0.114215,test does not compile,test_compile_error,2,False,False,False,False,False
+private,P1,P1-03,5,GPT-4o,False,False,False,False,0.771934,0.209505,test does not compile,test_compile_error,4,False,False,False,False,False
+private,P1,P1-04,1,GPT-4o,False,False,False,False,0.659494,1.555250,test does not compile,test_compile_error,5,False,False,False,False,False
+private,P1,P1-04,2,GPT-4o,False,False,False,False,0.676020,0.972458,test does not compile,test_compile_error,2,False,False,False,False,False
+private,P1,P1-04,3,GPT-4o,False,False,False,False,0.582930,1.108693,test does not compile,test_compile_error,4,False,False,False,False,False
+private,P1,P1-04,4,GPT-4o,False,False,False,False,0.672823,1.465395,test does not compile,test_compile_error,5,False,False,False,False,False
+private,P1,P1-04,5,GPT-4o,False,False,False,False,0.612448,0.938715,test does not compile,test_compile_error,5,False,False,False,False,False
+private,P1,P1-05,1,GPT-4o,False,False,False,False,0.585086,0.210980,test throws an exception,test_error_exception,4,False,False,False,False,False
+private,P1,P1-05,2,GPT-4o,True,True,False,False,0.482468,0.125365,,,3,False,False,False,True,True
+private,P1,P1-05,3,GPT-4o,False,False,False,False,0.612163,0.326265,test throws an exception,test_error_exception,5,False,False,False,False,False
+private,P1,P1-05,4,GPT-4o,True,True,False,False,0.520796,0.177710,,,3,False,False,False,True,True
+private,P1,P1-05,5,GPT-4o,False,False,False,False,0.610531,0.284002,test throws an exception,test_error_exception,5,False,False,False,False,False
+private,P1,P1-06,1,GPT-4o,True,False,False,False,0.280004,0.444020,,,5,False,False,False,True,True
+private,P1,P1-06,2,GPT-4o,True,True,False,False,0.717164,0.342085,,,3,False,False,False,True,True
+private,P1,P1-06,3,GPT-4o,True,False,False,False,0.249842,0.328490,,,3,False,False,False,True,True
+private,P1,P1-06,4,GPT-4o,False,False,False,False,0.227104,0.316933,test does not compile,test_compile_error,4,False,False,False,False,False
+private,P1,P1-06,5,GPT-4o,True,False,False,False,0.332415,0.059345,,,1,False,False,False,True,False
+private,P1,P1-07,1,GPT-4o,True,True,True,True,1.000000,0.112428,,,1,False,False,False,True,False
+private,P1,P1-07,2,GPT-4o,True,True,True,True,1.000000,0.102672,,,1,False,False,False,True,False
+private,P1,P1-07,3,GPT-4o,True,True,True,True,0.964534,0.181283,,,2,False,False,False,True,True
+private,P1,P1-07,4,GPT-4o,True,True,True,True,1.000000,0.102023,,,1,False,False,False,True,False
+private,P1,P1-07,5,GPT-4o,False,False,False,False,0.996403,0.177335,assertion still fails,assertion_failure,1,True,False,False,False,False
+private,P1,P1-08,1,GPT-4o,True,False,False,False,0.317642,0.311882,,,2,False,False,False,True,True
+private,P1,P1-08,2,GPT-4o,True,False,False,False,0.534931,0.290142,,,1,False,False,False,True,False
+private,P1,P1-08,3,GPT-4o,True,False,False,False,0.505499,0.275393,,,1,False,False,False,True,False
+private,P1,P1-08,4,GPT-4o,True,False,False,False,0.571449,0.406455,,,3,False,False,False,True,True
+private,P1,P1-08,5,GPT-4o,False,False,False,False,0.476580,0.353480,test does not compile,test_compile_error,2,False,False,False,False,False
+private,P1,P1-09,1,GPT-4o,False,False,False,False,0.801762,0.179818,other,other,1,True,False,False,False,False
+private,P1,P1-09,2,GPT-4o,False,False,False,False,0.795485,0.545140,other,other,1,False,False,False,False,False
+private,P1,P1-09,3,GPT-4o,False,False,False,False,0.788775,0.435488,other,other,2,False,False,False,False,False
+private,P1,P1-09,4,GPT-4o,False,False,False,False,0.790033,0.858650,other,other,1,True,False,False,False,False
+private,P1,P1-09,5,GPT-4o,False,False,False,False,0.789606,0.501235,other,other,2,False,False,False,False,False
+private,P1,P1-10,1,GPT-4o,False,False,False,False,0.865192,0.376240,assertion still fails,assertion_failure,2,False,False,False,False,False
+private,P1,P1-10,2,GPT-4o,False,False,False,False,0.836320,0.414425,assertion still fails,assertion_failure,2,False,False,False,False,False
+private,P1,P1-10,3,GPT-4o,False,False,False,False,0.855259,0.889480,assertion still fails,assertion_failure,3,False,False,False,False,False
+private,P1,P1-10,4,GPT-4o,False,False,False,False,0.484307,0.288702,test does not compile,test_compile_error,1,False,False,False,False,False
+private,P1,P1-10,5,GPT-4o,False,False,False,False,0.865192,0.515980,assertion still fails,assertion_failure,2,True,False,False,False,False
+private,P1,P1-11,1,GPT-4o,False,False,False,False,0.635781,1.149757,test does not compile,test_compile_error,1,False,False,False,False,False
+private,P1,P1-11,2,GPT-4o,False,False,False,False,0.681959,0.891258,test does not compile,test_compile_error,3,False,False,False,False,False
+private,P1,P1-11,3,GPT-4o,False,False,False,False,0.667843,1.411307,test does not compile,test_compile_error,3,True,False,False,False,False
+private,P1,P1-11,4,GPT-4o,False,False,False,False,0.662744,0.578770,test does not compile,test_compile_error,1,False,False,False,False,False
+private,P1,P1-11,5,GPT-4o,False,False,False,False,0.662744,0.449750,test does not compile,test_compile_error,1,False,False,False,False,False
+private,P1,P1-12,1,GPT-4o,False,False,False,False,0.805130,0.183145,other,other,1,True,False,False,False,False
+private,P1,P1-12,2,GPT-4o,False,False,False,False,0.826105,0.480417,other,other,1,False,False,False,False,False
+private,P1,P1-12,3,GPT-4o,False,False,False,False,0.644838,1.412168,other,other,1,False,False,False,False,False
+private,P1,P1-12,4,GPT-4o,False,False,False,False,0.805130,0.160583,other,other,1,True,False,False,False,False
+private,P1,P1-12,5,GPT-4o,False,False,False,False,0.805130,0.645920,other,other,1,True,False,False,False,False
+private,P1,P1-13,1,GPT-4o,False,False,False,False,0.589983,0.834823,test does not compile,test_compile_error,5,False,False,False,False,False
+private,P1,P1-13,2,GPT-4o,False,False,False,False,0.595713,0.989350,test does not compile,test_compile_error,4,False,False,False,False,False
+private,P1,P1-13,3,GPT-4o,False,False,False,False,0.578799,0.740402,test does not compile,test_compile_error,4,False,False,False,False,False
+private,P1,P1-13,4,GPT-4o,False,False,False,False,0.594690,1.006383,test does not compile,test_compile_error,3,False,False,False,False,False
+private,P1,P1-13,5,GPT-4o,False,False,False,False,0.575677,0.555212,test does not compile,test_compile_error,3,False,False,False,False,False
+private,P2,P2-01,1,GPT-4o,False,False,False,False,0.406104,0.568648,test throws an exception,test_error_exception,5,False,False,False,False,False
+private,P2,P2-01,2,GPT-4o,True,True,False,False,0.432880,0.142740,,,3,False,False,False,True,True
+private,P2,P2-01,3,GPT-4o,False,False,False,False,0.303301,0.386675,test throws an exception,test_error_exception,6,False,False,False,False,False
+private,P2,P2-01,4,GPT-4o,True,True,False,False,0.430466,0.066005,,,2,False,False,False,True,False
+private,P2,P2-01,5,GPT-4o,False,False,False,False,0.357674,0.404500,test throws an exception,test_error_exception,5,False,False,False,False,False
+private,P2,P2-02,1,GPT-4o,True,True,True,True,1.000000,0.048067,,,1,False,False,False,True,False
+private,P2,P2-02,2,GPT-4o,True,True,True,True,1.000000,0.037358,,,1,False,False,False,True,False
+private,P2,P2-02,3,GPT-4o,True,True,True,True,1.000000,0.036828,,,1,False,False,False,True,False
+private,P2,P2-02,4,GPT-4o,True,True,True,True,1.000000,0.036507,,,1,False,False,False,True,False
+private,P2,P2-02,5,GPT-4o,True,True,True,True,1.000000,0.047570,,,1,False,False,False,True,False
+private,P2,P2-03,1,GPT-4o,True,True,False,True,0.991352,0.072792,,,2,False,False,False,True,False
+private,P2,P2-03,2,GPT-4o,True,True,False,True,0.991352,0.104808,,,2,False,False,False,True,False
+private,P2,P2-03,3,GPT-4o,True,True,False,True,0.991352,0.066185,,,2,False,False,False,True,False
+private,P2,P2-03,4,GPT-4o,True,True,False,True,0.861127,0.070905,,,2,False,False,False,True,False
+private,P2,P2-03,5,GPT-4o,True,True,False,True,0.861127,0.068582,,,2,False,False,False,True,False
+private,P2,P2-04,1,GPT-4o,True,True,False,False,0.739492,0.045115,,,1,False,False,False,True,False
+private,P2,P2-04,2,GPT-4o,True,False,False,False,0.547154,0.074295,,,1,False,False,False,True,False
+private,P2,P2-04,3,GPT-4o,True,True,False,False,0.710354,0.058365,,,1,False,False,False,True,False
+private,P2,P2-04,4,GPT-4o,True,True,False,False,0.777906,0.086260,,,2,False,False,False,True,True
+private,P2,P2-04,5,GPT-4o,True,False,False,False,0.498988,0.027652,,,1,False,False,False,True,False
+private,P2,P2-05,1,GPT-4o,True,True,False,False,0.881821,0.088297,,,1,False,False,False,True,False
+private,P2,P2-05,2,GPT-4o,True,True,False,False,0.908671,0.099642,,,1,False,False,False,True,False
+private,P2,P2-05,3,GPT-4o,True,True,False,True,0.899347,0.221603,,,4,False,False,False,True,True
+private,P2,P2-05,4,GPT-4o,True,True,False,True,0.892086,0.051617,,,1,False,False,False,True,False
+private,P2,P2-05,5,GPT-4o,True,True,False,True,0.892086,0.048618,,,1,False,False,False,True,False
+private,P2,P2-06,1,GPT-4o,True,True,True,True,1.000000,0.078250,,,1,False,False,False,True,False
+private,P2,P2-06,2,GPT-4o,True,True,False,True,0.991817,0.101875,,,1,False,False,False,True,False
+private,P2,P2-06,3,GPT-4o,True,True,True,True,0.994207,0.070855,,,1,False,False,False,True,False
+private,P2,P2-06,4,GPT-4o,True,True,True,True,1.000000,0.066390,,,1,False,False,False,True,False
+private,P2,P2-06,5,GPT-4o,False,False,False,False,0.513789,0.338707,test throws an exception,test_error_exception,5,False,False,False,False,False
+private,P2,P2-07,1,GPT-4o,True,True,False,False,0.263203,0.239583,,,4,False,False,False,True,True
+private,P2,P2-07,2,GPT-4o,True,True,False,False,0.263778,0.112283,,,1,False,False,False,True,False
+private,P2,P2-07,3,GPT-4o,True,True,False,False,0.264152,0.107520,,,3,False,False,False,True,True
+private,P2,P2-07,4,GPT-4o,True,True,False,False,0.263203,0.123043,,,3,False,False,False,True,True
+private,P2,P2-07,5,GPT-4o,True,True,False,False,0.264152,0.278775,,,4,False,False,False,True,True
+private,P2,P2-08,1,GPT-4o,False,False,False,False,0.493668,0.417585,test does not compile,test_compile_error,6,True,False,False,False,False
+private,P2,P2-08,2,GPT-4o,True,False,False,False,0.558424,0.266570,,,4,False,False,False,True,True
+private,P2,P2-08,3,GPT-4o,False,False,False,False,0.480567,0.300290,test does not compile,test_compile_error,5,False,False,False,False,False
+private,P2,P2-08,4,GPT-4o,False,False,False,False,0.429440,0.286017,test does not compile,test_compile_error,4,False,False,False,False,False
+private,P2,P2-08,5,GPT-4o,False,False,False,False,0.631780,0.297862,test throws an exception,test_error_exception,5,False,False,False,False,False
+private,P2,P2-09,1,GPT-4o,False,False,False,False,0.380805,0.210420,test throws an exception,test_error_exception,5,False,False,False,False,False
+private,P2,P2-09,2,GPT-4o,False,False,False,False,0.814846,0.311445,assertion still fails,assertion_failure,5,False,False,False,False,False
+private,P2,P2-09,3,GPT-4o,False,False,False,False,0.798982,0.353098,test does not compile,test_compile_error,5,False,False,False,False,False
+private,P2,P2-09,4,GPT-4o,False,False,False,False,0.803503,0.184957,test throws an exception,test_error_exception,3,False,False,False,False,False
+private,P2,P2-09,5,GPT-4o,False,False,False,False,0.860767,0.321543,test throws an exception,test_error_exception,5,False,False,False,False,False
+private,P2,P2-10,1,GPT-4o,False,False,False,False,0.333927,0.225830,assertion still fails,assertion_failure,5,False,False,False,False,False
+private,P2,P2-10,2,GPT-4o,False,False,False,False,0.753934,0.157315,test throws an exception,test_error_exception,3,False,False,False,False,False
+private,P2,P2-10,3,GPT-4o,True,True,False,False,0.929876,0.044295,,,1,False,False,False,True,False
+private,P2,P2-10,4,GPT-4o,False,False,False,False,0.780034,0.160980,test throws an exception,test_error_exception,4,False,False,False,False,False
+private,P2,P2-10,5,GPT-4o,True,True,False,False,0.897571,0.074663,,,1,False,False,False,True,False
+private,P2,P2-11,1,GPT-4o,True,False,False,False,0.207680,0.279943,,,3,False,False,False,True,True
+private,P2,P2-11,2,GPT-4o,True,True,False,True,0.377168,0.243457,,,2,False,False,False,True,True
+private,P2,P2-11,3,GPT-4o,True,True,False,False,0.418919,0.646445,,,5,False,False,False,True,True
+private,P2,P2-11,4,GPT-4o,False,False,False,False,0.364163,0.146442,tests never run,never_ran_tests,0,True,True,False,False,False
+private,P2,P2-11,5,GPT-4o,True,True,False,True,0.377168,0.189465,,,2,False,False,False,True,True
+private,P2,P2-12,1,GPT-4o,True,True,False,False,0.966516,0.069745,,,2,False,False,False,True,False
+private,P2,P2-12,2,GPT-4o,True,True,False,False,0.897159,0.062702,,,1,False,False,False,True,False
+private,P2,P2-12,3,GPT-4o,True,True,False,False,0.869884,0.117045,,,3,False,False,False,True,True
+private,P2,P2-12,4,GPT-4o,True,False,False,False,0.453326,0.039600,,,1,False,False,False,True,False
+private,P2,P2-12,5,GPT-4o,True,True,False,False,0.968666,0.061867,,,2,False,False,False,True,False
+private,P2,P2-13,1,GPT-4o,True,False,False,False,0.812140,0.058370,,,1,False,False,False,True,False
+private,P2,P2-13,2,GPT-4o,True,True,True,True,1.000000,0.056012,,,1,False,False,False,True,False
+private,P2,P2-13,3,GPT-4o,True,True,True,True,0.990808,0.054050,,,1,False,False,False,True,False
+private,P2,P2-13,4,GPT-4o,True,True,True,True,1.000000,0.054617,,,1,False,False,False,True,False
+private,P2,P2-13,5,GPT-4o,True,True,True,True,1.000000,0.079263,,,2,False,False,False,True,False
+private,P2,P2-14,1,GPT-4o,False,False,False,False,0.924962,0.095640,test throws an exception,test_error_exception,3,False,False,False,False,False
+private,P2,P2-14,2,GPT-4o,False,False,False,False,0.920709,0.138517,test throws an exception,test_error_exception,4,False,False,False,False,False
+private,P2,P2-14,3,GPT-4o,True,True,False,True,0.953748,0.051473,,,2,False,False,False,True,False
+private,P2,P2-14,4,GPT-4o,False,False,False,False,0.905220,0.200287,test throws an exception,test_error_exception,5,False,False,False,False,False
+private,P2,P2-14,5,GPT-4o,True,True,False,True,0.953748,0.163807,,,5,False,False,False,True,True
+private,P3,P3-01,1,GPT-4o,True,True,False,True,0.983425,0.069175,,,2,False,False,False,True,False
+private,P3,P3-01,2,GPT-4o,True,True,False,True,0.983425,0.051315,,,1,False,False,False,True,False
+private,P3,P3-01,3,GPT-4o,True,True,False,True,0.983425,0.047700,,,1,False,False,False,True,False
+private,P3,P3-01,4,GPT-4o,True,True,False,True,0.983425,0.047995,,,1,False,False,False,True,False
+private,P3,P3-01,5,GPT-4o,True,True,False,False,0.932542,0.050425,,,1,False,False,False,True,False
+private,P4,P4-01,1,GPT-4o,True,True,False,True,0.827128,0.031240,,,1,False,False,False,True,False
+private,P4,P4-01,2,GPT-4o,True,True,False,True,0.827601,0.038405,,,1,False,False,False,True,False
+private,P4,P4-01,3,GPT-4o,True,True,False,True,0.881759,0.036380,,,1,False,False,False,True,False
+private,P4,P4-01,4,GPT-4o,True,True,False,True,0.872049,0.034010,,,1,False,False,False,True,False
+private,P4,P4-01,5,GPT-4o,True,True,False,True,0.886719,0.028330,,,1,False,False,False,True,False
+private,P4,P4-02,1,GPT-4o,False,False,False,False,0.622793,0.434025,other,other,2,True,False,False,False,False
+private,P4,P4-02,2,GPT-4o,False,False,False,False,0.625125,0.421408,other,other,2,True,False,False,False,False
+private,P4,P4-02,3,GPT-4o,False,False,False,False,0.622793,0.394765,other,other,2,True,False,False,False,False
+private,P4,P4-02,4,GPT-4o,False,False,False,False,0.622793,0.543785,other,other,2,True,False,False,False,False
+private,P4,P4-02,5,GPT-4o,False,False,False,False,0.627136,0.520258,other,other,3,False,False,False,False,False
+private,P4,P4-03,1,GPT-4o,True,True,True,True,1.000000,0.027655,,,1,False,False,False,True,False
+private,P4,P4-03,2,GPT-4o,True,True,True,True,1.000000,0.025735,,,1,False,False,False,True,False
+private,P4,P4-03,3,GPT-4o,True,True,True,True,1.000000,0.031147,,,2,False,False,False,True,False
+private,P4,P4-03,4,GPT-4o,True,True,True,True,1.000000,0.034568,,,2,False,False,False,True,False
+private,P4,P4-03,5,GPT-4o,True,True,True,True,1.000000,0.031765,,,1,False,False,False,True,False
+private,P4,P4-04,1,GPT-4o,True,True,False,False,0.782061,0.049292,,,2,False,False,False,True,False
+private,P4,P4-04,2,GPT-4o,True,True,False,False,0.781095,0.058613,,,2,False,False,False,True,False
+private,P4,P4-04,3,GPT-4o,True,True,False,False,0.764606,0.093045,,,2,False,False,False,True,True
+private,P4,P4-04,4,GPT-4o,True,True,False,False,0.774743,0.118072,,,3,False,False,False,True,True
+private,P4,P4-04,5,GPT-4o,False,False,False,False,0.769735,0.248458,assertion still fails,assertion_failure,4,False,False,False,False,False
+private,P4,P4-05,1,GPT-4o,False,False,False,False,0.672771,0.278283,test throws an exception,test_error_exception,4,False,False,False,False,False
+private,P4,P4-05,2,GPT-4o,False,False,False,False,0.656235,0.135138,test throws an exception,test_error_exception,2,False,False,False,False,False
+private,P4,P4-05,3,GPT-4o,False,False,False,False,0.675439,0.069802,test throws an exception,test_error_exception,2,False,False,False,False,False
+private,P4,P4-05,4,GPT-4o,False,False,False,False,0.454823,0.111540,test throws an exception,test_error_exception,2,False,False,False,False,False
+private,P4,P4-05,5,GPT-4o,False,False,False,False,0.351962,0.249720,test throws an exception,test_error_exception,4,False,False,False,False,False
+private,P4,P4-06,1,GPT-4o,True,True,False,False,0.867039,0.058913,,,2,False,False,False,True,False
+private,P4,P4-06,2,GPT-4o,False,False,False,False,0.895997,0.255667,assertion still fails,assertion_failure,4,False,False,False,False,False
+private,P4,P4-06,3,GPT-4o,False,False,False,False,0.866236,0.187890,assertion still fails,assertion_failure,4,False,False,False,False,False
+private,P4,P4-06,4,GPT-4o,True,True,False,False,0.858159,0.042562,,,1,False,False,False,True,False
+private,P4,P4-06,5,GPT-4o,False,False,False,False,0.359645,0.386687,test does not compile,test_compile_error,4,False,False,False,False,False
+private,P4,P4-07,1,GPT-4o,True,True,False,False,0.981435,0.160235,,,1,False,False,False,True,False
+private,P4,P4-07,2,GPT-4o,True,True,False,False,0.981435,0.151368,,,1,False,False,False,True,False
+private,P4,P4-07,3,GPT-4o,True,True,False,False,0.981435,0.148413,,,1,False,False,False,True,False
+private,P4,P4-07,4,GPT-4o,True,True,False,False,0.973944,0.139062,,,1,False,False,False,True,False
+private,P4,P4-07,5,GPT-4o,False,False,False,False,0.926230,0.270548,test throws an exception,test_error_exception,2,False,False,False,False,False
+private,P5,P5-01,1,GPT-4o,False,False,False,False,0.444739,0.932508,assertion still fails,assertion_failure,7,False,False,False,False,False
+private,P5,P5-01,2,GPT-4o,False,False,False,False,0.483532,1.124513,assertion still fails,assertion_failure,7,False,False,False,False,False
+private,P5,P5-01,3,GPT-4o,False,False,False,False,0.258173,0.308203,assertion still fails,assertion_failure,4,False,False,False,False,False
+private,P5,P5-01,4,GPT-4o,False,False,False,False,0.277157,0.412625,assertion still fails,assertion_failure,4,False,False,False,False,False
+private,P5,P5-01,5,GPT-4o,False,False,False,False,0.277371,0.293190,test throws an exception,test_error_exception,2,False,False,False,False,False
+private,P5,P5-02,1,GPT-4o,True,False,False,False,0.413645,0.169533,,,4,False,False,False,True,True
+private,P5,P5-02,2,GPT-4o,False,False,False,False,0.837308,0.086253,test does not compile,test_compile_error,3,False,False,False,False,False
+private,P5,P5-02,3,GPT-4o,True,True,False,False,0.870328,0.060800,,,2,False,False,False,True,False
+private,P5,P5-02,4,GPT-4o,True,True,False,False,0.858006,0.047627,,,1,False,False,False,True,False
+private,P5,P5-02,5,GPT-4o,False,False,False,False,0.817792,0.304250,test does not compile,test_compile_error,6,False,False,False,False,False
+private,P5,P5-03,1,GPT-4o,True,False,False,False,0.414557,0.206835,,,2,False,False,False,True,True
+private,P5,P5-03,2,GPT-4o,True,True,False,False,0.696051,0.131823,,,2,False,False,False,True,True
+private,P5,P5-03,3,GPT-4o,True,False,False,False,0.371965,0.187585,,,2,False,False,False,True,True
+private,P5,P5-03,4,GPT-4o,True,True,False,False,0.695819,0.127773,,,2,False,False,False,True,True
+private,P5,P5-03,5,GPT-4o,True,True,False,False,0.695819,0.128757,,,2,False,False,False,True,True
+private,P5,P5-04,1,GPT-4o,True,False,False,False,0.206843,0.124190,,,2,False,False,False,True,False
+private,P5,P5-04,2,GPT-4o,False,False,False,False,0.175877,0.565515,test throws an exception,test_error_exception,6,False,False,False,False,False
+private,P5,P5-04,3,GPT-4o,False,False,False,False,0.248097,0.304750,test throws an exception,test_error_exception,5,False,False,False,False,False
+private,P5,P5-04,4,GPT-4o,False,False,False,False,0.191825,0.429492,test throws an exception,test_error_exception,7,False,False,False,False,False
+private,P5,P5-04,5,GPT-4o,False,False,False,False,0.239596,0.320445,test throws an exception,test_error_exception,5,False,False,False,False,False
+private,P5,P5-05,1,GPT-4o,True,True,False,True,0.834510,0.070412,,,3,False,False,False,True,True
+private,P5,P5-05,2,GPT-4o,True,True,False,False,0.828782,0.031358,,,2,False,False,False,True,False
+private,P5,P5-05,3,GPT-4o,True,True,False,True,0.846626,0.027868,,,1,False,False,False,True,False
+private,P5,P5-05,4,GPT-4o,False,False,False,False,0.793606,0.139455,assertion still fails,assertion_failure,5,False,False,False,False,False
+private,P5,P5-05,5,GPT-4o,True,True,False,True,0.805812,0.093012,,,3,False,False,False,True,True
+private,P5,P5-06,1,GPT-4o,False,False,False,False,0.996891,0.019745,assertion still fails,assertion_failure,1,False,False,False,False,False
+private,P5,P5-06,2,GPT-4o,False,False,False,False,0.877584,0.361528,test throws an exception,test_error_exception,7,False,False,False,False,False
+private,P5,P5-06,3,GPT-4o,False,False,False,False,0.846218,0.133997,test does not compile,test_compile_error,3,False,False,False,False,False
+private,P5,P5-06,4,GPT-4o,False,False,False,False,0.905229,0.223900,assertion still fails,assertion_failure,4,False,False,False,False,False
+private,P5,P5-06,5,GPT-4o,False,False,False,False,0.996891,0.016818,assertion still fails,assertion_failure,1,False,False,False,False,False
